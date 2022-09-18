@@ -1,0 +1,27 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<!-- <p>If you can imagine it, you can go and do it.</p> -->
+<h3>News</h3>
+
+<!-- square, none -->
+<ul>
+  <li style="list-style-type: square">19-09-22: Website gone live!</li>
+</ul>
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+{% include paginator.html %}
