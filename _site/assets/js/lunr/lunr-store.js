@@ -1,6 +1,6 @@
 var store = [{
         "title": "Break Out",
-        "excerpt":"Enter: start game, R: restart game, Escape: pause game.                                                    WebGL builds are not supported on mobile devices.                             ","categories": [],
+        "excerpt":"Enter: start game, R: restart game, Escape: pause game.                                                    WebGL builds are not supported on mobile devices.                         Breakout         ","categories": [],
         "tags": [],
         "url": "/misc/breakout/",
         "teaser": null
