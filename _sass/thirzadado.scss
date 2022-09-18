@@ -1,0 +1,40 @@
+/*!
+ * Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+ * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+ * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE)
+*/
+
+/* Variables */
+@import "thirzadado/variables";
+
+/* Mixins and functions */
+@import "thirzadado/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "thirzadado/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "thirzadado/vendor/susy/susy";
+@import "thirzadado/mixins";
+
+/* Core CSS */
+@import "thirzadado/reset";
+@import "thirzadado/base";
+@import "thirzadado/forms";
+@import "thirzadado/tables";
+@import "thirzadado/animations";
+
+/* Components */
+@import "thirzadado/buttons";
+@import "thirzadado/notices";
+@import "thirzadado/masthead";
+@import "thirzadado/navigation";
+@import "thirzadado/footer";
+@import "thirzadado/search";
+@import "thirzadado/syntax";
+
+/* Utility classes */
+@import "thirzadado/utilities";
+
+/* Layout specific */
+@import "thirzadado/page";
+@import "thirzadado/archive";
+@import "thirzadado/sidebar";
+@import "thirzadado/print";
