@@ -1,6 +1,6 @@
 ---
 permalink: /media/
-title: "Media mentrions"
+title: "Media mentions"
 layout: collection
 author_profile: true
 classes: wide
