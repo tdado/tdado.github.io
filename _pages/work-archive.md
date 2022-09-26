@@ -8,7 +8,7 @@ author_profile: true
 
 gallery:
   # - image_path: /assets/images/kader.png
-  - image_path: /assets/images/hyper-top_image.png
+  - image_path: /assets/images/hyper0.png
     alt: "Hyper"
     title: "Hyper"
     url: "/work/hyper"
