@@ -8,6 +8,8 @@ main:
     url: /misc-archive/
   - title: "blog"
     url: /blog-archive/
+  - title: "media"
+    url: /media
   - title: "about"
     url: /about
   # - title: "Sitemap"
