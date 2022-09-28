@@ -12,7 +12,7 @@ gallery:
     alt: "Hyper"
     title: "Hyper"
     url: "/work/hyper"
-    overlay: "<b>HYPER;</b> HYperrealistic neural decoding of PERception from fMRI recordings"
+    overlay: "<b>HYPER;</b> HYperrealistic neural decoding of PERception from fMRI recordings via GANs"
   - image_path: /assets/images/kader.png
     alt: "Empty"
     title: "Empty"
