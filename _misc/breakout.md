@@ -4,11 +4,10 @@ layout: archive
 author_profile: true
 classes: wide
 ---
+Learn to implement your own game in <a href="https://unity.com/">Unity</a> during the artificial intelligence master's course <a href="https://neuralcoding.nl/">Computer Graphics & Computer Vision</a> by <a href="https://www.ru.nl/en/people/guclu-u">Dr. Umut Güçlü</a> at Radboud University. <a href="https://lynnle.com/">Lynn Le</a> and myself are present as teaching assistants. Here, you can find my game:
 
-Enter: start game,
-R: restart game,
-Escape: pause game.
-
+<!-- <b>Enter:</b> start game, <b>R:</b> restart game, <b>Escape:</b> pause game. -->
+<i>Enter</i>: start game, <i>R</i>: restart game, <i>Escape</i>: pause game.
 
 <div id="unity-container" class="unity-desktop">
     <canvas id="unity-canvas"></canvas>
@@ -26,6 +25,10 @@ Escape: pause game.
     <div id="unity-fullscreen-button"></div>
     </div>
 </div>
+
+
+(Find Lynn's <a href="https://lynnle.com/blog/2020/developing-a-simple-game/">here</a>)
+
 <script>
     var buildUrl = "../../assets/unity/breakout7/Build";
     var loaderUrl = buildUrl + "/breakout7.loader.js";

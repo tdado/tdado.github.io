@@ -5,9 +5,11 @@ author_profile: true
 classes: wide
 ---
 
-Procedurally-generated mountain-like terrain. It ends at infinity, so it never ends.
+Learn to procedurally generate your own mountain-like terrain in <a href="https://unity.com/">Unity</a> during the artificial intelligence master's course <a href="https://neuralcoding.nl/">Computer Graphics & Computer Vision</a> by <a href="https://www.ru.nl/en/people/guclu-u">Dr. Umut Güçlü</a> at Radboud University. <a href="https://lynnle.com/">Lynn Le</a> and myself are present as teaching assistants. Here, you can find my landscape:
 
-Click on any button to start playing.
+Click on any button in the window below to start playing.
+
+<i>It ends at infinity, so it never ends.</i>
 
 
 <div id="unity-container" class="unity-desktop">
