@@ -30,6 +30,10 @@ body {
           flex-direction: column;
 }
 
+body p {
+  text-align: justify;
+}
+
 .initial-content,
 .search-content {
   flex: 1 0 auto;
