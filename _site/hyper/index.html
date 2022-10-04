@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Neural decoding w/ synthesized reality -</title>
-<meta name="description" content="HYperrealistic reconstruction of PERceived faces from fMRI data">
+<meta name="description" content="2022, 22 January">
 
 
   <meta name="author" content="Thirza Dado">
@@ -26,7 +26,7 @@
 <meta property="og:url" content="http://localhost:4000/hyper/">
 
 
-  <meta property="og:description" content="HYperrealistic reconstruction of PERceived faces from fMRI data">
+  <meta property="og:description" content="2022, 22 January">
 
 
 
@@ -36,7 +36,7 @@
 
   <meta name="twitter:site" content="@ThirzaDado">
   <meta name="twitter:title" content="Neural decoding w/ synthesized reality">
-  <meta name="twitter:description" content="HYperrealistic reconstruction of PERceived faces from fMRI data">
+  <meta name="twitter:description" content="2022, 22 January">
   <meta name="twitter:url" content="http://localhost:4000/hyper/">
 
   
@@ -111,6 +111,15 @@
 <!-- end custom head snippets -->
 
   </head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W3W9GR92M3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W3W9GR92M3');
+</script>
 
   <body class="layout--posts">
     <nav class="skip-links">
@@ -144,6 +153,8 @@
               <a href="/misc-archive/">misc</a>
             </li><li class="masthead__menu-item">
               <a href="/blog-archive/">blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/media">media</a>
             </li><li class="masthead__menu-item">
               <a href="/about">about</a>
             </li></ul>
@@ -290,9 +301,9 @@
     
       <h1 id="page-title" class="page__title">Neural decoding w/ synthesized reality</h1>
     
-    <h3 id="hyperrealistic-reconstruction-of-perceived-faces-from-fmri-data">HYperrealistic reconstruction of PERceived faces from fMRI data</h3>
+    <p>2022, 22 January</p>
 
-<p>2022, 22 January</p>
+<h3 id="hyperrealistic-reconstruction-of-perceived-faces-from-fmri-data">HYperrealistic reconstruction of PERceived faces from fMRI data</h3>
 
 <p><img src="/assets/images/top.png" alt="Top" />
 <em>Stimuli (top row) and their reconstructions from brain data (bottom row).</em></p>
@@ -381,6 +392,7 @@
         <span class="bp">self</span><span class="p">.</span><span class="n">eps</span> <span class="o">=</span> <span class="n">epsilon</span>
     <span class="k">def</span> <span class="nf">hybrid_forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">F</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">nd</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">F</span><span class="p">.</span><span class="n">rsqrt</span><span class="p">(</span><span class="n">F</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="n">F</span><span class="p">.</span><span class="n">square</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="mi">1</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span> <span class="o">+</span> <span class="bp">self</span><span class="p">.</span><span class="n">eps</span><span class="p">)</span>
+
 <span class="k">class</span> <span class="nc">Bias</span><span class="p">(</span><span class="n">HybridBlock</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">:</span> <span class="n">Tuple</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">Bias</span><span class="p">,</span> <span class="bp">self</span><span class="p">).</span><span class="n">__init__</span><span class="p">()</span>
@@ -389,6 +401,7 @@
             <span class="bp">self</span><span class="p">.</span><span class="n">b</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">params</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">"b"</span><span class="p">,</span> <span class="n">init</span><span class="o">=</span><span class="n">Zero</span><span class="p">(),</span> <span class="n">shape</span><span class="o">=</span><span class="n">shape</span><span class="p">)</span>
     <span class="k">def</span> <span class="nf">hybrid_forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">F</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">nd</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">F</span><span class="p">.</span><span class="n">broadcast_add</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">b</span><span class="p">[</span><span class="bp">None</span><span class="p">,</span> <span class="p">:,</span> <span class="bp">None</span><span class="p">,</span> <span class="bp">None</span><span class="p">])</span>
+
 <span class="k">class</span> <span class="nc">Block</span><span class="p">(</span><span class="n">HybridSequential</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">channels</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">in_channels</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">Block</span><span class="p">,</span> <span class="bp">self</span><span class="p">).</span><span class="n">__init__</span><span class="p">()</span>
@@ -407,6 +420,7 @@
         <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">)):</span>
             <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="p">[</span><span class="n">i</span><span class="p">](</span><span class="n">x</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">x</span>
+
 <span class="k">class</span> <span class="nc">Generator</span><span class="p">(</span><span class="n">HybridSequential</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">Generator</span><span class="p">,</span> <span class="bp">self</span><span class="p">).</span><span class="n">__init__</span><span class="p">()</span>
@@ -453,25 +467,31 @@
 <span class="n">max_epoch</span> <span class="o">=</span> <span class="mi">1500</span>
 <span class="n">n_lat</span> <span class="o">=</span> <span class="mi">512</span>
 <span class="n">n_vox</span> <span class="o">=</span> <span class="mi">4096</span>
+
 <span class="c1"># Make dataset to take batches from during training.
 </span><span class="k">def</span> <span class="nf">load_dataset</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">NDArrayIter</span><span class="p">({</span> <span class="s">"x"</span><span class="p">:</span> <span class="n">nd</span><span class="p">.</span><span class="n">stack</span><span class="p">(</span><span class="o">*</span><span class="n">x</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="p">},</span> <span class="p">{</span> <span class="s">"t"</span><span class="p">:</span> <span class="n">nd</span><span class="p">.</span><span class="n">stack</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="p">},</span> <span class="n">batch_size</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span>
+
 <span class="c1"># Latents.
 </span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">"yourpath/data_1.dat"</span><span class="p">,</span> <span class="s">'rb'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
     <span class="n">_</span><span class="p">,</span> <span class="n">T_tr</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">T_te</span> <span class="o">=</span> <span class="n">pickle</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+
 <span class="c1"># Z-score the brain data.
 </span><span class="n">X_te</span> <span class="o">=</span> <span class="n">zscore</span><span class="p">(</span><span class="n">X_hyperaligned</span><span class="p">[:</span><span class="mi">36</span><span class="p">])</span>
 <span class="n">X_tr</span> <span class="o">=</span> <span class="n">zscore</span><span class="p">(</span><span class="n">X_hyperaligned</span><span class="p">[</span><span class="mi">36</span><span class="p">:])</span>
 <span class="n">train</span> <span class="o">=</span> <span class="n">load_dataset</span><span class="p">(</span><span class="n">nd</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">T_tr</span><span class="p">),</span> <span class="n">nd</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">X_tr</span><span class="p">),</span> <span class="n">batch_size</span><span class="p">)</span>
 <span class="n">test</span> <span class="o">=</span>  <span class="n">load_dataset</span><span class="p">(</span><span class="n">nd</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">T_te</span><span class="p">),</span> <span class="n">nd</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">X_te</span><span class="p">),</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">36</span><span class="p">)</span>
+
 <span class="c1"># Initialize generator.
 </span><span class="n">generator</span> <span class="o">=</span> <span class="n">Generator</span><span class="p">()</span>
 <span class="n">generator</span><span class="p">.</span><span class="n">load_parameters</span><span class="p">(</span><span class="s">"yourpath/generator.params"</span><span class="p">)</span>
 <span class="n">mean_squared_error</span> <span class="o">=</span> <span class="n">gluon</span><span class="p">.</span><span class="n">loss</span><span class="p">.</span><span class="n">L2Loss</span><span class="p">()</span>
+
 <span class="c1"># Initialize linear model.
 </span><span class="n">vox_to_lat</span> <span class="o">=</span> <span class="n">Linear</span><span class="p">(</span><span class="n">n_vox</span><span class="p">,</span> <span class="n">n_lat</span><span class="p">)</span>
 <span class="n">vox_to_lat</span><span class="p">.</span><span class="n">initialize</span><span class="p">()</span>
 <span class="n">trainer</span> <span class="o">=</span> <span class="n">gluon</span><span class="p">.</span><span class="n">Trainer</span><span class="p">(</span><span class="n">vox_to_lat</span><span class="p">.</span><span class="n">collect_params</span><span class="p">(),</span> <span class="s">"Adam"</span><span class="p">,</span> <span class="p">{</span><span class="s">"learning_rate"</span><span class="p">:</span> <span class="mf">0.00001</span><span class="p">,</span> <span class="s">"wd"</span><span class="p">:</span> <span class="mf">0.01</span><span class="p">})</span>
+
 <span class="c1"># Training.
 </span><span class="n">epoch</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="n">results_tr</span> <span class="o">=</span> <span class="p">[]</span>
@@ -536,7 +556,7 @@
   
     <li>
       <a href="#2022">
-        <strong>2022</strong> <span class="taxonomy__count">1</span>
+        <strong>2022</strong> <span class="taxonomy__count">2</span>
       </a>
     </li>
   
@@ -548,6 +568,46 @@
   <section id="2022" class="taxonomy__section">
     <h2 class="archive__subtitle">2022</h2>
     <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/uncanny/" rel="permalink">Neural decoding of uncanniness
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">2022, 29 September
+</p>
+  </article>
+</div>
+
       
         
 
@@ -583,7 +643,7 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">HYperrealistic reconstruction of PERceived faces from fMRI data
+    <p class="archive__item-excerpt" itemprop="description">2022, 22 January
 </p>
   </article>
 </div>

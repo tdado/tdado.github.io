@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Break Out -</title>
-<meta name="description" content="Enter: start game, R: restart game, Escape: pause game.">
+<meta name="description" content="Learn to implement your own game in Unity during the artificial intelligence master’s course Computer Graphics &amp; Computer Vision by Dr. Umut Güçlü at Radboud University. Lynn Le and myself are present as teaching assistants. Here, you can find my game:">
 
 
   <meta name="author" content="Thirza Dado">
@@ -26,7 +26,7 @@
 <meta property="og:url" content="http://localhost:4000/misc/breakout/">
 
 
-  <meta property="og:description" content="Enter: start game, R: restart game, Escape: pause game.">
+  <meta property="og:description" content="Learn to implement your own game in Unity during the artificial intelligence master’s course Computer Graphics &amp; Computer Vision by Dr. Umut Güçlü at Radboud University. Lynn Le and myself are present as teaching assistants. Here, you can find my game:">
 
 
 
@@ -34,7 +34,7 @@
 
   <meta name="twitter:site" content="@ThirzaDado">
   <meta name="twitter:title" content="Break Out">
-  <meta name="twitter:description" content="Enter: start game, R: restart game, Escape: pause game.">
+  <meta name="twitter:description" content="Learn to implement your own game in Unity during the artificial intelligence master’s course Computer Graphics &amp; Computer Vision by Dr. Umut Güçlü at Radboud University. Lynn Le and myself are present as teaching assistants. Here, you can find my game:">
   <meta name="twitter:url" content="http://localhost:4000/misc/breakout/">
 
   
@@ -46,7 +46,7 @@
 
 
 
-  <meta property="article:published_time" content="2022-09-18T17:47:31+02:00">
+  <meta property="article:published_time" content="2022-10-03T20:22:08+02:00">
 
 
 
@@ -107,6 +107,15 @@
 <!-- end custom head snippets -->
 
   </head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W3W9GR92M3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W3W9GR92M3');
+</script>
 
   <body class="layout--archive wide">
     <nav class="skip-links">
@@ -140,6 +149,8 @@
               <a href="/misc-archive/">misc</a>
             </li><li class="masthead__menu-item">
               <a href="/blog-archive/">blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/media">media</a>
             </li><li class="masthead__menu-item">
               <a href="/about">about</a>
             </li></ul>
@@ -286,9 +297,10 @@
     
       <h1 id="page-title" class="page__title">Break Out</h1>
     
-    <p>Enter: start game,
-R: restart game,
-Escape: pause game.</p>
+    <p>Learn to implement your own game in <a href="https://unity.com/">Unity</a> during the artificial intelligence master’s course <a href="https://neuralcoding.nl/">Computer Graphics &amp; Computer Vision</a> by <a href="https://www.ru.nl/en/people/guclu-u">Dr. Umut Güçlü</a> at Radboud University. <a href="https://lynnle.com/">Lynn Le</a> and myself are present as teaching assistants. Here, you can find my game:</p>
+
+<!-- <b>Enter:</b> start game, <b>R:</b> restart game, <b>Escape:</b> pause game. -->
+<p><i>Enter</i>: start game, <i>R</i>: restart game, <i>Escape</i>: pause game.</p>
 
 <div id="unity-container" class="unity-desktop">
     <canvas id="unity-canvas"></canvas>
@@ -304,9 +316,11 @@ Escape: pause game.</p>
     <div id="unity-footer">
     <div id="unity-webgl-logo"></div>
     <div id="unity-fullscreen-button"></div>
-    <div id="unity-build-title">Breakout</div>
     </div>
 </div>
+
+<p>(Find Lynn’s <a href="https://lynnle.com/blog/2020/developing-a-simple-game/">here</a>)</p>
+
 <script>
     var buildUrl = "../../assets/unity/breakout7/Build";
     var loaderUrl = buildUrl + "/breakout7.loader.js";
