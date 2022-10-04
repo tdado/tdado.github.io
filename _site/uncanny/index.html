@@ -1,0 +1,587 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Neural decoding of uncanniness -</title>
+<meta name="description" content="2022, 29 September">
+
+
+  <meta name="author" content="Thirza Dado">
+  
+  <meta property="article:author" content="Thirza Dado">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="">
+<meta property="og:title" content="Neural decoding of uncanniness">
+<meta property="og:url" content="http://localhost:4000/uncanny/">
+
+
+  <meta property="og:description" content="2022, 29 September">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/synth2.png">
+
+
+
+  <meta name="twitter:site" content="@ThirzaDado">
+  <meta name="twitter:title" content="Neural decoding of uncanniness">
+  <meta name="twitter:description" content="2022, 29 September">
+  <meta name="twitter:url" content="http://localhost:4000/uncanny/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="http://localhost:4000/assets/images/synth2.png">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2022-09-29T00:00:00+02:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/uncanny/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Thirza Dado",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W3W9GR92M3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W3W9GR92M3');
+</script>
+
+  <body class="layout--posts">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/work-archive/">work</a>
+            </li><li class="masthead__menu-item">
+              <a href="/misc-archive/">misc</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog-archive/">blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/media">media</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about">about</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/mine.png" alt="Thirza Dado" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Thirza Dado</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>PhD Candidate at the Neural Coding Lab who studies how the world is represented by the brain using synthesized reality.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Amsterdam</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:thirza.dado@donders.ru.nl" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/tdado" rel="nofollow noopener noreferrer me"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/thirza-dado/" rel="nofollow noopener noreferrer me"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://www.instagram.com/thirzadado/" rel="nofollow noopener noreferrer me"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+  
+  </div>
+
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">Neural decoding of uncanniness</h1>
+    
+    <p>2022, 29 September</p>
+
+<h3 id="an-uncanny-valley-or-cliff">An uncanny valley or -cliff?</h3>
+
+<p><em>Written by Thirza Dado &amp; Umut Güçlü.</em></p>
+
+<p><img src="/assets/images/synth3.png" alt="Top" />
+<em>The uncanny cliff hypothesizes that artificial figures remain either on the cliff (i.e., perceived as human-like) or they fall from the cliff (i.e., perceived as fake with disturbing feelings of eeriness and unease).</em></p>
+
+<p>Generative Adversarial Networks (GANs) are powerful generative models trained to synthesize (“<em>fake</em>”) data that seem indistinguishable from “<em>real</em>” data. <a href="https://www.nature.com/articles/s41598-021-03938-w">A recent study</a> demonstrated with an experiment how GANs can be used to reconstruct literal pictures of what volunteers in the brain scanner were seeing by neural decoding of their brain recordings. Concretely, these volunteers were looking at <strong>pictures of faces of people</strong>; faces that <a href="https://thispersondoesnotexist.com/">do not really exist</a> but are instead synthesized by a 🤖<a href="https://github.com/tkarras/progressive_growing_of_gans">Progressively Grown GAN (PGGAN)</a> for faces.</p>
+
+<p>The goal of neural decoding is to discover what information (about a stimulus) is present in the brain. That said, any property of a stimulus could potentially be decoded from the brain.</p>
+
+<p><img src="/assets/images/grad2.png" alt="Gradient" />
+<em>A selection of faces from the used dataset illustrates that some faces look more natural or real and some faces look more fake. We call this property “syntheticity”.</em></p>
+
+<p>Although the presented faces in the experiment look hyperreal to human observers in general (but are all fake and do not exist), close inspection of the used face stimuli revealed that some faces look less real than others, resulting in disturbing feelings of eeriness and unease. That is, these data have a property of “syntheticity” that denotes how real or fake a face looks.</p>
+
+<p>The <a href="https://web.ics.purdue.edu/~drkelly/MoriTheUncannyValley1970.pdf">uncanny valley theory</a> hypothesizes that the affinity response of a human observer towards an artificial figure becomes more and more positive when it looks more and more human-like but up to a certain point where it abruptly switches from empathy to revulsion. Alternatively, it has been proposed that the valley is more like an <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4415111&amp;casa_token=VDO-WB9Ov5EAAAAA:JQY0Zg4MJUUOpjTcuTpoXxaGc51VdSXqjboQhzgD-3yijNYFhg2F69jr198-GiK_r8XRZFKKknSo&amp;tag=1">uncanny cliff</a>:</p>
+
+<blockquote>
+  <p><em>“We are not certain if this section [of the uncanny valley between the deepest dip and the human level] actually exists thereby prompting us to suggest that the uncanny valley should be considered more of a cliff than a valley, where robots strongly resembling humans could either fall from the cliff or they could be perceived as being human.”</em></p>
+
+  <p><cite>Bartneck, C., Kanda, T., Ishiguro, H., &amp; Hagita, N. (2007)</cite></p>
+</blockquote>
+
+<p>Here, we will decode syntheticity from neural data and see whether the results indicate a gradient or a cliff!</p>
+
+<p><img src="/assets/images/exp.png" alt="Experiment" />
+<em>Behavioral experiment to sort faces on syntheticity.</em></p>
+
+<h5 id="behavioral-data">Behavioral data</h5>
+
+<p>To quantify the behavioral phenomenon of perceived syntheticity, we can do a behavioral experiment where a volunteer attributes <em>syntheticity scores</em> to all the faces. Concretely, the volunteer (i.e., <em>me</em>, I volunteered) sees two face images at a time and is asked “which face looks more real” and, if this question was too difficult to answer, “which face do you like better”. As such, the faces get scored on syntheticity and we can sort them from real- to fake-looking.</p>
+
+<p>To be more efficient than presenting combinations of face pairs with a worst-case performance of O(n²) with n=1086, we can go and implement the divide and conquer <a href="https://www.geeksforgeeks.org/merge-sort/">merge sort</a> algorithm that iteratively merges smaller lists of sorted images until one big sorted list of fake-to-real-looking faces remains. This algorithm sorts each face in relation to other faces but <em>not all the other faces</em> because we can already infer knowledge from earlier decisions, resulting in a worst-case bound of O(n log n) (i.e., it still took me three days to make 10136 comparisons😬). The experiment was implemented in <a href="https://unity.com/">Unity</a> and C#.</p>
+
+<p>You can find the result files here: <em>ridx</em> contains the initial (unsorted) index order that determined which pair of faces would be presented to the screen and <em>sidx</em> is the index list sorted on syntheticity by the volunteer. That is, we sort the original <em>ridx</em> by the “sorted” <em>sidx</em>. In the last for-loop in the code snippet below, we then sort again from 0 to 1086 (fake- to real-looking).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span> <span class="o">+</span> <span class="s">"sidx_T_7_10136.txt"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">sidx</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([</span> <span class="nb">int</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">f</span> <span class="p">])</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span> <span class="o">+</span> <span class="s">"ridx_T_7_10136.txt"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">ridx</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([</span> <span class="nb">int</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">f</span> <span class="p">])[:</span><span class="nb">len</span><span class="p">(</span><span class="n">sidx</span><span class="p">)]</span>
+<span class="nb">sorted</span> <span class="o">=</span> <span class="n">ridx</span><span class="p">[</span><span class="n">sidx</span><span class="p">]</span>
+<span class="n">scores</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">1086</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1086</span><span class="p">):</span>
+    <span class="n">scores</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">where</span><span class="p">(</span><span class="nb">sorted</span> <span class="o">==</span> <span class="n">i</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+</code></pre></div></div>
+
+<h5 id="neural-data">Neural data</h5>
+<p>We use the hyper dataset of fMRI measurements to PGGAN-generated face stimuli (<a href="https://openneuro.org/datasets/ds004280/versions/1.0.0">whole dataset</a>). In this blog post, we use the same 4096-voxel selection as the original hyper study which can be found <a href="https://drive.google.com/drive/u/1/folders/1OW0cfnoP8_tZBGWLbpiPPX81QH9pusjv">here</a> but it would also be interesting to have a look at whole-brain or different brain areas. Let’s hyperalign and average the brain data of the two participants (just like we did in a <a href="https://medium.com/neural-coding-lab/neural-decoding-w-synthesized-reality-5eeb476f399">previous blog post</a>). Alternatively, you can also just pick the brain responses of either subject 1 or 2.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">!</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">swig</span>
+<span class="err">!</span> <span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">U</span> <span class="n">pymvpa2</span>
+<span class="kn">import</span> <span class="nn">mvpa2.datasets</span>
+<span class="kn">import</span> <span class="nn">mvpa2.algorithms.hyperalignment</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">pickle</span>
+<span class="k">def</span> <span class="nf">hyperalignment</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">]</span>
+    <span class="n">dataset</span> <span class="o">=</span> <span class="p">[</span><span class="n">mvpa2</span><span class="p">.</span><span class="n">datasets</span><span class="p">.</span><span class="n">Dataset</span><span class="p">(</span><span class="n">x_</span><span class="p">)</span> <span class="k">for</span> <span class="n">x_</span> <span class="ow">in</span> <span class="n">x</span><span class="p">]</span>
+    <span class="n">hyperalignment</span> <span class="o">=</span> <span class="n">mvpa2</span><span class="p">.</span><span class="n">algorithms</span><span class="p">.</span><span class="n">hyperalignment</span><span class="p">.</span><span class="n">Hyperalignment</span><span class="p">()(</span><span class="n">dataset</span><span class="p">)</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="n">hyperalignment</span><span class="p">[</span><span class="n">j</span><span class="p">].</span><span class="n">forward</span><span class="p">(</span><span class="n">dataset</span><span class="p">[</span><span class="n">j</span><span class="p">]).</span><span class="n">samples</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">))]</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">y</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="n">path</span> <span class="o">=</span> <span class="s">"/yourpath/"</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span> <span class="o">+</span> <span class="s">"data_1.dat"</span><span class="p">,</span> <span class="s">'rb'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">X_tr1</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">X_te1</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">pickle</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span> <span class="o">+</span> <span class="s">"data_2.dat"</span><span class="p">,</span> <span class="s">'rb'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">X_tr2</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">X_te2</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">pickle</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+<span class="n">X_1</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">X_te1</span> <span class="o">+</span> <span class="n">X_tr1</span><span class="p">)</span>
+<span class="n">X_2</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">X_te2</span> <span class="o">+</span> <span class="n">X_tr2</span><span class="p">)</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">hyperalignment</span><span class="p">(</span><span class="n">X_1</span><span class="p">,</span> <span class="n">X_2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h5 id="neural-decoding">Neural decoding</h5>
+<p>We do  a linear mapping from brain responses to syntheticity scores. The original dataset order (test + train) is permuted to ensure various degrees of syntheticity because the quality in the original test set (36 faces) was quite good. The syntheticity scores in the test set would otherwise all be more or less similar (i.e., very real-looking). We use a 90:10 split where 90% of the data is used as the training set and the remaining 10% is used as the held-out test set to evaluate model performance.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">zscore</span>
+
+<span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">permutation</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">permutation</span><span class="p">(</span><span class="mi">1086</span><span class="p">)</span>
+<span class="n">_X</span> <span class="o">=</span> <span class="n">X</span><span class="p">[</span><span class="n">permutation</span><span class="p">]</span>
+<span class="n">_T</span> <span class="o">=</span> <span class="n">scores</span><span class="p">[</span><span class="n">permutation</span><span class="p">]</span>
+
+<span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="mi">1086</span> <span class="o">/</span> <span class="mi">100</span> <span class="o">*</span> <span class="mi">10</span><span class="p">)</span>
+<span class="n">x_te</span> <span class="o">=</span> <span class="n">zscore</span><span class="p">(</span><span class="n">_X</span><span class="p">[:</span><span class="n">n</span><span class="p">])</span>
+<span class="n">x_tr</span> <span class="o">=</span> <span class="n">zscore</span><span class="p">(</span><span class="n">_X</span><span class="p">[</span><span class="n">n</span><span class="p">:])</span>
+<span class="n">t_te</span> <span class="o">=</span> <span class="n">zscore</span><span class="p">(</span><span class="n">_T</span><span class="p">[:</span><span class="n">n</span><span class="p">])</span>
+<span class="n">t_tr</span> <span class="o">=</span> <span class="n">zscore</span><span class="p">(</span><span class="n">_T</span><span class="p">[</span><span class="n">n</span><span class="p">:])</span>
+
+<span class="n">reg</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">().</span><span class="n">fit</span><span class="p">(</span><span class="n">x_tr</span><span class="p">,</span> <span class="n">t_tr</span><span class="p">)</span>
+<span class="n">y_te</span> <span class="o">=</span> <span class="n">reg</span><span class="p">.</span><span class="n">predict</span><span class="p">(</span><span class="n">x_te</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h5 id="evaluation">Evaluation</h5>
+<p>To evaluate the model performance of our linear decoder, we can look at the correlation between the predicted scores from brain data and the syntheticity scores from the behavioral experiment.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">stats</span>
+<span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">t</span>
+
+<span class="k">def</span> <span class="nf">pearson_correlation_coefficient</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="n">np</span><span class="p">.</span><span class="n">ndarray</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">np</span><span class="p">.</span><span class="n">ndarray</span><span class="p">,</span> <span class="n">axis</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">np</span><span class="p">.</span><span class="n">ndarray</span><span class="p">:</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">nan_to_num</span><span class="p">(</span><span class="n">stats</span><span class="p">.</span><span class="n">zscore</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="n">nan_to_num</span><span class="p">(</span><span class="n">stats</span><span class="p">.</span><span class="n">zscore</span><span class="p">(</span><span class="n">y</span><span class="p">))).</span><span class="n">mean</span><span class="p">(</span><span class="n">axis</span><span class="p">)</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">t</span><span class="p">.</span><span class="n">sf</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="nb">abs</span><span class="p">(</span><span class="n">r</span> <span class="o">/</span> <span class="n">np</span><span class="p">.</span><span class="n">sqrt</span><span class="p">((</span><span class="mi">1</span> <span class="o">-</span> <span class="n">r</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="mi">2</span><span class="p">))),</span> <span class="n">x</span><span class="p">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">r</span><span class="p">,</span> <span class="n">p</span>
+
+<span class="n">r</span><span class="p">,</span> <span class="n">p</span> <span class="o">=</span> <span class="n">pearson_correlation_coefficient</span><span class="p">(</span><span class="n">y_te</span><span class="p">,</span> <span class="n">t_te</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">r</span><span class="p">.</span><span class="n">mean</span><span class="p">(),</span> <span class="n">p</span><span class="p">.</span><span class="n">mean</span><span class="p">())</span>
+</code></pre></div></div>
+
+<p>This results in r=0.4298, p=3.46e-06, meaning that we can indeed predict continuous syntheticity scores from the fMRI recordings from the hyper experiment. This means that the neural representations of the perceived faces contain continuous- rather than binary information on syntheticity. Otherwise, if the encoded information would have been binary (either real- or fake-looking), it would not have been possible to decode these continuous values from the brain. <strong>In conclusion, our result supports the uncanny valley theory rather than the uncanny cliff.</strong></p>
+
+<p>It would be cool to make comparisons with other metrics such as feature maps and/or (classification) scores of discriminator networks. Further, we could also use a searchlight to identify where and with what magnitude syntheticity is encoded in the brain.</p>
+
+<p>That’s all.</p>
+
+
+
+<ul class="taxonomy__index">
+  
+  
+    <li>
+      <a href="#2022">
+        <strong>2022</strong> <span class="taxonomy__count">2</span>
+      </a>
+    </li>
+  
+</ul>
+
+
+
+
+  <section id="2022" class="taxonomy__section">
+    <h2 class="archive__subtitle">2022</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/uncanny/" rel="permalink">Neural decoding of uncanniness
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">2022, 29 September
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/hyper/" rel="permalink">Neural decoding w/ synthesized reality
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          7 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">2022, 22 January
+</p>
+  </article>
+</div>
+
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+  </div>
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://www.linkedin.com/in/thirza-dado/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/ThirzaDado" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/tdado" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://www.instagram.com/thirzadado/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Thirza Dado. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
