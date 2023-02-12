@@ -19,7 +19,7 @@ gallery:
     overlay: "Breakout"
     url: "/misc/breakout"
     overlay: "Breakout game"
-  - image_path: /assets/images/kader.png
+  - image_path: /assets/images/thumb_3.png
     alt: "TBA"
     title: "TBA"
     overlay: "TBA"
