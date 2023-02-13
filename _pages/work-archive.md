@@ -14,11 +14,11 @@ gallery:
     url: "/work/hyper"
     # overlay: "<b>HYPER;</b> HYperrealistic neural decoding of PERception from fMRI recordings via GANs"
   - image_path: /assets/images/thumb_2.png
-    alt: "Empty"
-    title: "Empty"
+    alt: "TBA"
+    title: "TBA"
   - image_path: /assets/images/thumb_3.png
-    alt: "Empty"
-    title: "Empty"
+    alt: "TBA"
+    title: "TBA"
 
 
   # - image_path: /assets/images/b2g-top_image.png
