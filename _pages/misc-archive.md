@@ -17,7 +17,7 @@ gallery:
     title: "breakout"
     # overlay: "breakout"
     url: "/misc/breakout"
-  - image_path: /assets/images/thumb_2.png
+  - image_path: /assets/images/thumb_3.png
     alt: "TBA"
     title: "TBA"
     overlay: "TBA"
