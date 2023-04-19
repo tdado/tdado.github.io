@@ -7,18 +7,18 @@ layout: collection
 author_profile: true
 
 gallery:
-  # - image_path: /assets/images/kader.png
+  - image_path: /assets/images/thumb_3.png
+    alt: "TBA"
+    title: "TBA"
+  - image_path: /assets/images/thumb_2.png
+    alt: "TBA"
+    title: "TBA"
   - image_path: /assets/images/thumb_1.png
     alt: "Hyper"
     title: "Hyper"
     url: "/work/hyper"
-    # overlay: "<b>HYPER;</b> HYperrealistic neural decoding of PERception from fMRI recordings via GANs"
-  - image_path: /assets/images/thumb_2.png
-    alt: "TBA"
-    title: "TBA"
-  - image_path: /assets/images/thumb_3.png
-    alt: "TBA"
-    title: "TBA"
+
+
 
 
   # - image_path: /assets/images/b2g-top_image.png

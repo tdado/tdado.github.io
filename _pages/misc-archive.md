@@ -7,6 +7,10 @@ layout: collection
 author_profile: true
 
 gallery:
+  - image_path: /assets/images/thumb_3.png
+    alt: "TBA"
+    title: "TBA"
+    overlay: "TBA"
   - image_path: /assets/images/landscape.png
     alt: "procedural landscape generation"
     title: "procedural landscape generation"
@@ -17,10 +21,6 @@ gallery:
     title: "breakout"
     # overlay: "breakout"
     url: "/misc/breakout"
-  - image_path: /assets/images/thumb_3.png
-    alt: "TBA"
-    title: "TBA"
-    overlay: "TBA"
 ---
 
 {% include gallery %}
