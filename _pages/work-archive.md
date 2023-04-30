@@ -10,9 +10,13 @@ gallery:
   - image_path: /assets/images/thumb_3.png
     alt: "TBA"
     title: "TBA"
-  - image_path: /assets/images/thumb_2.png
-    alt: "TBA"
-    title: "TBA"
+  # - image_path: /assets/images/thumb_2.png
+  #   alt: "TBA"
+  #   title: "TBA"
+  - image_path: /assets/images/thumb_4.png
+    alt: "Brain2GAN"
+    title: "Brain2GAN"
+    url: "/work/brain2gan"
   - image_path: /assets/images/thumb_1.png
     alt: "Hyper"
     title: "Hyper"
