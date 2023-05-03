@@ -6,6 +6,8 @@ author_profile: true
 classes: wide
 ---
 
+* 2023 - NU.nl: [De computer weet wat je ziet: hoe breinsignalen worden omgezet in beeld](https://www.nu.nl/tech/6261140/de-computer-weet-wat-je-ziet-hoe-breinsignalen-worden-omgezet-in-beeld.html)
+
 * 2022 - <a href="https://www.bbc.co.uk/programmes/p00w940j">Newsday</a> BBC World Service
 <audio src="/assets/bbc.mp3" controls preload></audio>
 
