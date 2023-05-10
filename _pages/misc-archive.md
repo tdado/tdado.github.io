@@ -10,16 +10,16 @@ gallery:
   - image_path: /assets/images/thumb_3.png
     alt: "TBA"
     title: "TBA"
-    overlay: "TBA"
+  - image_path: /assets/images/thumb_2.png
+    alt: "TBA"
+    title: "TBA"
   - image_path: /assets/images/landscape.png
     alt: "procedural landscape generation"
     title: "procedural landscape generation"
-    # overlay: "procedural landscape generation"
     url: "/misc/landscape"
   - image_path: /assets/images/breakout.png
     alt: "breakout"
     title: "breakout"
-    # overlay: "breakout"
     url: "/misc/breakout"
 ---
 
