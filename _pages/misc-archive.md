@@ -10,9 +10,13 @@ gallery:
   - image_path: /assets/images/thumb_3.png
     alt: "TBA"
     title: "TBA"
-  - image_path: /assets/images/thumb_2.png
-    alt: "TBA"
-    title: "TBA"
+  # - image_path: /assets/images/thumb_2.png
+  #   alt: "TBA"
+  #   title: "TBA"
+  - image_path: /assets/images/wfc.png
+    alt: "wave function collapse"
+    title: "wave function collapse"
+    url: "/misc/wfc"
   - image_path: /assets/images/landscape.png
     alt: "procedural landscape generation"
     title: "procedural landscape generation"
