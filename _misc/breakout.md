@@ -4,7 +4,8 @@ layout: archive
 author_profile: true
 classes: wide
 ---
-Learn to implement your own game in <a href="https://unity.com/">Unity</a> during the artificial intelligence master's course <a href="https://neuralcoding.nl/">Computer Graphics & Computer Vision</a> by <a href="https://www.ru.nl/en/people/guclu-u">Dr. Umut Güçlü</a> at Radboud University. <a href="https://lynnle.com/">Lynn Le</a> and myself are present as teaching assistants. Here, you can find my game:
+
+Learn to implement your own game in <a href="https://unity.com/">Unity</a> during the artificial intelligence master's course <a href="https://neuralcoding.nl/">Computer Graphics & Computer Vision</a> by <a href="https://www.ru.nl/en/people/guclu-u">Dr. Umut Güçlü</a> at Radboud University. <a href="https://lynnle.com/">Lynn</a>, <a href="https://www.ru.nl/personen/appel-m">Michelle</a> and myself are present as teaching assistants. Here, you can find my game:
 
 <!-- <b>Enter:</b> start game, <b>R:</b> restart game, <b>Escape:</b> pause game. -->
 <i>Enter</i>: start game, <i>R</i>: restart game, <i>Escape</i>: pause game.
