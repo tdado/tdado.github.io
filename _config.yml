@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Thirza Dado"
-  avatar           : "/assets/images/mine.png"
+  avatar           : "/assets/images/mine.jpeg"
   bio              : "PhD Candidate at the Neural Coding Lab who studies how the world is represented by the brain using synthesized reality."
   location         : "Amsterdam"
   links:
@@ -111,7 +111,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:thirza.dado@donders.ru.nl"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       icon: https://twitter.com/ThirzaDado
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -126,24 +126,15 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/thirza-dado/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/ThirzaDado
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/tdado
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    # - label: "Bitbucket"
-    #   icon: "fab fa-fw fa-bitbucket"
-      # url:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: https://twitter.com/ThirzaDado
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/thirza-dado/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/thirzadado/"
