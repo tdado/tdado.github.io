@@ -10,6 +10,10 @@ gallery:
   - image_path: /assets/images/thumb_3.png
     alt: "TBA"
     title: "TBA"
+  - image_path: /assets/images/upfall.png
+    alt: "upfall"
+    title: "upfall"
+    url: "/misc/upfall"
   # - image_path: /assets/images/thumb_2.png
   #   alt: "TBA"
   #   title: "TBA"
