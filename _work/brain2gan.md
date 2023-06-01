@@ -16,8 +16,19 @@ A challenging goal of neural coding is to characterize the neural representation
 
 [Preprint](https://www.biorxiv.org/content/10.1101/2023.04.26.537962v1) / [GitHub repository](https://github.com/neuralcodinglab/brain2gan)
 
-![b2g_image](/assets/images/stylegan.png)
+![b2g-xl_image](/assets/images/work/abstr.png)
 *Test set stimulus (top) reconstruction (bottom) from brain activity.*
 
-![b2g-xl_image](/assets/images/styxl.png)
-*Test set stimulus (top) reconstruction (bottom) from brain activity.*
+<table>
+  <tr>
+    <td><img src="/assets/images/work/0093.gif"></td>
+    <td><img src="/assets/images/work/0018.gif"></td>
+    <td><img src="/assets/images/work/0038.gif"></td>
+    <td><img src="/assets/images/work/0001.gif"></td>
+    <td><img src="/assets/images/work/0094.gif"></td>
+    <td><img src="/assets/images/work/0197.gif"></td>
+    <td><img src="/assets/images/work/0081.gif"></td>
+    <td><img src="/assets/images/work/0114.gif"></td>
+  </tr>
+</table>
+*Time-based reconstruction: meaningful information is extracted from the stimulus-evoked brain responses in time.*
