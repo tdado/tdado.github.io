@@ -15,5 +15,5 @@ Neural decoding can be conceptualized as the problem of mapping brain responses 
 [Full paper](https://www.nature.com/articles/s41598-021-03938-w) / [GitHub repository](https://github.com/neuralcodinglab/HYPER) / [MRI dataset](https://openneuro.org/datasets/ds004280/versions/1.0.1)
 
 
-![hyper_image](/assets/images/hyper_image.png)
+![hyper_image](/assets/images/work/hyper_image.png)
 *Stimuli and their reconstructions from recorded brain activity. The three blocks show twelve arbitrarily chosen but representative test set examples. The first column displays the face stimuli ("stim") whereas the second and third column display the corresponding reconstructions from brain activations from subject 1 ("S1") and 2 ("S2"), respectively. The row numbers denote the test set number (in total, there were 36 test set stimuli).*
