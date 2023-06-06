@@ -5,7 +5,7 @@ author_profile: true
 classes: wide
 ---
 
-*Upfall* symbolizes the paradoxical essence of progress, capturing the simultaneous presence of advancement and challenges, successes and setbacks. Acclaimed singer-songwriter <a href="https://www.instagram.com/mayashanti_/?hl=en">Maya Shanti</a> teamed up with generative AI, where she wrote the lyrics of first verse and let GPT-3 complete the second. 
+*Upfall* symbolizes the paradoxical essence of progress, capturing the simultaneous presence of advancement and challenges, successes and setbacks. Acclaimed singer-songwriter <a href="https://www.instagram.com/mayashanti_/?hl=en">Maya Shanti</a> teamed up with generative AI, where she wrote the lyrics of first verse and let GPT-3 complete the second. The vocals were incorporated into <a href="https://www.aisongcontest.com/participants-2022/wavy-weights-and-bassy-biases">the final song that made it to the finals of the AI Song Contest 2022</a>.
 
 <audio src="/assets/upfall.mp3" controls preload></audio>
 
@@ -28,6 +28,4 @@ classes: wide
 *I hope that one day you'll see*   
 *That changes can be good*  
 *I can be good*  
-*I can be good*  
-
-Our team proudly reached the finals of the AI Song Contest 2022. Find us and our submission (which incorporated these vocals) <a href="https://www.aisongcontest.com/participants-2022/wavy-weights-and-bassy-biases">here</a>.
+*I can be good*   
