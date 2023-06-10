@@ -8,6 +8,10 @@ classes: wide
 
 * 2023 - NU.nl: [De computer weet wat je ziet: hoe breinsignalen worden omgezet in beeld](https://www.nu.nl/tech/6261140/de-computer-weet-wat-je-ziet-hoe-breinsignalen-worden-omgezet-in-beeld.html)
 
+* 2023 - De Volkskrant: [Kunstmatige intelligentie helpt bij het uitlezen van uw brein](https://www.volkskrant.nl/voorpagina/kunstmatige-intelligentie-helpt-bij-het-uitlezen-van-uw-brein-~b8f6a303/)
+
+* 2023 - Vice: [Researchers Use AI to Generate Images Based on People's Brain Activity](https://www.vice.com/en/article/wxje8n/researchers-use-ai-to-generate-images-based-on-peoples-brain-activity)
+
 * 2022 - <a href="https://www.bbc.co.uk/programmes/p00w940j">Newsday</a> BBC World Service
 <audio src="/assets/bbc.mp3" controls preload></audio>
 
