@@ -110,18 +110,18 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:thirza.dado@donders.ru.nl"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      icon: https://twitter.com/ThirzaDado
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tdado"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/thirza-dado/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/thirzadado/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: https://twitter.com/ThirzaDado
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://www.instagram.com/thirzadado/"
 
 # Site Footer
 footer:
@@ -129,15 +129,18 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/tdado
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/ThirzaDado
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/tdado"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/thirza-dado/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/thirzadado/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: https://twitter.com/ThirzaDado
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://www.instagram.com/thirzadado/"
 
 
 # Reading Files
