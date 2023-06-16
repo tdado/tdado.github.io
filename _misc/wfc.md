@@ -14,22 +14,22 @@ The synthesis algorithm <b>wave function collapse</b> is loosely inspired on the
 
 <table>
   <tr>
-    <td><img src="/assets/images/wfc/Skyline_.png"></td>
-    <td><img src="/assets/images/wfc/Skyline_1.gif"></td>
-    <td><img src="/assets/images/wfc/Skyline_2.gif"></td>
-    <td><img src="/assets/images/wfc/Skyline_3.gif"></td>
+    <td><img src="/assets/images/misc/wfc/Skyline_.png"></td>
+    <td><img src="/assets/images/misc/wfc/Skyline_1.gif"></td>
+    <td><img src="/assets/images/misc/wfc/Skyline_2.gif"></td>
+    <td><img src="/assets/images/misc/wfc/Skyline_3.gif"></td>
   </tr>
     <tr>
-    <td><img src="/assets/images/wfc/Skyline2_.png"></td>
-    <td><img src="/assets/images/wfc/Skyline2_1.gif"></td>
-    <td><img src="/assets/images/wfc/Skyline2_2.gif"></td>
-    <td><img src="/assets/images/wfc/Skyline2_3.gif"></td>
+    <td><img src="/assets/images/misc/wfc/Skyline2_.png"></td>
+    <td><img src="/assets/images/misc/wfc/Skyline2_1.gif"></td>
+    <td><img src="/assets/images/misc/wfc/Skyline2_2.gif"></td>
+    <td><img src="/assets/images/misc/wfc/Skyline2_3.gif"></td>
   </tr>
     <tr>
-    <td><img src="/assets/images/wfc/Maze_.png"></td>
-    <td><img src="/assets/images/wfc/Maze_1.gif"></td>
-    <td><img src="/assets/images/wfc/Maze_2.gif"></td>
-    <td><img src="/assets/images/wfc/Maze_3.gif"></td>
+    <td><img src="/assets/images/misc/wfc/Maze_.png"></td>
+    <td><img src="/assets/images/misc/wfc/Maze_1.gif"></td>
+    <td><img src="/assets/images/misc/wfc/Maze_2.gif"></td>
+    <td><img src="/assets/images/misc/wfc/Maze_3.gif"></td>
   </tr>
 </table>
 
