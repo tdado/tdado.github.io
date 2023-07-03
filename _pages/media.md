@@ -6,6 +6,8 @@ author_profile: true
 classes: wide
 ---
 
+* 2023 - Handelsblatt: [Wie KI lernt, unsere Gedanken zu lesen](/assets/Seiten_72_73_Handelsblatt_2023-06-30.pdf)
+
 * 2023 - NU.nl: [De computer weet wat je ziet: hoe breinsignalen worden omgezet in beeld](https://www.nu.nl/tech/6261140/de-computer-weet-wat-je-ziet-hoe-breinsignalen-worden-omgezet-in-beeld.html)
 
 * 2023 - De Volkskrant: [Kunstmatige intelligentie helpt bij het uitlezen van uw brein](https://www.volkskrant.nl/voorpagina/kunstmatige-intelligentie-helpt-bij-het-uitlezen-van-uw-brein-~b8f6a303/)
