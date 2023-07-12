@@ -8,7 +8,7 @@ header:
 {{ page.date | date: '%Y, %d %B' }}
 
 ![The treachery of images](/assets/images/blog/the-treachery-of-images.jpeg)
-*[The Treachery of Images, 1929, by Rene Magritte](https://www.renemagritte.org/the-treachery-of-images.jsp#) challenges us to recognize the limitations of representations. The painting emphasizes that we must be aware of this separation between the image and the actual object, and that we should not fall into the trap of simplistic interpretations.*
+*[The Treachery of Images, 1929, by Rene Magritte](https://www.renemagritte.org/the-treachery-of-images.jsp#) challenges us to recognize the limitations of representations. The painting emphasizes that we must be aware of the separation between the image and the actual object, and that we should not fall into the trap of simplistic interpretations.*
 
 Neural decoding is a fascinating avenue of exploration in the realm of cognitive neuroscience. It involves the intricate process of translating neuronal activity into meaningful representations, which could take the form of visualizations, language or sounds (to name a few), allowing us to interpret and make sense of the information encoded in the brain. But let's not get too caught up in the euphoria of possibilities. Behind the promising facade of this pioneering field, there are a series of limitations and prejudices that may arise within the decoding process, reminding us that "_the map is not the territory_" (- Alfred Korzybski) we seek to explore.
 
@@ -35,7 +35,6 @@ But there is another side to the coin since "_a model which took account of all 
 By simplifying the complexity of reality and identifying overarching principles, models provide a structured approach to grasp the world around us. They enable us to generate insights and make predictions about broader populations and situations, offering valuable guidance in navigating the intricacies of reality. Just as a map allows us to understand and navigate an area, decoding models provide us with a framework to study the brain. They allow us to capture the essential elements and understand key relationships. While they cannot capture the full complexity of reality, they offer us valuable guidance. It is important to strike a balance between representation and reality. We should be aware of the limitations of models and generalizations, while also recognizing that they can help us better understand the world. 
 
 Moreover, models serve as a foundation for further exploration and discovery, operating within an iterative cycle of hypotheses, experiments, and revisions. This iterative process allows us to formulate specific questions, design new experiments, and expand our knowledge.
-
 
 
 ##### Our mental model is also an abstraction of reality
