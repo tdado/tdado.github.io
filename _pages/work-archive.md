@@ -6,14 +6,13 @@ classes: wide
 layout: collection
 author_profile: true
 
-
 gallery:
-  - image_path: /assets/images/tiles/itw.png
-    alt: "TBA"
-    title: "TBA"
-  # - image_path: /assets/images/tiles/amr.png
+  # - image_path: /assets/images/tiles/Asset 56.png
   #   alt: "TBA"
   #   title: "TBA"
+  - image_path: /assets/images/tiles/toto-1.png
+    alt: "TBA"
+    title: "TBA"
   - image_path: /assets/images/tiles/brain2gan.png
     alt: "Brain2GAN"
     title: "Brain2GAN"
@@ -22,7 +21,6 @@ gallery:
     alt: "Hyper"
     title: "Hyper"
     url: "/work/hyper"
-
 ---
 {% include gallery %}
 
