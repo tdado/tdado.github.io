@@ -7,10 +7,10 @@ layout: collection
 author_profile: true
 
 gallery:
-  - image_path: /assets/images/tiles/itw.png
+  - image_path: /assets/images/tiles/toto-1.png
     alt: "TBA"
     title: "TBA"
-  - image_path: /assets/images/tiles/amr.png
+  - image_path: /assets/images/tiles/toto-2.png
     alt: "TBA"
     title: "TBA"
   - image_path: /assets/images/tiles/upfall.png
