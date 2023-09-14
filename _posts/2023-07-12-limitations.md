@@ -1,5 +1,5 @@
 ---
-title: "Map != territory; limitations of decoding"
+title: "Map is not the territory; limitations of decoding"
 layout: posts
 header:
     teaser: /assets/images/blog/the-treachery-of-images.png
@@ -10,7 +10,8 @@ header:
 ![The treachery of images](/assets/images/blog/the-treachery-of-images.jpeg)
 *[The Treachery of Images, 1929, by Rene Magritte](https://www.renemagritte.org/the-treachery-of-images.jsp#) challenges us to recognize the limitations of representations. The painting emphasizes that we must be aware of the separation between the image and the actual object, and that we should not fall into the trap of simplistic interpretations.*
 
-Neural decoding is a fascinating avenue of exploration in the realm of cognitive neuroscience. It involves the intricate process of translating neuronal activity into meaningful representations, which could take the form of visualizations, language or sounds (to name a few), allowing us to interpret and make sense of the information encoded in the brain. But let's not get too caught up in the euphoria of possibilities. Behind the promising facade of this pioneering field, there are a series of limitations and prejudices that may arise within the decoding process, reminding us that "_the map is not the territory_" (- Alfred Korzybski) we seek to explore.
+Neural decoding is a fascinating avenue of exploration in the realm of cognitive neuroscience. It involves the intricate process of translating neuronal activity into meaningful representations, which could take the form of visualizations, language or sounds (to name a few), allowing us to interpret and make sense of the information encoded in the brain. But let's not get too caught up in the euphoria of possibilities. Behind the promising facade of this pioneering field, there are a series of limitations and prejudices that may arise within the decoding process, reminding us that "_the map is not the territory_" (-- <b>Alfred Korzybski</b>) we seek to explore.
+
 
 
 ##### Models are abstractions of reality
@@ -28,7 +29,7 @@ When we forget that the map is not the territory, we can fall prey to reduction 
 
 ##### Abstraction can be powerful
 
-But there is another side to the coin since "_a model which took account of all the variegation of reality would be of no more use than a map at the scale of one to one_" (- Joan Robinson). Acknowledging the limitations of models does not mean we should strive for a perfect depiction of reality. In fact, it is practically impossible to capture every detail and variation of reality within a model. Such a model would be incredibly complex and unwieldy, causing more confusion than enlightenment. Hence, generalization is a powerful tool. 
+But there is another side to the coin since "_a model which took account of all the variegation of reality would be of no more use than a map at the scale of one to one_" (-- <b>Joan Robinson</b>). Acknowledging the limitations of models does not mean we should strive for a perfect depiction of reality. In fact, it is practically impossible to capture every detail and variation of reality within a model. Such a model would be incredibly complex and unwieldy, causing more confusion than enlightenment. Hence, generalization is a powerful tool. 
 
 > Models serve as a foundation for further exploration and discovery.
 
@@ -43,7 +44,7 @@ The notion that representations are simplifications of reality goes even further
 
 ##### Conclusion
 
-The promise of neural decoding is enticing. The idea that we can decipher thoughts and intentions purely by observing neural activity raises hope for the treatment of neurological disorders, the restoration of sensory and motor skills, and even the possibility of mind-reading. However, let us not forget that we are still at the beginning of this complex field of research. Else, it can lead to distorted results and misleading interpretations. While we are able to decode sensory inputs, abstract concepts, subjective experiences, and higher cognitive functions remain largely beyond our reach. The human mind is an elusive entity, and current technologies and methods still have a long way to go before they can capture the full spectrum of our inner lives. 
+The promise of neural decoding is enticing. The idea that we can decipher thoughts and intentions purely by observing neural activity raises hope for the treatment of neurological disorders, the restoration of sensory and motor skills, and even the possibility of mind-reading. However, let us not forget that we are still at the beginning of this complex field of research. Else, it can lead to distorted results and misleading interpretations. While we have made progress in decoding sensory inputs, comprehending abstract concepts, subjective experiences, and higher cognitive functions remains largely beyond our reach. The human mind is an elusive entity, and current technologies and methods still have a long way to go before they can capture the full spectrum of our inner lives. 
 
 So let us, amidst the excitement about the possibilities of neural decoding, maintain humility. We must be aware of the limitations and biases inherent in this field. In a world craving quick answers and immediate gratification, it is crucial to approach our research with patience and methodical diligence.
 
