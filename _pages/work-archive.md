@@ -6,22 +6,18 @@ classes: wide
 layout: collection
 author_profile: true
 
-gallery:
-  # - image_path: /assets/images/tiles/Asset 56.png
-  #   alt: "TBA"
-  #   title: "TBA"
-  - image_path: /assets/images/tiles/toto-1.png
-    alt: "TBA"
-    title: "TBA"
+feature_row:
   - image_path: /assets/images/tiles/brain2gan.png
     alt: "Brain2GAN"
     title: "Brain2GAN"
     url: "/work/brain2gan"
+    excerpt: "Preprint on 'Brain2GAN: Feature-disentangled neural coding of visual perception in the primate brain'."
   - image_path: /assets/images/tiles/hyper.png
     alt: "Hyper"
-    title: "Hyper"
+    title: "HYPER"
     url: "/work/hyper"
+    excerpt: "Paper on 'Hyperrealistic neural decoding for reconstructing faces from fMRI activations via the GAN latent space'."
 ---
-{% include gallery %}
+{% include feature_row %}
 
 [Frequently asked questions](/faq/)
