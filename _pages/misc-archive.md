@@ -7,11 +7,11 @@ layout: collection
 author_profile: true
 
 feature_row:
-  - image_path: /assets/images/tiles/upfall.png
+  - image_path: /assets/images/tiles/todo.png
     alt: "inktober"
     title: "Inktober"
     url: "/misc/inktober"
-    excerpt: "The vocals our team incorporated into our submission to the AI Song Contest 2022."
+    excerpt: "The inktober challenge 2023."
   - image_path: /assets/images/tiles/upfall.png
     alt: "upfall"
     title: "Upfall"
