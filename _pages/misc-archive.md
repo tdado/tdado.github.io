@@ -8,6 +8,11 @@ author_profile: true
 
 feature_row:
   - image_path: /assets/images/tiles/upfall.png
+    alt: "inktober"
+    title: "Inktober"
+    url: "/misc/inktober"
+    excerpt: "The vocals our team incorporated into our submission to the AI Song Contest 2022."
+  - image_path: /assets/images/tiles/upfall.png
     alt: "upfall"
     title: "Upfall"
     url: "/misc/upfall"
