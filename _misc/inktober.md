@@ -18,6 +18,12 @@ classes: wide
     }
 </style>
 
+<div class="image-container">
+    <figure>
+        <img src="/assets/images/misc/inktober/3-path.jpeg">
+        <figcaption><b>3/10 Path</b></figcaption>
+    </figure>
+</div>
 
 <div class="image-container">
     <figure>
