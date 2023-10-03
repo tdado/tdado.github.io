@@ -7,11 +7,11 @@ layout: collection
 author_profile: true
 
 feature_row:
-  - image_path: /assets/images/tiles/todo.png
+  - image_path: /assets/images/tiles/inktober.png
     alt: "inktober"
     title: "Inktober"
     url: "/misc/inktober"
-    excerpt: "The inktober challenge 2023."
+    excerpt: "The inktober challenge 2023 to improve our (digital) art skills in a month."
   - image_path: /assets/images/tiles/upfall.png
     alt: "upfall"
     title: "Upfall"
@@ -21,7 +21,7 @@ feature_row:
     alt: "wave function collapse"
     title: "Wave function collapse"
     url: "/misc/wfc"
-    excerpt: "Procedural generation of images using an algorithm that is loosly inspired on the concept from quantum mechanics."
+    excerpt: "Procedural generation of images using an quantum-inspired algorithm."
   - image_path: /assets/images/tiles/landscape.png
     alt: "procedural landscape generation"
     title: "Procedural landscape generation"
