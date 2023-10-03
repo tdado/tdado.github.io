@@ -9,9 +9,9 @@ author_profile: true
 feature_row:
   - image_path: /assets/images/tiles/inktober.png
     alt: "inktober"
-    title: "Inktober"
+    title: "Inktober 2023"
     url: "/misc/inktober"
-    excerpt: "The inktober challenge 2023 to improve our (digital) art skills in a month."
+    excerpt: "Annual art challenge to create and share one drawing every day."
   - image_path: /assets/images/tiles/upfall.png
     alt: "upfall"
     title: "Upfall"
