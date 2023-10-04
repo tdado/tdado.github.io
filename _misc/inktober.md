@@ -22,11 +22,16 @@ classes: wide
 
 <div class="image-container">
     <figure>
+        <img src="/assets/images/misc/inktober/4-dodge.jpeg">
+        <figcaption><b>4/10 Dodge</b></figcaption>
+    </figure>
+</div>
+<div class="image-container">
+    <figure>
         <img src="/assets/images/misc/inktober/3-path.jpeg">
         <figcaption><b>3/10 Path</b></figcaption>
     </figure>
 </div>
-
 <div class="image-container">
     <figure>
         <img src="/assets/images/misc/inktober/2-spiders.jpeg">
