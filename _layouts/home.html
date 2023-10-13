@@ -4,6 +4,19 @@ layout: archive
 
 {{ content }}
 
+<style>
+  .image-container {
+    max-width: 80px;
+    display: inline-block;
+    /* margin: 0 auto; */
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
 <h1>Hello & Welcome</h1>
 
 Happy to share a glimpse of my work with you.
@@ -12,7 +25,19 @@ Happy to share a glimpse of my work with you.
 
 <!-- square, none -->  
 <ul>
-  <li style="list-style-type: square; text-align: justify;">Taking on <a href="https://inktober.com/">inktober 2023</a> with one pixel artwork a day - find them under <a href="/misc/inktober">misc</a></li>
+<div class="image-container">
+  <img src="/assets/images/misc/inktober/6-golden.png">
+</div>
+<div class="image-container">
+  <img src="/assets/images/misc/inktober/12-spicy.png">
+</div>
+<div class="image-container">
+  <img src="/assets/images/misc/inktober/8-toad.png">
+</div>
+
+<br>
+<br>
+  <li style="list-style-type: square; text-align: justify;">Taking on <a href="https://inktober.com/">inktober 2023</a> with one pixel artwork a day - find them under <a href="/misc/inktober">misc</a><br></li>
   <li style="list-style-type: square; text-align: justify;">Our paper <a href="https://2023.ccneuro.org/view_paper.php?PaperNum=1495">"Feature-disentangled reconstruction of perception from multi-unit recordings"</a> is accepted and <a href="/assets/files/ccn23.pdf">presented</a> at CCN 2023 in Oxford</li>
   <li style="list-style-type: square; text-align: justify;">Our preprint <a href="/work/brain2gan">"Brain2GAN: Feature-disentangled neural coding of visual perception in 
     the primate brain"</a> is now posted on biorxiv</li>
