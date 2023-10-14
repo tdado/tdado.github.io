@@ -12,15 +12,3 @@ classes: wide
 <br><br>
 
 My doctorate is funded by a personal toptalent fellowship and I have double master's degrees in artificial intelligence and cognitive neuroscience with cum laude. </p>
-
-
-<p>
-<h2>Research grants and prizes</h2>
-<ul>
-  <li style="list-style-type: square">2021 - NeurotechEU Best Presentation Award</li>
-  <li style="list-style-type: square">2021 - DCC Student Assistant Grant</li>
-  <li style="list-style-type: square">2020 - Donders Best Poster Award</li>
-  <li style="list-style-type: square">2020 - AI TOPtalent PhD Fellowship</li>
-  <li style="list-style-type: square">2020 - DCC Students Assistant Fellowship</li>
-</ul>
-</p>
