@@ -24,11 +24,11 @@ feature_row:
     excerpt: "'Hyperrealistic neural decoding for reconstructing faces from fMRI activations via the GAN latent space'"
 ---
 <style>
-  body {
+  /* p {
       font-family: Arial, sans-serif;
       font-size: 14px;
       line-height: 1.6;
-    }
+    } */
 
   a.footnote {
       text-decoration: none;
@@ -68,8 +68,8 @@ Artificial Intelligence <b>&middot;</b> Cognitive Neuroscience <b>&middot;</b> G
 
 Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as speaking engagements to share and advance knowledge. This is an overview of my endeavors:
 
-<body>
-<h2>Teaching</h2>
+
+<h2 style="color: #5B5EA6">Teaching</h2>
 
 <ul>
 <li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; Artificial intelligence for neurotechnology <span style="display: inline-block; float: right;"><i>2022 to Present</i></span></li>
@@ -81,7 +81,7 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
 <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Brain reading and writing <span style="display: inline-block; float: right;"><i>2020</i></span></li>
 </ul>
 
-<h2>Speaking engagements</h2>
+<h2 style="color: #5B5EA6">Speaking engagements</h2>
 <body>
 <ul class=events>
   <!-- <li style="list-style-type: square; text-align: justify;"><b>Poster presenter</b>, 19th NVP Winter Conference on Brain & Cognition
@@ -142,7 +142,7 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
   <span style="display: inline-block; float: right;"><i>Virtual, 2020</i></span></li>
 </ul>
 
-<h2>Research grants and prizes</h2>
+<h2 style="color: #5B5EA6">Research grants and prizes</h2>
 <ul>
   <li style="list-style-type: square">NeurotechEU Best Presentation Award <span style="display: inline-block; float: right;"><i>2021</i></span></li>
   <li style="list-style-type: square">DCC Student Assistant Grant <span style="display: inline-block; float: right;"><i>2021</i></span></li>
@@ -161,5 +161,3 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
     <sup style="color: #933f7a;">5</sup>Donders Centre for Cognitive Neuroimaging
   </p>
 </footer>
-
-</body>
