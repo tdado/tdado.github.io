@@ -2,7 +2,7 @@
 title: "Map is not the territory; limitations of decoding"
 layout: posts
 header:
-    teaser: /assets/images/blog/the-treachery-of-images.png
+    teaser: /assets/images/tiles/blog3.png
 ---
 
 {{ page.date | date: '%Y, %d %B' }}
