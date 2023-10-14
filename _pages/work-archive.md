@@ -11,7 +11,7 @@ feature_row:
     alt: "Dicoding"
     title: "Dicoding"
     # url: "/work/dicoding"
-    excerpt: "'Differential neural decoding' (_work in progress_)"
+    excerpt: "'Differential neural decoding' (WIP)"
   - image_path: /assets/images/tiles/brain2gan.png
     alt: "Brain2GAN"
     title: "Brain2GAN"
