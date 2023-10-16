@@ -68,13 +68,12 @@ Artificial Intelligence <b>&middot;</b> Cognitive Neuroscience <b>&middot;</b> G
 
 Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as speaking engagements to share and advance knowledge. This is an overview of my endeavors:
 
-
 <h2 style="color: #5B5EA6">Teaching</h2>
 
 <ul>
-<li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; Artificial intelligence for neurotechnology <span style="display: inline-block; float: right;"><i>2022 to Present</i></span></li>
-<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Deep learning <span style="display: inline-block; float: right;"><i>2021 to Present</i></span></li>
-<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Computer graphics and computer vision <span style="display: inline-block; float: right;"><i>2020 to Present</i></span></li>
+<li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/">Artificial intelligence for neurotechnology</a><span style="display: inline-block; float: right;"><i>2022 to Present</i></span></li>
+<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-bki230a-deep-learning/">Deep learning</a><span style="display: inline-block; float: right;"><i>2021 to Present</i></span></li>
+<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki95-computer-graphics-computer-vision/">Computer graphics and computer vision</a><span style="display: inline-block; float: right;"><i>2020 to Present</i></span></li>
 <li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; Proefstuderen <span style="display: inline-block; float: right;"><i>2022</i></span></li>
 <li style="list-style-type: square"><b>Member</b> &nbsp; Information and orientation team <span style="display: inline-block; float: right;"><i>2022</i></span></li>
 <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Human-computer interaction <span style="display: inline-block; float: right;"><i>2021</i></span></li>
@@ -148,7 +147,7 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
   <li style="list-style-type: square">DCC Student Assistant Grant <span style="display: inline-block; float: right;"><i>2021</i></span></li>
   <li style="list-style-type: square">Donders Best Poster Award <span style="display: inline-block; float: right;"><i>2020</i></span></li>
   <li style="list-style-type: square">AI TOPtalent PhD Fellowship <span style="display: inline-block; float: right;"><i>2020</i></span></li>
-  <li style="list-style-type: square">DCC Students Assistant Fellowship <span style="display: inline-block; float: right;"><i>2020</i></span></li>
+  <li style="list-style-type: square">DCC Student Assistant Fellowship <span style="display: inline-block; float: right;"><i>2020</i></span></li>
 </ul>
 <br>
 
