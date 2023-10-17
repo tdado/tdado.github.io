@@ -20,10 +20,22 @@ classes: wide
 
 <a href="https://inktober.com/">Inktober</a> is an annual art challenge where participants create and share one drawing every day to improve their artistic skills and inspire creativity.
 
+<!-- <div class="image-container">
+    <figure>
+        <img src="/assets/images/misc/inktober/18-saddle.png">
+        <figcaption><b>18/10 Saddle</b></figcaption>
+    </figure>
+</div> -->
+<div class="image-container">
+    <figure>
+        <img src="/assets/images/misc/inktober/17-devil.png">
+        <figcaption><b>17/10 Devil</b><br><i>Marceline</i></figcaption>
+    </figure>
+</div>
 <div class="image-container">
     <figure>
         <img src="/assets/images/misc/inktober/16-angel.png">
-        <figcaption><b>16/10 Angel</b></figcaption>
+        <figcaption><b>16/10 Angel</b><br><i>PB</i></figcaption>
     </figure>
 </div>
 <div class="image-container">
@@ -59,7 +71,7 @@ classes: wide
 <div class="image-container">
     <figure>
         <img src="/assets/images/misc/inktober/10-fortune.png">
-        <figcaption><b>10/10 Fortune</b></figcaption>
+        <figcaption><b>10/10 Fortune</b><br><i>2-armed bandit</i></figcaption>
     </figure>
 </div>
 <div class="image-container">
@@ -89,7 +101,7 @@ classes: wide
 <div class="image-container">
     <figure>
         <img src="/assets/images/misc/inktober/5-map.png">
-        <figcaption><b>5/10 Map</b></figcaption>
+        <figcaption><b>5/10 Map</b><br><i>AMS-Nijmegen</i></figcaption>
     </figure>
 </div>
 <div class="image-container">
