@@ -22,6 +22,12 @@ classes: wide
 
 <div class="image-container">
     <figure>
+        <img src="/assets/images/misc/inktober/19-plump.png">
+        <figcaption><b>19/10 Plump</b></figcaption>
+    </figure>
+</div>
+<div class="image-container">
+    <figure>
         <img src="/assets/images/misc/inktober/18-saddle.png">
         <figcaption><b>18/10 Saddle</b><br><i>-node bifurcation</i></figcaption>
     </figure>
