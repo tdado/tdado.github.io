@@ -71,7 +71,7 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
 <h2 style="color: #5B5EA6">Teaching</h2>
 
 <ul>
-<li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/">Artificial intelligence for neurotechnology</a><span style="display: inline-block; float: right;"><i>2022 to Present</i></span></li>
+<li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/">Artificial intelligence for neurotechnology</a><span style="display: inline-block; float: right;"><i>2021 to Present</i></span></li>
 <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-bki230a-deep-learning/">Deep learning</a><span style="display: inline-block; float: right;"><i>2021 to Present</i></span></li>
 <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki95-computer-graphics-computer-vision/">Computer graphics and computer vision</a><span style="display: inline-block; float: right;"><i>2020 to Present</i></span></li>
 <li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; Proefstuderen <span style="display: inline-block; float: right;"><i>2022</i></span></li>
