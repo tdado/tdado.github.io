@@ -86,7 +86,7 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
   <!-- <li style="list-style-type: square; text-align: justify;"><b>Poster presenter</b>, 19th NVP Winter Conference on Brain & Cognition
   <span style="display: inline-block; float: right;"><i>Egmond aan Zee, Netherlands, 2023</i></span></li> -->
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Cognitive Computational Neuroscience (CCN)
+  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Conference on Cognitive Computational Neuroscience (CCN)
   <span style="display: inline-block; float: right;"><i>Oxford, United Kingdom, 2023</i></span></li>
 
   <li style="list-style-type: square; text-align: left;"><b>Student ambassador</b> &nbsp; Women of NeurotechEU<a href="#footnote1" class="footnote">2</a>
