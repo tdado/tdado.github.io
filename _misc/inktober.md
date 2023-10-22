@@ -20,7 +20,12 @@ classes: wide
 
 <a href="https://inktober.com/">Inktober</a> is an annual art challenge where participants create and share one drawing every day to improve their artistic skills and inspire creativity.
 
-
+<div class="image-container">
+    <figure>
+        <img src="/assets/images/misc/inktober/22-scratchy.png">
+        <figcaption><b>22/10 Scratchy</b></figcaption>
+    </figure>
+</div>
 <div class="image-container">
     <figure>
         <img src="/assets/images/misc/inktober/21-chains.png">
