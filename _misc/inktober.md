@@ -7,7 +7,7 @@ classes: wide
 
 <style>
     .image-container {
-      max-width: 100px;
+      max-width: 110px;
       display: inline-block;
       margin: 0 auto;
     }
@@ -20,6 +20,12 @@ classes: wide
 
 <a href="https://inktober.com/">Inktober</a> is an annual art challenge where participants create and share one drawing every day to improve their artistic skills and inspire creativity.
 
+<div class="image-container">
+    <figure>
+        <img src="/assets/images/misc/inktober/23-celestial.png">
+        <figcaption><b>23/10 Celestial</b></figcaption>
+    </figure>
+</div>
 <div class="image-container">
     <figure>
         <img src="/assets/images/misc/inktober/22-scratchy.png">
