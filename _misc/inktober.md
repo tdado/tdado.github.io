@@ -16,10 +16,23 @@ classes: wide
       max-width: 100%;
       height: auto;
     }
+
+    figcaption {
+      font-family: 'YourFont', sans-serif;
+      font-size: 12px;
+      color: #333;
+    }
 </style>
 
 <a href="https://inktober.com/">Inktober</a> is an annual art challenge where participants create and share one drawing every day to improve their artistic skills and inspire creativity.
 
+
+<div class="image-container">
+    <figure>
+        <img src="/assets/images/misc/inktober/24-shallow.png">
+        <figcaption><b>24/10 Shallow</b></figcaption>
+    </figure>
+</div>
 <div class="image-container">
     <figure>
         <img src="/assets/images/misc/inktober/23-celestial.png">
