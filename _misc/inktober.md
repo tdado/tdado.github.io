@@ -29,7 +29,7 @@ classes: wide
 
 <div class="image-container">
     <figure>
-        <img src="/assets/images/misc/inktober/26-remove.png">
+        <img src="/assets/images/misc/inktober/26-rm.png">
         <figcaption><b>26/10 Remove</b></figcaption>
     </figure>
 </div>
