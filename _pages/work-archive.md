@@ -83,8 +83,10 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
 <h2 style="color: #5B5EA6">Speaking engagements</h2>
 <body>
 <ul class=events>
-  <!-- <li style="list-style-type: square; text-align: justify;"><b>Poster presenter</b>, 19th NVP Winter Conference on Brain & Cognition
-  <span style="display: inline-block; float: right;"><i>Egmond aan Zee, Netherlands, 2023</i></span></li> -->
+
+
+  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Innovation Center for Artificial Intelligence (ICAI) Day
+  <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2023</i></span></li>
 
   <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Conference on Cognitive Computational Neuroscience (CCN)
   <span style="display: inline-block; float: right;"><i>Oxford, United Kingdom, 2023</i></span></li>
