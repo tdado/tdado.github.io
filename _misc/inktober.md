@@ -29,6 +29,12 @@ classes: wide
 
 <div class="image-container">
     <figure>
+        <img src="/assets/images/misc/inktober/29-massiv.png">
+        <figcaption><b>29/10 Massive</b></figcaption>
+    </figure>
+</div>
+<div class="image-container">
+    <figure>
         <img src="/assets/images/misc/inktober/28-sparkl.png">
         <figcaption><b>28. Sparkle</b><br><i>Cup of stars</i></figcaption>
     </figure>
