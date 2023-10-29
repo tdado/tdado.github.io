@@ -30,7 +30,7 @@ classes: wide
 <div class="image-container">
     <figure>
         <img src="/assets/images/misc/inktober/29-massiv.png">
-        <figcaption><b>29/10 Massive</b></figcaption>
+        <figcaption><b>29. Massive</b></figcaption>
     </figure>
 </div>
 <div class="image-container">
