@@ -35,7 +35,7 @@ classes: wide
 <div class="image-container">
     <figure>
         <img src="/assets/images/misc/inktober/30-rush.png">
-        <figcaption><b>30. Rush</b></figcaption>
+        <figcaption><b>30. Rush</b><br><i>Frank</i></figcaption>
     </figure>
 </div>
 <div class="image-container">
@@ -53,13 +53,13 @@ classes: wide
 <div class="image-container">
     <figure>
         <img src="/assets/images/misc/inktober/27-beast.png">
-        <figcaption><b>27. Beast</b></figcaption>
+        <figcaption><b>27. Beast</b><br><i>No-face</i></figcaption>
     </figure>
 </div>
 <div class="image-container">
     <figure>
         <img src="/assets/images/misc/inktober/26-rm.png">
-        <figcaption><b>26. Remove</b></figcaption>
+        <figcaption><b>26. Remove</b><br><i>Oscar</i></figcaption>
     </figure>
 </div>
 <div class="image-container">
@@ -179,7 +179,7 @@ classes: wide
 <div class="image-container">
     <figure>
         <img src="/assets/images/misc/inktober/6-golden.png">
-        <figcaption><b>6. Golden</b></figcaption>
+        <figcaption><b>6. Golden</b><br><i>-ticket</i></figcaption>
     </figure>
 </div>
 <div class="image-container">
