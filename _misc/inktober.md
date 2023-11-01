@@ -7,7 +7,7 @@ classes: wide
 
 <style>
     .image-container {
-      max-width: 50px;
+      max-width: 180px;
       display: inline-block;
       margin: 0 auto;
     }
