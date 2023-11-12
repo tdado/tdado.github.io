@@ -74,8 +74,8 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
 <li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/">Artificial intelligence for neurotechnology</a><span style="display: inline-block; float: right;"><i>2021 to Present</i></span></li>
 <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-bki230a-deep-learning/">Deep learning</a><span style="display: inline-block; float: right;"><i>2021 to Present</i></span></li>
 <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki95-computer-graphics-computer-vision/">Computer graphics and computer vision</a><span style="display: inline-block; float: right;"><i>2020 to Present</i></span></li>
-<li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; Proefstuderen <span style="display: inline-block; float: right;"><i>2022</i></span></li>
-<li style="list-style-type: square"><b>Member</b> &nbsp; Information and orientation team <span style="display: inline-block; float: right;"><i>2022</i></span></li>
+<li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; Proefstuderen<a href="#footnote1" class="footnote">1</a> <span style="display: inline-block; float: right;"><i>2022</i></span></li>
+<li style="list-style-type: square"><b>Member</b> &nbsp; Information and orientation team<a href="#footnote1" class="footnote">1</a> <span style="display: inline-block; float: right;"><i>2022</i></span></li>
 <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Human-computer interaction <span style="display: inline-block; float: right;"><i>2021</i></span></li>
 <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Brain reading and writing <span style="display: inline-block; float: right;"><i>2020</i></span></li>
 </ul>
@@ -84,6 +84,11 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
 <body>
 <ul class=events>
 
+  <li style="list-style-type: square; text-align: justify;"><b>Poster presenter</b> &nbsp; 19th NVP Winter Conference on Brain & Cognition
+  <span style="display: inline-block; float: right;"><i>Egmond aan Zee, Netherlands, 2023</i></span></li>
+
+  <li style="list-style-type: square; text-align: justify;"><b>Speaker</b> &nbsp; Department of Brain & Cognition, Psychology, UvA (lab visit)
+  <span style="display: inline-block; float: right;"><i>Amsterdam, Netherlands, 2023</i></span></li>
 
   <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Innovation Center for Artificial Intelligence (ICAI) Day
   <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2023</i></span></li>
@@ -91,7 +96,10 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
   <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Conference on Cognitive Computational Neuroscience (CCN)
   <span style="display: inline-block; float: right;"><i>Oxford, United Kingdom, 2023</i></span></li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Student ambassador</b> &nbsp; Women of NeurotechEU<a href="#footnote1" class="footnote">2</a>
+  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Donders Poster Session<a href="#footnote1" class="footnote">2</a>
+  <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2023</i></span></li>
+
+  <li style="list-style-type: square; text-align: left;"><b>Student ambassador</b> &nbsp; Women of NeurotechEU<a href="#footnote1" class="footnote">3</a>
   <span style="display: inline-block; float: right;"><i>Cluj-Napoca, Romania, 2023</i></span></li>
 
   <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; 9th Dutch Bio-Medical Engineering Conference (BME)
@@ -99,22 +107,22 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
 
   <hr>
 
-  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Max Planck Research Group Vision and Computational Cognition
+  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Max Planck Research Group Vision and Computational Cognition (lab visit)
   <span style="display: inline-block; float: right;"><i>Leipzig, Germany, 2022</i></span></li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Organiser</b> &nbsp; Synapses Lecture Series<a href="#footnote1" class="footnote">2</a>
+  <li style="list-style-type: square; text-align: left;"><b>Organiser</b> &nbsp; Synapses Lecture Series<a href="#footnote1" class="footnote">3</a>
   <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2022</i></span></li>
 
   <li style="list-style-type: square; text-align: left;"><b>Attendee</b> &nbsp; European Conference on Visual Perception (ECVP)
   <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2022</i></span></li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Pre-master Introduction Day<a href="#footnote1" class="footnote">3</a>
+  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Pre-master Introduction Day<a href="#footnote1" class="footnote">1</a>
   <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2022</i></span></li>
 
   <li style="list-style-type: square; text-align: left;"><b>Finalist</b> &nbsp; AI Song Contest
   <span style="display: inline-block; float: right;"><i>Liege, Belgium, 2022</i></span></li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Student ambassador</b> &nbsp; 3rd NeurotechEU Board of Rectors Meeting<a href="#footnote1" class="footnote">2</a>
+  <li style="list-style-type: square; text-align: left;"><b>Student ambassador</b> &nbsp; 3rd NeurotechEU Board of Rectors Meeting<a href="#footnote1" class="footnote">3</a>
   <span style="display: inline-block; float: right;"><i>Cluj-Napoca, Romania, 2022</i></span></li>
 
   <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; 18th NVP Winter Conference on Brain & Cognition
@@ -131,15 +139,15 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
   <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; 10th International IEEE/EMBS Conference on Neural Engineering (NER)
   <span style="display: inline-block; float: right;"><i>Virtual, 2021</i></span></li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Welcoming Synapses: From Cajal to NeurotechEU<a href="#footnote1" class="footnote">2</a>
+  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Welcoming Synapses: From Cajal to NeurotechEU<a href="#footnote1" class="footnote">3</a>
   <span style="display: inline-block; float: right;"><i>Virtual, 2021</i></span></li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Functional Analysis Meeting<a href="#footnote1" class="footnote">5</a>
+  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Functional Analysis Meeting, Donders Centre for Cognitive Neuroimaging (lab visit)
   <span style="display: inline-block; float: right;"><i>Virtual, 2021</i></span></li>
 
   <hr>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Donders Poster Session<a href="#footnote1" class="footnote">1</a>
+  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Donders Poster Session<a href="#footnote1" class="footnote">2</a>
   <span style="display: inline-block; float: right;"><i>Virtual, 2020</i></span></li>
 </ul>
 
@@ -155,10 +163,9 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
 
 <footer>
   <p id="footnotes" style="font-size: smaller;">
-    <sup style="color: #933f7a;">1</sup>Donders Institute for Brain, Cognition and Behaviour;
-    <sup style="color: #933f7a;">2</sup>The European University of Brain and Technology; NeurotechEU;
-    <sup style="color: #933f7a;">3</sup>The master's programme of Cognitive Neuroscience;
+    <sup style="color: #933f7a;">1</sup>The master's programme of Cognitive Neuroscience, Radboud University;
+    <sup style="color: #933f7a;">2</sup>Donders Institute for Brain, Cognition and Behaviour;
+    <sup style="color: #933f7a;">3</sup>The European University of Brain and Technology; NeurotechEU;
     <sup style="color: #933f7a;">4</sup>Dondrite; the study association of the master's Cognitive Neuroscience;
-    <sup style="color: #933f7a;">5</sup>Donders Centre for Cognitive Neuroimaging
   </p>
 </footer>
