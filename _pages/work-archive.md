@@ -10,8 +10,8 @@ feature_row:
   - image_path: /assets/images/tiles/dicoding.png
     alt: "Dicoding"
     title: "Dicoding"
-    # url: "/work/dicoding"
-    excerpt: "'Differential neural decoding' (WIP)"
+    url: "/work/dicoding"
+    excerpt: "'Get more from less: Differential neural decoding for effective reconstruction from limited training data' (WIP)"
   - image_path: /assets/images/tiles/brain2gan.png
     alt: "Brain2GAN"
     title: "Brain2GAN"
