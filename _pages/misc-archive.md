@@ -7,6 +7,11 @@ layout: collection
 author_profile: true
 
 feature_row:
+  - image_path: /assets/images/tiles/tooneye.png
+    alt: "tooneye"
+    title: "Tooneye"
+    url: "/misc/tooneye"
+    excerpt: "Vertex shaders draws eyes based on cursor position."
   - image_path: /assets/images/tiles/inktober.png
     alt: "inktober"
     title: "Inktober 2023"
