@@ -1,15 +1,14 @@
 ---
-title: "Break Out"
+title: "Tooneye"
 layout: archive
 author_profile: true
 classes: wide
---- 
-In the master's course <a href="https://neuralcoding.nl/">Computer Graphics & Computer Vision</a>, students implement their own Unity breakout game from scratch. This was mine. 
+---
 
-<i>Enter</i>: start game, <i>R</i>: restart game, <i>Escape</i>: pause game.
+In the master's course <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki95-computer-graphics-computer-vision/">Computer Graphics & Computer Vision</a>, students implement vertex and pixel shaders. Here, I used them to color Coraline's eyes that are following the jumping mouse, which brings her through the tunnel to the Other World.
 
 <div id="unity-container" class="unity-desktop">
-    <canvas id="unity-canvas"></canvas>
+    <canvas id="unity-canvas" width=960 height=600></canvas>
     <div id="unity-loading-bar">
     <div id="unity-logo"></div>
     <div id="unity-progress-bar-empty">
@@ -23,19 +22,19 @@ In the master's course <a href="https://neuralcoding.nl/">Computer Graphics & Co
     <div id="unity-webgl-logo"></div>
     <div id="unity-fullscreen-button"></div>
     </div>
-</div>
+</div> 
 
 <script>
-    var buildUrl = "../../assets/unity/breakout7/Build";
-    var loaderUrl = buildUrl + "/breakout7.loader.js";
+    var buildUrl = "../../assets/unity/tooneye/Build";
+    var loaderUrl = buildUrl + "/tooneye.loader.js";
     var config = {
-    dataUrl: buildUrl + "/breakout7.data",
-    frameworkUrl: buildUrl + "/breakout7.framework.js",
-    codeUrl: buildUrl + "/breakout7.wasm",
+    dataUrl: buildUrl + "/tooneye.data",
+    frameworkUrl: buildUrl + "/tooneye.framework.js",
+    codeUrl: buildUrl + "/tooneye.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
-    productName: "Breakout",
-    productVersion: "1.0",
+    productName: "Tooneye",
+    productVersion: "1",
     };
 
     var container = document.querySelector("#unity-container");
@@ -45,8 +44,17 @@ In the master's course <a href="https://neuralcoding.nl/">Computer Graphics & Co
     var fullscreenButton = document.querySelector("#unity-fullscreen-button");
     var mobileWarning = document.querySelector("#unity-mobile-warning");
 
+    // By default Unity keeps WebGL canvas render target size matched with
+    // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+    // Set this to false if you want to decouple this synchronization from
+    // happening inside the engine, and you would instead like to size up
+    // the canvas DOM size and WebGL render target sizes yourself.
+    // config.matchWebGLToCanvasSize = false;
+
     if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
     container.className = "unity-mobile";
+    // Avoid draining fillrate performance on mobile devices,
+    // and default/override low DPI mode on mobile browsers.
     config.devicePixelRatio = 1;
     mobileWarning.style.display = "block";
     setTimeout(() => {
