@@ -11,7 +11,7 @@ feature_row:
     alt: "tooneye"
     title: "Tooneye"
     url: "/misc/tooneye"
-    excerpt: "Vertex shaders draws eyes based on cursor position."
+    excerpt: "Tooneye shader that colors eye regions based on the position of the mouse."
   - image_path: /assets/images/tiles/inktober.png
     alt: "inktober"
     title: "Inktober 2023"
