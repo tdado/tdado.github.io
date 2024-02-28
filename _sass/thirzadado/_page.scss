@@ -187,7 +187,9 @@ body p {
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
-    height: 300px;
+    width:100%;
+    height: 500px;
+    z-index: 1;
 
     a {
       color: #fff;
