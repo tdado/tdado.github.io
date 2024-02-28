@@ -5,6 +5,30 @@ layout: archive
 {{ content }}
 
 <style>
+.homepage-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.homepage-intro p {
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #333; /* This is a dark gray, feel free to choose your color */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+</style>
+
+
+<div class="homepage-intro">Wrapping up my doctorate, getting to grips with neural codes through AI, both seen and unseen.</div>
+
+
+<!-- <style>
   .image-container {
     max-width: 80px;
     display: inline-block;
@@ -14,21 +38,20 @@ layout: archive
     max-width: 100%;
     height: auto;
   }
-</style>
+</style> -->
 
-
-
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 {% if paginator %}
   {% assign posts = paginator.posts %}
 {% else %}
   {% assign posts = site.posts %}
 {% endif %}
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
+{% assign entries_layout = page.entries_layout | default: 'list' %} -->
+
+<!-- <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
-</div>
-{% include paginator.html %}
+</div> -->
+
+<!-- {% include paginator.html %} -->
