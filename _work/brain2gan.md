@@ -1,5 +1,5 @@
 ---
-title: "Brain2GAN: Feature-disentangled neural coding of visual perception in the primate brain"
+title: "Brain2GAN: Feature-disentangled neural encoding and decoding of visual perception in the primate brain"
 layout: archive
 author_profile: true
 classes: wide
