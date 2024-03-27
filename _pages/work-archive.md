@@ -16,7 +16,7 @@ feature_row:
     alt: "Brain2GAN"
     title: "Brain2GAN"
     url: "/work/brain2gan"
-    excerpt: "'Brain2GAN; Feature-disentangled neural coding of visual perception in the primate brain'"
+    excerpt: "'Brain2GAN; Feature-disentangled neural encoding and decoding of visual perception in the primate brain'"
   - image_path: /assets/images/tiles/hyper.png
     alt: "Hyper"
     title: "Hyper"
