@@ -20,7 +20,7 @@ A challenging goal of neural coding is to characterize the neural representation
 ![b2g-xl_image](/assets/images/work/abstr.png)
 *Test set stimulus (top) reconstruction (bottom) from brain activity.*
 
-<table>
+<!-- <table>
   <tr>
     <td><img src="/assets/images/work/0093.gif"></td>
     <td><img src="/assets/images/work/0018.gif"></td>
@@ -32,4 +32,4 @@ A challenging goal of neural coding is to characterize the neural representation
     <td><img src="/assets/images/work/0114.gif"></td>
   </tr>
 </table>
-*Time-based reconstruction: meaningful information is extracted from the stimulus-evoked brain responses in time.*
+*Time-based reconstruction: meaningful information is extracted from the stimulus-evoked brain responses in time.* -->
