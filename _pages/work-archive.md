@@ -84,16 +84,21 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
 <body>
 <ul class=events>
 
+  <li style="list-style-type: square; text-align: justify;"><b>Speaker</b> &nbsp; CogSci
+  <span style="display: inline-block; float: right;"><i>Rotterdam, Netherlands, 2024</i></span></li>
+
+  <hr>
+
   <li style="list-style-type: square; text-align: justify;"><b>Poster presenter</b> &nbsp; 19th NVP Winter Conference on Brain & Cognition
   <span style="display: inline-block; float: right;"><i>Egmond aan Zee, Netherlands, 2023</i></span></li>
 
   <li style="list-style-type: square; text-align: justify;"><b>Speaker</b> &nbsp; Department of Brain & Cognition, Psychology, UvA (lab visit)
   <span style="display: inline-block; float: right;"><i>Amsterdam, Netherlands, 2023</i></span></li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Innovation Center for Artificial Intelligence (ICAI) Day
+  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Innovation Center for Artificial Intelligence Day
   <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2023</i></span></li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Conference on Cognitive Computational Neuroscience (CCN)
+  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Conference on Cognitive Computational Neuroscience
   <span style="display: inline-block; float: right;"><i>Oxford, United Kingdom, 2023</i></span></li>
 
   <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Donders Poster Session<a href="#footnote1" class="footnote">2</a>
@@ -102,7 +107,7 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
   <li style="list-style-type: square; text-align: left;"><b>Student ambassador</b> &nbsp; Women of NeurotechEU<a href="#footnote1" class="footnote">3</a>
   <span style="display: inline-block; float: right;"><i>Cluj-Napoca, Romania, 2023</i></span></li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; 9th Dutch Bio-Medical Engineering Conference (BME)
+  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; 9th Dutch Bio-Medical Engineering Conference
   <span style="display: inline-block; float: right;"><i>Egmond aan Zee, Netherlands, 2023</i></span></li>
 
   <hr>
@@ -113,7 +118,7 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
   <li style="list-style-type: square; text-align: left;"><b>Organiser</b> &nbsp; Synapses Lecture Series<a href="#footnote1" class="footnote">3</a>
   <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2022</i></span></li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Attendee</b> &nbsp; European Conference on Visual Perception (ECVP)
+  <li style="list-style-type: square; text-align: left;"><b>Attendee</b> &nbsp; European Conference on Visual Perception
   <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2022</i></span></li>
 
   <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Pre-master Introduction Day<a href="#footnote1" class="footnote">1</a>
@@ -136,7 +141,7 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
 
   <hr>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; 10th International IEEE/EMBS Conference on Neural Engineering (NER)
+  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; 10th International IEEE/EMBS Conference on Neural Engineering
   <span style="display: inline-block; float: right;"><i>Virtual, 2021</i></span></li>
 
   <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Welcoming Synapses: From Cajal to NeurotechEU<a href="#footnote1" class="footnote">3</a>
