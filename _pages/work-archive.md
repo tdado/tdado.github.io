@@ -11,7 +11,7 @@ feature_row:
     alt: "PAM"
     title: "PAM"
     url: "/work/pam"
-    excerpt: "'Get more from less: Differential neural decoding for effective reconstruction from limited training data' (WIP)"
+    excerpt: "'Predictive attention mechanisms for neural decoding' (WIP)"
   - image_path: /assets/images/tiles/dicoding.png
     alt: "Dicoding"
     title: "Dicoding"
