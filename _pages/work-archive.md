@@ -7,6 +7,11 @@ layout: collection
 author_profile: true
 
 feature_row:
+  - image_path: /assets/images/tiles/pam.png
+    alt: "PAM"
+    title: "PAM"
+    url: "/work/pam"
+    excerpt: "'Get more from less: Differential neural decoding for effective reconstruction from limited training data' (WIP)"
   - image_path: /assets/images/tiles/dicoding.png
     alt: "Dicoding"
     title: "Dicoding"
