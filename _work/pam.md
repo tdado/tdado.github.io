@@ -1,5 +1,5 @@
 ---
-title: "Predictive attention mechanisms for neural decoding"
+title: "Predictive attention mechanisms for neural decoding of perceived synthetic and natural images"
 layout: archive
 author_profile: true
 classes: wide
