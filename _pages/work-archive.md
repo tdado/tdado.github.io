@@ -11,12 +11,12 @@ feature_row:
     alt: "PAM"
     title: "PAM"
     url: "/work/pam"
-    excerpt: "'Predictive attention mechanisms for neural decoding' (WIP)"
+    excerpt: "'Predictive attention mechanisms for neural decoding of perceived synthetic and natural images' (WIP)"
   - image_path: /assets/images/tiles/dicoding.png
     alt: "Dicoding"
     title: "Dicoding"
     url: "/work/dicoding"
-    excerpt: "'Get more from less: Differential neural decoding for effective reconstruction from limited training data' (WIP)"
+    excerpt: "'Get more from less: Differential neural decoding for effective reconstruction from limited training data'"
   - image_path: /assets/images/tiles/brain2gan.png
     alt: "Brain2GAN"
     title: "Brain2GAN"
