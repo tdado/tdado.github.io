@@ -16,7 +16,7 @@ feature_row:
     alt: "Dicoding"
     title: "Dicoding"
     url: "/work/dicoding"
-    excerpt: "'Get more from less: Differential neural decoding for effective reconstruction from limited training data'"
+    excerpt: "'Get more from less: Differential neural decoding for effective reconstruction of perceived naturalistic stimuli from noisy and scarce neural data'"
   - image_path: /assets/images/tiles/brain2gan.png
     alt: "Brain2GAN"
     title: "Brain2GAN"
