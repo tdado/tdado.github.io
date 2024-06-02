@@ -11,7 +11,7 @@ feature_row:
     alt: "PAM"
     title: "PAM"
     url: "/work/pam"
-    excerpt: "'Predictive attention mechanisms for neural decoding of perceived synthetic and natural images' (WIP)"
+    excerpt: "'PAM: Predictive Attention Mechanism for Neural Decoding of Visual Perception'"
   - image_path: /assets/images/tiles/dicoding.png
     alt: "Dicoding"
     title: "Dicoding"
@@ -21,7 +21,7 @@ feature_row:
     alt: "Brain2GAN"
     title: "Brain2GAN"
     url: "/work/brain2gan"
-    excerpt: "'Brain2GAN; Feature-disentangled neural encoding and decoding of visual perception in the primate brain'"
+    excerpt: "'Brain2GAN: Feature-disentangled neural encoding and decoding of visual perception in the primate brain'"
   - image_path: /assets/images/tiles/hyper.png
     alt: "Hyper"
     title: "Hyper"
@@ -76,9 +76,10 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
 <h2 style="color: #5B5EA6">Teaching</h2>
 
 <ul>
-<li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/">Artificial intelligence for neurotechnology</a><span style="display: inline-block; float: right;"><i>2021 to Present</i></span></li>
-<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-bki230a-deep-learning/">Deep learning</a><span style="display: inline-block; float: right;"><i>2021 to Present</i></span></li>
-<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki95-computer-graphics-computer-vision/">Computer graphics and computer vision</a><span style="display: inline-block; float: right;"><i>2020 to Present</i></span></li>
+<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html">ABC Summer School: Neuro-AI</a> <span style="display: inline-block; float: right;"><i>2024</i></span></li>
+<li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/">Artificial intelligence for neurotechnology</a><span style="display: inline-block; float: right;"><i>2021 to 2024</i></span></li>
+<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-bki230a-deep-learning/">Deep learning</a><span style="display: inline-block; float: right;"><i>2021 to 2024</i></span></li>
+<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki95-computer-graphics-computer-vision/">Computer graphics and computer vision</a><span style="display: inline-block; float: right;"><i>2020 to 2024</i></span></li>
 <li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; Proefstuderen<a href="#footnote1" class="footnote">1</a> <span style="display: inline-block; float: right;"><i>2022</i></span></li>
 <li style="list-style-type: square"><b>Member</b> &nbsp; Information and orientation team<a href="#footnote1" class="footnote">1</a> <span style="display: inline-block; float: right;"><i>2022</i></span></li>
 <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Human-computer interaction <span style="display: inline-block; float: right;"><i>2021</i></span></li>
