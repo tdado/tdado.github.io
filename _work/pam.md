@@ -1,13 +1,13 @@
 ---
-title: "Predictive attention mechanisms for neural decoding of perceived synthetic and natural images"
+title: "PAM: Predictive Attention Mechanism for Neural Decoding of Visual Perception"
 layout: archive
 author_profile: true
 classes: wide
 ---
 
-10 April 2024
+02 June 2024
 
-Thirza Dado & Umut Güçlü
+Thirza Dado, Lynn Le, Marcel van Gerven, Yağmur Güçlütürk & Umut Güçlü
 
 <br>
 <br>
