@@ -11,22 +11,22 @@ feature_row:
     alt: "PAM"
     title: "PAM"
     url: "/work/pam"
-    excerpt: "'PAM: Predictive Attention Mechanism for Neural Decoding of Visual Perception'"
+    excerpt: "'PAM: Predictive Attention Mechanism for Neural Decoding of Visual Perception' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
   - image_path: /assets/images/tiles/dicoding.png
     alt: "Dicoding"
     title: "Dicoding"
     url: "/work/dicoding"
-    excerpt: "'Get more from less: Differential neural decoding for effective reconstruction of perceived naturalistic stimuli from noisy and scarce neural data'"
+    excerpt: "'Get more from less: Differential neural decoding for effective reconstruction of perceived naturalistic stimuli from noisy and scarce neural data' . . . . . . . . . . . . . ."
   - image_path: /assets/images/tiles/brain2gan.png
     alt: "Brain2GAN"
     title: "Brain2GAN"
     url: "/work/brain2gan"
-    excerpt: "'Brain2GAN: Feature-disentangled neural encoding and decoding of visual perception in the primate brain'"
+    excerpt: "'Brain2GAN: Feature-disentangled neural encoding and decoding of visual perception in the primate brain' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
   - image_path: /assets/images/tiles/hyper.png
     alt: "Hyper"
     title: "Hyper"
     url: "/work/hyper"
-    excerpt: "'Hyperrealistic neural decoding for reconstructing faces from fMRI activations via the GAN latent space'"
+    excerpt: "'Hyperrealistic neural decoding for reconstructing faces from fMRI activations via the GAN latent space' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
 ---
 <style>
   /* p {
