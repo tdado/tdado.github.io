@@ -3,11 +3,9 @@ main:
   - title: "home"
     url: /
   - title: "work"
-    url: /work-archive/
-  - title: "misc"
-    url: /misc-archive/
+    url: /work-archive
   - title: "blog"
-    url: /blog-archive/
+    url: /blog-archive
   - title: "media"
     url: /media
   - title: "about"
