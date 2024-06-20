@@ -1,8 +1,8 @@
 ---
-title: "Map is not the territory; limitations of decoding"
+title: "map != territory"
 layout: posts
 header:
-    teaser: /assets/images/tiles/blog3.png
+    teaser: /assets/images/tiles/idea.png
 ---
 
 {{ page.date | date: '%Y, %d %B' }}
