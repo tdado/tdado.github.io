@@ -28,12 +28,52 @@ feature_row:
     url: "/work/hyper"
     excerpt: "'Hyperrealistic neural decoding for reconstructing faces from fMRI activations ..."
 ---
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      var coll = document.getElementsByClassName("collapsible");
+      for (var i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.display === "none") {
+                  content.style.display = "block";
+              } else {
+                  content.style.display = "none";
+              }
+          });
+      }
+  });
+</script>
+
 <style>
-  /* p {
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-      line-height: 1.6;
-    } */
+  .collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+  .collapsible:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
 
   a.footnote {
       text-decoration: none;
@@ -73,22 +113,20 @@ Artificial Intelligence <b>&middot;</b> Cognitive Neuroscience <b>&middot;</b> G
 
 Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as speaking engagements to share and advance knowledge. This is an overview of my endeavors:
 
-<h2 style="color: #5B5EA6">Teaching</h2>
-
-<ul>
-<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html">ABC Summer School: Neuro-AI</a> <span style="display: inline-block; float: right;"><i>2024</i></span></li>
-<li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/">Artificial intelligence for neurotechnology</a><span style="display: inline-block; float: right;"><i>2021 to 2024</i></span></li>
-<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-bki230a-deep-learning/">Deep learning</a><span style="display: inline-block; float: right;"><i>2021 to 2024</i></span></li>
-<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki95-computer-graphics-computer-vision/">Computer graphics and computer vision</a><span style="display: inline-block; float: right;"><i>2020 to 2024</i></span></li>
-<li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; Proefstuderen<a href="#footnote1" class="footnote">1</a> <span style="display: inline-block; float: right;"><i>2022</i></span></li>
-<li style="list-style-type: square"><b>Member</b> &nbsp; Information and orientation team<a href="#footnote1" class="footnote">1</a> <span style="display: inline-block; float: right;"><i>2022</i></span></li>
-<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Human-computer interaction <span style="display: inline-block; float: right;"><i>2021</i></span></li>
-<li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Brain reading and writing <span style="display: inline-block; float: right;"><i>2020</i></span></li>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Teaching</h2>
+<ul style="display:none;">
+  <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html">ABC Summer School: Neuro-AI</a> <span style="display: inline-block; float: right;"><i>2024</i></span></li>
+  <li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/">Artificial intelligence for neurotechnology</a><span style="display: inline-block; float: right;"><i>2021 to 2024</i></span></li>
+  <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-bki230a-deep-learning/">Deep learning</a><span style="display: inline-block; float: right;"><i>2021 to 2024</i></span></li>
+  <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki95-computer-graphics-computer-vision/">Computer graphics and computer vision</a><span style="display: inline-block; float: right;"><i>2020 to 2024</i></span></li>
+  <li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; Proefstuderen<a href="#footnote1" class="footnote">1</a> <span style="display: inline-block; float: right;"><i>2022</i></span></li>
+  <li style="list-style-type: square"><b>Member</b> &nbsp; Information and orientation team<a href="#footnote1" class="footnote">1</a> <span style="display: inline-block; float: right;"><i>2022</i></span></li>
+  <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Human-computer interaction <span style="display: inline-block; float: right;"><i>2021</i></span></li>
+  <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Brain reading and writing <span style="display: inline-block; float: right;"><i>2020</i></span></li>
 </ul>
 
-<h2 style="color: #5B5EA6">Speaking engagements</h2>
-<body>
-<ul class=events>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Speaking engagements</h2>
+<ul style="display:none;">
 
   <li style="list-style-type: square; text-align: justify;"><b>Speaker</b> &nbsp; CogSci
   <span style="display: inline-block; float: right;"><i>Rotterdam, Netherlands, 2024</i></span></li>
@@ -162,8 +200,8 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
   <span style="display: inline-block; float: right;"><i>Virtual, 2020</i></span></li>
 </ul>
 
-<h2 style="color: #5B5EA6">Research grants and prizes</h2>
-<ul>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research grants and prizes</h2>
+<ul style="display:none;">
   <li style="list-style-type: square">NeurotechEU Best Presentation Award <span style="display: inline-block; float: right;"><i>2021</i></span></li>
   <li style="list-style-type: square">DCC Student Assistant Grant <span style="display: inline-block; float: right;"><i>2021</i></span></li>
   <li style="list-style-type: square">Donders Best Poster Award <span style="display: inline-block; float: right;"><i>2020</i></span></li>
