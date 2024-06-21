@@ -1,0 +1,27 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+
+<style>
+  .custom-footer {
+      width: 100%;
+      margin-top: 50px; /* Adjust the space above the attribution as needed */
+      text-align: left; /* Center the attribution text */
+      padding: 20px 0; /* Adds padding above and below the text */
+      clear: both;
+      display: block;
+      font-size: 0.8em; /* Smaller font size */
+  }
+</style>
+
+
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=entries_layout %}
+</div>
+<div class="custom-footer">
+  beautiful icons by Miguel C Balandrano
+</div>
