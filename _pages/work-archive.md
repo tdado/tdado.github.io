@@ -16,17 +16,17 @@ feature_row:
     alt: "Dicoding"
     title: "Dicoding"
     url: "/work/dicoding"
-    excerpt: "'Get more from less: Differential neural decoding for effective reconstruction of perceived ...'"
+    excerpt: "'Get more from less: Differential neural decoding for effective reconstruction ...'"
   - image_path: /assets/images/tiles/brain2gan.png
     alt: "Brain2GAN"
     title: "Brain2GAN"
     url: "/work/brain2gan"
-    excerpt: "'Brain2GAN: Feature-disentangled neural encoding and decoding of visual perception in the ...'"
+    excerpt: "'Brain2GAN: Feature-disentangled neural encoding and decoding of visual perception ...'"
   - image_path: /assets/images/tiles/hyper.png
     alt: "Hyper"
     title: "Hyper"
     url: "/work/hyper"
-    excerpt: "'Hyperrealistic neural decoding for reconstructing faces from fMRI activations via the GAN ...'"
+    excerpt: "'Hyperrealistic neural decoding for reconstructing faces from fMRI activations ...'"
 ---
 <style>
   /* p {
