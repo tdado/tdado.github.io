@@ -2,7 +2,7 @@
 permalink: /blog-archive/
 title: "Blog"
 classes: wide
-layout: collection
+layout: custom_collection
 author_profile: true
 collection: posts
 entries_layout: grid
