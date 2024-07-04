@@ -107,7 +107,7 @@ feature_row:
 
 Artificial Intelligence <b>&middot;</b> Cognitive Neuroscience <b>&middot;</b> Generative Modeling <b>&middot;</b> Neural Coding<br>
 
-<a href="/faq/">> FAQ</a><br><br>
+<!-- <a href="/faq/">> FAQ</a><br><br> -->
 
 {% include feature_row %}
 
