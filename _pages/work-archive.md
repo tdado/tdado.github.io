@@ -1,32 +1,31 @@
 ---
 permalink: /work-archive/
-title: "Work"
 entries_layout: grid
 classes: wide
 layout: collection
 author_profile: true
 
-feature_row:
-  - image_path: /assets/images/tiles/pam.png
-    alt: "PAM"
-    title: "PAM"
-    url: "/work/pam"
-    excerpt: "'PAM: Predictive attention mechanism for neural decoding of visual perception'"
-  - image_path: /assets/images/tiles/dicoding.png
-    alt: "Dicoding"
-    title: "Dicoding"
-    url: "/work/dicoding"
-    excerpt: "'Get more from less: Differential neural decoding for effective reconstruction ..."
-  - image_path: /assets/images/tiles/brain2gan.png
-    alt: "Brain2GAN"
-    title: "Brain2GAN"
-    url: "/work/brain2gan"
-    excerpt: "'Brain2GAN: Feature-disentangled neural encoding and decoding of visual perception ..."
-  - image_path: /assets/images/tiles/hyper.png
-    alt: "Hyper"
-    title: "Hyper"
-    url: "/work/hyper"
-    excerpt: "'Hyperrealistic neural decoding for reconstructing faces from fMRI activations ..."
+# feature_row:
+#   - image_path: /assets/images/put/red2.png
+#     alt: "PAM"
+#     title: "PAM"
+#     url: "/work/pam"
+#     excerpt: "'Predictive Attention Mechanism'"
+#   - image_path: /assets/images/put/red2.png
+#     alt: "Dicoding"
+#     title: "Dicoding"
+#     url: "/work/dicoding"
+#     excerpt: "'DIfferential neural deCODING'"
+#   - image_path: /assets/images/put/red2.png
+#     alt: "Brain2GAN"
+#     title: "Brain2GAN"
+#     url: "/work/brain2gan"
+#     excerpt: "'Feature-disentangled neural coding'"
+#   - image_path: /assets/images/put/red2.png
+#     alt: "Hyper"
+#     title: "Hyper"
+#     url: "/work/hyper"
+#     excerpt: "'HYperrealistic neural decoding of PERception"
 ---
 
 <script>
@@ -48,8 +47,8 @@ feature_row:
 
 <style>
   .collapsible {
-  background-color: #eee;
-  color: #444;
+  background-color: #ecf1f8;
+  color: #345995 !important;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -57,15 +56,11 @@ feature_row:
   text-align: left;
   outline: none;
   font-size: 15px;
-  }
-
-  .active, .collapsible:hover {
-    background-color: #ccc;
+  transition: background-color 0.3s; 
   }
 
   .collapsible:after {
     content: '\002B';
-    color: #777;
     font-weight: bold;
     float: right;
     margin-left: 5px;
@@ -103,17 +98,46 @@ feature_row:
       word-wrap: break-word;
     }
 }
+.titles {
+    color: #555; /* Dark grey for subtle emphasis */
+}
 </style>
 
-Artificial Intelligence <b>&middot;</b> Cognitive Neuroscience <b>&middot;</b> Generative Modeling <b>&middot;</b> Neural Coding<br>
+<h1 style="color:#DD4124;">Work</h1>
+<b>Artificial Intelligence &middot; Cognitive Neuroscience &middot; Generative Modeling &middot; Neural Coding</b><br>
 
-<!-- <a href="/faq/">> FAQ</a><br><br> -->
+Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as speaking engagements to share and advance knowledge. This is an overview of my endeavors:
 
-{% include feature_row %}
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research »</h2>
+<ul style="display:none;">
+    <li style="list-style-type: square">
+        <b>Dado, T.</b>, Le, L., van Gerven, M., Gucluturk, Y., & Guclu, U. (2024). <a href="/work/pam">PAM: Predictive attention mechanism for neural decoding of visual perception.</a> bioRxiv, 2024-06.
+    </li> 
+    <li style="list-style-type: square">
+        <b>Dado, T.</b>, & Güçlü, U. (2024). <a href="/work/dicoding">Get more from less: Differential neural decoding for effective reconstruction of perceived naturalistic stimuli from noisy and scarce neural data.</a> In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 46).
+    </li> 
+    <li style="list-style-type: square">
+        <b>Dado, T.</b>, Papale, P., Lozano, A., Le, L., Wang, F., van Gerven, M., ... & Güçlü, U. (2024). <a href="/work/brain2gan">Brain2GAN: Feature-disentangled neural encoding and decoding of visual perception in the primate brain.</a> PLoS computational biology, 20(5), e1012058.
+    </li> 
+    <li style="list-style-type: square">
+        <b>Dado, T.</b>, Papale, P., Lozano, A., Le, L., van Gerven, M., Roelfsema, P., Güçlütürk, Y., & Güçlü, U. (2023). <a href="https://2023.ccneuro.org/proceedings/0000813.pdf?s=W&pn=1495">Feature-disentangled reconstruction of perception from multi-unit recording.</a> In Conference on Cognitive Computational Neuroscience.
+    </li>
+    <li style="list-style-type: square">
+        Le, L., Papale, P., Lozano, A., <b>Dado, T.</b>, Wang, F., van Gerven, M., Roelfsema, P., Güçlütürk, Y., & Güçlü, U. (2023). <a href="https://2023.ccneuro.org/proceedings/0001032.pdf?s=W&pn=1564">End-to-end reconstruction of natural images from multi-unit recordings with Brain2Pix.</a> In Conference on Cognitive Computational Neuroscience. 
+    </li>
+    <li style="list-style-type: square">
+        <b>Dado, T.</b>, Güçlütürk, Y., Ambrogioni, L., Ras, G., Bosch, S., van Gerven, M., & Güçlü, U. (2022). <a href="/work/hyper">Hyperrealistic neural decoding for reconstructing faces from fMRI activations via the GAN latent space.</a> Scientific reports, 12(1), 141.
+    </li>
+    <li style="list-style-type: square">
+        <b>Dado, T.</b>, Güçlütürk, Y., Ambrogioni, L., Ras, G., Bosch, S., van Gerven, M., & Güçlü, U. (2022). <a href="/assets/files/hyper21.pdf">Hyperrealistic neural decoding of faces.</a> International IEEE EMBS Conference on Neural Engineering.
+    </li>
+    <li style="list-style-type: square">
+        Güçlü, U. & <b>Dado, T.</b> (2021). <a href="/assets/files/afrt21.pdf">Affine feature response transforms.</a> International IEEE EMBS Conference on Neural Engineering.
+    </li>
+</ul>
 
-Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as speaking engagements to share and advance knowledge. This is an overview of my endeavors:
 
-<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Teaching</h2>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Teaching »</h2>
 <ul style="display:none;">
   <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html">ABC Summer School: Neuro-AI</a> <span style="display: inline-block; float: right;"><i>2024</i></span></li>
   <li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/">Artificial intelligence for neurotechnology</a><span style="display: inline-block; float: right;"><i>2021 to 2024</i></span></li>
@@ -125,7 +149,7 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
   <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Brain reading and writing <span style="display: inline-block; float: right;"><i>2020</i></span></li>
 </ul>
 
-<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Speaking engagements</h2>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Speaking engagements »</h2>
 <ul style="display:none;">
 
   <li style="list-style-type: square; text-align: justify;"><b>Speaker</b> &nbsp; CogSci
@@ -200,7 +224,7 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
   <span style="display: inline-block; float: right;"><i>Virtual, 2020</i></span></li>
 </ul>
 
-<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research grants and prizes</h2>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research grants and prizes »</h2>
 <ul style="display:none;">
   <li style="list-style-type: square">NeurotechEU Best Presentation Award <span style="display: inline-block; float: right;"><i>2021</i></span></li>
   <li style="list-style-type: square">DCC Student Assistant Grant <span style="display: inline-block; float: right;"><i>2021</i></span></li>
@@ -214,7 +238,7 @@ Throughout my PhD, I balance research (~90%) with teaching (~10%) as well as spe
   <p id="footnotes" style="font-size: smaller;">
     <sup style="color: #933f7a;">1</sup>The master's programme of Cognitive Neuroscience, Radboud University;
     <sup style="color: #933f7a;">2</sup>Donders Institute for Brain, Cognition and Behaviour;
-    <sup style="color: #933f7a;">3</sup>The European University of Brain and Technology; NeurotechEU;
-    <sup style="color: #933f7a;">4</sup>Dondrite; the study association of the master's Cognitive Neuroscience;
+    <sup style="color: #933f7a;">3</sup>NeurotechEU; The European University of Brain and Technology;
+    <sup style="color: #933f7a;">4</sup>Dondrite: study association of the master's Cognitive Neuroscience;
   </p>
 </footer>

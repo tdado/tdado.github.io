@@ -6,6 +6,8 @@ author_profile: true
 classes: wide
 ---
 
+
+
 <img style="float: right; width: 20%; border: 2px solid #000; margin-left: 35px;, margin-top: 50px;" src="/assets/images/profile.png">
 
 

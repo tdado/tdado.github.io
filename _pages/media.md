@@ -1,6 +1,6 @@
 ---
 permalink: /media/
-title: "Media mentions"
+title: "Media"
 layout: collection
 author_profile: true
 classes: wide
