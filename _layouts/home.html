@@ -5,28 +5,42 @@ layout: archive
 {{ content }}
 
 <style>
+
 .homepage-intro {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30vh;
-  text-align: center;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: left; /* Text align left for content within */
   padding: 20px;
+  margin: auto; /* Center the container horizontally */
+  width: 100%; /* Adjust width as necessary */
+  max-width: 600px; /* Set max width for content area */
+}
+
+.homepage-intro h1, .homepage-intro p {
+  align-self: flex-start; /* Align text to the start of the flex container */
+}
+
+.homepage-intro h1 {
+  color: #DD4124; /* A pretty shade of red */
 }
 
 .homepage-intro p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.6;
   max-width: 600px;
   margin: 0 auto;
   color: #333; /* This is a dark gray, feel free to choose your color */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 </style>
 
-
-<div class="homepage-intro">Wrapping up my doctorate, getting to grips with neural codes through AI, both seen and unseen.</div>
-
+<div class="homepage-intro">
+  <h1>Home</h1>
+  <p>Wrapping up my doctorate, getting to grips with neural codes through AI, both seen and unseen. Come November, I’ll be starting a postdoctoral position on curiosity at the <a href="https://www.predictivebrainlab.com/" target="_blank">Predictive Brain Lab</a>.</p>
+</div>
 
 <!-- <style>
   .image-container {
@@ -52,6 +66,6 @@ layout: archive
   {% for post in posts %}
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
-</div> -->
+</div>
 
-<!-- {% include paginator.html %} -->
+{% include paginator.html %} -->
