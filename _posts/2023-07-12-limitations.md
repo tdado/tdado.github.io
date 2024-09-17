@@ -2,7 +2,7 @@
 title: "map != territory"
 layout: posts
 header:
-    teaser: /assets/images/tiles/idea.png
+    teaser: /assets/images/tiles/pipe.png
 ---
 
 {{ page.date | date: '%Y, %d %B' }}
@@ -10,7 +10,7 @@ header:
 ![The treachery of images](/assets/images/blog/the-treachery-of-images.jpeg)
 *[The Treachery of Images, 1929, by Rene Magritte](https://www.renemagritte.org/the-treachery-of-images.jsp#) challenges us to recognize the limitations of representations. The painting urges us to understand the distinction between representation and reality - a key theme in the field of neural decoding.*
 
-Neural decoding involves the translation of neuronal activity into meaningful representations, such as images, language or sounds, so that we can interpret the information encoded in the brain. While we may be excited by the potential of this pioneering field, it's also crucial to remain grounded. There are inherent limitations and potential biases that may arise within the decoding process that we must consider. As Alfred Korzybski famously said "_the map is not the territory_" we seek to explore.
+Neural decoding involves the translation of neuronal activity into meaningful representations, such as images, language or sounds, so that we can interpret the information encoded in the brain. While we may be excited by the potential of this pioneering field, it's also important to remain grounded. There are inherent limitations and potential biases that may arise within the decoding process that we must consider. As Alfred Korzybski famously said "_the map is not the territory_" we seek to explore.
 
 
 ##### Models are abstractions of reality

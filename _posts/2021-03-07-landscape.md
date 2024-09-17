@@ -2,7 +2,7 @@
 title: "landscape generation"
 layout: posts
 header:
-    teaser: /assets/images/tiles/world.png
+    teaser: /assets/images/tiles/landscape.png
 ---
 
 {{ page.date | date: '%Y, %d %B' }}
