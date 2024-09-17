@@ -125,20 +125,25 @@ blockquote {
 
 /* links */
 
+// Links styling with SCSS
 a {
+  &:link, &:visited {  // Targeting both unvisited and visited links
+    text-decoration: none;  // Removing underline from links
+    color: #5B5EA6;  // Custom red color
+    transition: color 0.3s ease-in-out;  // Smooth transition for color change
+  }
+
+  &:hover, &:focus {  // Hover and focus states
+    color: #5B5EA6;  // Darker red on hover and focus
+    text-decoration: none;  // Ensures no underline on hover and focus
+    outline: none;  // Removes the outline to maintain the style
+  }
+
   &:focus {
-    @extend %tab-focus;
-  }
-
-  &:visited {
-    color: $link-color-visited;
-  }
-
-  &:hover {
-    color: $link-color-hover;
-    outline: 0;
+    @extend %tab-focus;  // Extending the existing focus style for accessibility
   }
 }
+
 
 /* buttons */
 
