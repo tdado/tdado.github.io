@@ -145,7 +145,7 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
         <b>Dado, T.</b>, Güçlütürk, Y., Ambrogioni, L., Ras, G., Bosch, S., van Gerven, M., & Güçlü, U. (2022). <a href="/work/hyper">Hyperrealistic neural decoding for reconstructing faces from fMRI activations via the GAN latent space.</a> Scientific reports, 12(1), 141.
     </li>
     <li style="list-style-type: square">
-        <b>Dado, T.</b>, Güçlütürk, Y., Ambrogioni, L., Ras, G., Bosch, S., van Gerven, M., & Güçlü, U. (2022). <a href="/assets/files/hyper21.pdf">Hyperrealistic neural decoding of faces.</a> International IEEE EMBS Conference on Neural Engineering.
+        <b>Dado, T.</b>, Güçlütürk, Y., Ambrogioni, L., Ras, G., Bosch, S., van Gerven, M., & Güçlü, U. (2021). <a href="/assets/files/hyper21.pdf">Hyperrealistic neural decoding of faces.</a> International IEEE EMBS Conference on Neural Engineering.
     </li>
     <li style="list-style-type: square">
         Güçlü, U. & <b>Dado, T.</b> (2021). <a href="/assets/files/afrt21.pdf">Affine feature response transforms.</a> International IEEE EMBS Conference on Neural Engineering.
