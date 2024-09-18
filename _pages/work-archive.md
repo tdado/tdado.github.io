@@ -4,28 +4,6 @@ entries_layout: grid
 classes: wide
 layout: collection
 author_profile: true
-
-# feature_row:
-#   - image_path: /assets/images/put/red2.png
-#     alt: "PAM"
-#     title: "PAM"
-#     url: "/work/pam"
-#     excerpt: "'Predictive Attention Mechanism'"
-#   - image_path: /assets/images/put/red2.png
-#     alt: "Dicoding"
-#     title: "Dicoding"
-#     url: "/work/dicoding"
-#     excerpt: "'DIfferential neural deCODING'"
-#   - image_path: /assets/images/put/red2.png
-#     alt: "Brain2GAN"
-#     title: "Brain2GAN"
-#     url: "/work/brain2gan"
-#     excerpt: "'Feature-disentangled neural coding'"
-#   - image_path: /assets/images/put/red2.png
-#     alt: "Hyper"
-#     title: "Hyper"
-#     url: "/work/hyper"
-#     excerpt: "'HYperrealistic neural decoding of PERception"
 ---
 
 <script>
@@ -75,7 +53,37 @@ author_profile: true
       color: #933f7a; /* Change color as needed */
       vertical-align: super;
       font-size: smaller;
-    }
+  }
+  
+  /* Basic styling for the flex container */
+  .event-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px 0;
+  }
+
+  /* Styling for the text content in the left */
+  .event-description {
+    flex: 1;
+    font-weight: bold;
+    color: #333;
+  }
+
+  /* Styling for the event name (not bold) */
+  .event-name {
+    font-weight: normal;
+    color: #333;
+  }
+
+  /* Styling for the date on the right */
+  .event-date {
+    flex-shrink: 0;
+    font-style: italic;
+    color: #777;
+    margin-left: 10px;
+  }
 
   @media (max-width: 768px) {
     body {
@@ -96,6 +104,14 @@ author_profile: true
       margin-bottom: 20px;
       overflow-wrap: break-word;
       word-wrap: break-word;
+    }
+    .event-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .event-date {
+      margin-left: 0;
+      margin-top: 5px;
     }
 }
 .titles {
@@ -151,77 +167,114 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Speaking engagements »</h2>
 <ul style="display:none;">
-
-  <li style="list-style-type: square; text-align: justify;"><b>Speaker</b> &nbsp; CogSci
-  <span style="display: inline-block; float: right;"><i>Rotterdam, Netherlands, 2024</i></span></li>
-
+  <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">CogSci</span></span>
+    <span class="event-date"><i>Rotterdam, Netherlands, 2024</i></span>
+  </li>
   <hr>
 
-  <li style="list-style-type: square; text-align: justify;"><b>Poster presenter</b> &nbsp; 19th NVP Winter Conference on Brain & Cognition
-  <span style="display: inline-block; float: right;"><i>Egmond aan Zee, Netherlands, 2023</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">19th NVP Winter Conference on Brain & Cognition</span></span>
+    <span class="event-date"><i>Egmond aan Zee, Netherlands, 2023</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: justify;"><b>Speaker</b> &nbsp; Department of Brain & Cognition, Psychology, UvA (lab visit)
-  <span style="display: inline-block; float: right;"><i>Amsterdam, Netherlands, 2023</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Department of Brain & Cognition, Psychology, UvA (lab visit)</span></span>
+    <span class="event-date"><i>Amsterdam, Netherlands, 2023</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Innovation Center for Artificial Intelligence Day
-  <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2023</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Innovation Center for Artificial Intelligence Day</span></span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2023</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Conference on Cognitive Computational Neuroscience
-  <span style="display: inline-block; float: right;"><i>Oxford, United Kingdom, 2023</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Conference on Cognitive Computational Neuroscience</span></span>
+    <span class="event-date"><i>Oxford, United Kingdom, 2023</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Donders Poster Session<a href="#footnote1" class="footnote">2</a>
-  <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2023</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session<a href="#footnote1" class="footnote">2</a></span></span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2023</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Student ambassador</b> &nbsp; Women of NeurotechEU<a href="#footnote1" class="footnote">3</a>
-  <span style="display: inline-block; float: right;"><i>Cluj-Napoca, Romania, 2023</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Student ambassador</b> &nbsp; <span class="event-name">Women of NeurotechEU<a href="#footnote1" class="footnote">3</a></span></span>
+    <span class="event-date"><i>Cluj-Napoca, Romania, 2023</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; 9th Dutch Bio-Medical Engineering Conference
-  <span style="display: inline-block; float: right;"><i>Egmond aan Zee, Netherlands, 2023</i></span></li>
-
+  <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">9th Dutch Bio-Medical Engineering Conference</span></span>
+    <span class="event-date"><i>Egmond aan Zee, Netherlands, 2023</i></span>
+  </li>
   <hr>
 
-  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Max Planck Research Group Vision and Computational Cognition (lab visit)
-  <span style="display: inline-block; float: right;"><i>Leipzig, Germany, 2022</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Max Planck Research Group Vision and Computational Cognition (lab visit)</span></span>
+    <span class="event-date"><i>Leipzig, Germany, 2022</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Organiser</b> &nbsp; Synapses Lecture Series<a href="#footnote1" class="footnote">3</a>
-  <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2022</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Organiser</b> &nbsp; <span class="event-name">Synapses Lecture Series<a href="#footnote1" class="footnote">3</a></span></span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Attendee</b> &nbsp; European Conference on Visual Perception
-  <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2022</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Attendee</b> &nbsp; <span class="event-name">European Conference on Visual Perception</span></span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Pre-master Introduction Day<a href="#footnote1" class="footnote">1</a>
-  <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2022</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Pre-master Introduction Day<a href="#footnote1" class="footnote">1</a></span></span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Finalist</b> &nbsp; AI Song Contest
-  <span style="display: inline-block; float: right;"><i>Liege, Belgium, 2022</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Finalist</b> &nbsp; <span class="event-name">AI Song Contest</span></span>
+    <span class="event-date"><i>Liege, Belgium, 2022</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Student ambassador</b> &nbsp; 3rd NeurotechEU Board of Rectors Meeting<a href="#footnote1" class="footnote">3</a>
-  <span style="display: inline-block; float: right;"><i>Cluj-Napoca, Romania, 2022</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Student ambassador</b> &nbsp; <span class="event-name">3rd NeurotechEU Board of Rectors Meeting<a href="#footnote1" class="footnote">3</a></span></span>
+    <span class="event-date"><i>Cluj-Napoca, Romania, 2022</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; 18th NVP Winter Conference on Brain & Cognition
-  <span style="display: inline-block; float: right;"><i>Egmond aan Zee, Netherlands, 2022</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">18th NVP Winter Conference on Brain & Cognition</span></span>
+    <span class="event-date"><i>Egmond aan Zee, Netherlands, 2022</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Dondrite Career Event<a href="#footnote1" class="footnote">4</a>
-  <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2022</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Dondrite Career Event<a href="#footnote1" class="footnote">4</a></span></span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Donders Poster Session<a href="#footnote1" class="footnote">1</a>
-  <span style="display: inline-block; float: right;"><i>Nijmegen, Netherlands, 2022</i></span></li>
-
+  <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session<a href="#footnote1" class="footnote">1</a></span></span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
+  </li>
   <hr>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; 10th International IEEE/EMBS Conference on Neural Engineering
-  <span style="display: inline-block; float: right;"><i>Virtual, 2021</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">10th International IEEE/EMBS Conference on Neural Engineering</span></span>
+    <span class="event-date"><i>Virtual, 2021</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Welcoming Synapses: From Cajal to NeurotechEU<a href="#footnote1" class="footnote">3</a>
-  <span style="display: inline-block; float: right;"><i>Virtual, 2021</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Welcoming Synapses: From Cajal to NeurotechEU<a href="#footnote1" class="footnote">3</a></span></span>
+    <span class="event-date"><i>Virtual, 2021</i></span>
+  </li>
 
-  <li style="list-style-type: square; text-align: left;"><b>Speaker</b> &nbsp; Functional Analysis Meeting, Donders Centre for Cognitive Neuroimaging (lab visit)
-  <span style="display: inline-block; float: right;"><i>Virtual, 2021</i></span></li>
-
+  <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Functional Analysis Meeting, Donders Centre for Cognitive Neuroimaging (lab visit)</span></span>
+    <span class="event-date"><i>Virtual, 2021</i></span>
+  </li>
   <hr>
 
-  <li style="list-style-type: square; text-align: left;"><b>Poster presenter</b> &nbsp; Donders Poster Session<a href="#footnote1" class="footnote">2</a>
-  <span style="display: inline-block; float: right;"><i>Virtual, 2020</i></span></li>
+  <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session<a href="#footnote1" class="footnote">2</a></span></span>
+    <span class="event-date"><i>Virtual, 2020</i></span>
+  </li>
 </ul>
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research grants and prizes »</h2>
