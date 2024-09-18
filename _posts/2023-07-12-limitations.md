@@ -1,8 +1,8 @@
 ---
-title: "map != territory"
+title: "Limits of representation"
 layout: posts
 header:
-    teaser: /assets/images/tiles/pipe.png
+    teaser: /assets/images/tiles/pipe.jpeg
 ---
 
 {{ page.date | date: '%Y, %d %B' }}
