@@ -1,5 +1,5 @@
 ---
-title: "landscape generation"
+title: "Landscape generation"
 layout: posts
 header:
     teaser: /assets/images/tiles/landscape.png
