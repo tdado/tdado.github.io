@@ -6,61 +6,62 @@ author_profile: true
 ---
 
 <style>
-  .blog-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  .blog-list {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
     margin: 20px 0;
   }
 
   .blog-item {
-    background-color: #ffffff; /* White background for the tiles */
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
     border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for a floating effect */
-    text-decoration: none; /* Remove underline from link */
-    color: inherit; /* Inherit text color */
-    display: block; /* Ensure the entire tile is clickable */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: inherit;
   }
 
   .blog-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+    background-color: #f9f9f9; /* Light background color on hover */
   }
 
   .blog-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+    width: 100px; /* Fixed width for thumbnails */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
   }
 
   .blog-content {
-    padding: 10px;
+    flex: 1;
   }
 
   .blog-title {
     font-weight: bold;
-    color: #333; /* Darker text color for contrast */
-    margin-bottom: 5px;
+    color: #333;
+    margin: 0;
+    font-size: 1.1em;
   }
 
   .blog-date {
-    color: #555; /* Slightly lighter text color for the date */
+    color: #555;
     font-size: 0.9em;
+    margin-top: 5px;
   }
 </style>
 
 <h1 style="color: #DD4124;">Blog</h1>
-<div class="blog-grid">
+<div class="blog-list">
   {% for post in site.posts %}
   <a href="{{ post.url }}" class="blog-item">
-    <!-- Use teaser image from the post's front matter -->
     {% if post.header.teaser %}
       <img src="{{ post.header.teaser }}" alt="{{ post.title }}">
     {% else %}
-      <!-- Fallback image if no teaser is provided -->
       <img src="/assets/images/default-blog-image.jpg" alt="{{ post.title }}">
     {% endif %}
     <div class="blog-content">
