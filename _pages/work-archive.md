@@ -126,6 +126,9 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research »</h2>
 <ul style="display:none;">
+  <li style="list-style-type: square">
+        Le, L., Papale, P., Seeliger, K., Lozano, A., <b>Dado, T.</b>, Wang, F., Roelfsema, P.R., van Gerven, M., Güçlütürk, Y. and Güçlü, U., <a href="https://openreview.net/pdf?id=OWwdlxwnFN">MonkeySee: Space-time-resolved reconstructions of natural images from macaque multi-unit activity.</a> In The Thirty-eighth Annual Conference on Neural Information Processing Systems.
+    </li> 
     <li style="list-style-type: square">
         <b>Dado, T.</b>, Le, L., van Gerven, M., Gucluturk, Y., & Guclu, U. (2024). <a href="/work/pam">PAM: Predictive attention mechanism for neural decoding of visual perception.</a> bioRxiv, 2024-06.
     </li> 
@@ -167,6 +170,10 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Speaking engagements »</h2>
 <ul style="display:none;">
+    <li class="event-item">
+    <span class="event-description"><b>Attendee</b> &nbsp; <span class="event-name">Foraging Conference</span></span>
+    <span class="event-date"><i>Lyon, France, 2024</i></span>
+  </li>
   <li class="event-item">
     <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">CogSci</span></span>
     <span class="event-date"><i>Rotterdam, Netherlands, 2024</i></span>
