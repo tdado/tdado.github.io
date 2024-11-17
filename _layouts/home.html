@@ -5,41 +5,59 @@ layout: archive
 {{ content }}
 
 <style>
-
 .homepage-intro {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center items vertically */
-  align-items: center; /* Center items horizontally */
-  text-align: left; /* Text align left for content within */
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
   padding: 20px;
-  margin: auto; /* Center the container horizontally */
-  width: 100%; /* Adjust width as necessary */
-  max-width: 600px; /* Set max width for content area */
-}
-
-.homepage-intro h1, .homepage-intro p {
-  align-self: flex-start; /* Align text to the start of the flex container */
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
 }
 
 .homepage-intro h1 {
-  color: #DD4124; /* A pretty shade of red */
+  color: #DD4124;
+  margin: 0 0 20px 0; /* Consistent spacing below title */
 }
 
 .homepage-intro p {
   font-size: 16px;
   line-height: 1.6;
   max-width: 600px;
-  margin: 0 auto;
-  color: #333; /* This is a dark gray, feel free to choose your color */
+  margin: 0 0 20px 0; /* Consistent spacing below paragraph */
+  color: #333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-</style>
 
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  gap: 10px; /* Adjusted gap for balance */
+}
+
+.image-row img {
+  width: calc(25% - 10px);
+  height: auto;
+  border-radius: 4px;
+}
+</style>
+  
 <div class="homepage-intro">
-  <h1>Home</h1>
-  <p>Kicking off my postdoctoral research at the Predictive Brain Lab, getting to grips with curiosity in minds and machines.</p>
+    <h1>Home</h1>
+    <p>Currently designing virtual environments for studying curiosity 🖤</p>
+    <div class="image-row">
+      <img src="assets/images/tiles/water.png" alt="Water">
+      <img src="assets/images/tiles/grass.png" alt="Grass">
+      <img src="assets/images/tiles/stone.png" alt="Stone">
+      <img src="assets/images/tiles/snow.png" alt="Snow">
+    </div>
 </div>
+  
 
 <!-- <style>
   .image-container {
