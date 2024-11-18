@@ -159,7 +159,11 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Teaching »</h2>
 <ul style="display:none;">
     <li class="event-item">
-        <span class="event-description"><b>Tutorial creator & teaching assistant</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html" class="event-name">ABC Summer School: Neuro-AI</a></span>
+        <span class="event-description"><b>Tutorial creator</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html" class="event-name">ABC Summer School: Neuro-AI</a></span>
+        <span class="event-date"><i>2024</i></span>
+    </li>
+    <li class="event-item">
+        <span class="event-description"><b>Teaching assistant</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html" class="event-name">ABC Summer School: Neuro-AI</a></span>
         <span class="event-date"><i>2024</i></span>
     </li>
     <li class="event-item">
