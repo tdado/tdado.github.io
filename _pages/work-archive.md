@@ -158,15 +158,40 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Teaching »</h2>
 <ul style="display:none;">
-  <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html">ABC Summer School: Neuro-AI</a> <span style="display: inline-block; float: right;"><i>2024</i></span></li>
-  <li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/">Artificial intelligence for neurotechnology</a><span style="display: inline-block; float: right;"><i>2021 to 2024</i></span></li>
-  <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-bki230a-deep-learning/">Deep learning</a><span style="display: inline-block; float: right;"><i>2021 to 2024</i></span></li>
-  <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki95-computer-graphics-computer-vision/">Computer graphics and computer vision</a><span style="display: inline-block; float: right;"><i>2020 to 2024</i></span></li>
-  <li style="list-style-type: square"><b>Guest lecturer</b> &nbsp; Proefstuderen<a href="#footnote1" class="footnote">1</a> <span style="display: inline-block; float: right;"><i>2022</i></span></li>
-  <li style="list-style-type: square"><b>Member</b> &nbsp; Information and orientation team<a href="#footnote1" class="footnote">1</a> <span style="display: inline-block; float: right;"><i>2022</i></span></li>
-  <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Human-computer interaction <span style="display: inline-block; float: right;"><i>2021</i></span></li>
-  <li style="list-style-type: square"><b>Teaching assistant</b> &nbsp; Brain reading and writing <span style="display: inline-block; float: right;"><i>2020</i></span></li>
+    <li class="event-item">
+        <span class="event-description"><b>Tutorial creator & teaching assistant</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html" class="event-name">ABC Summer School: Neuro-AI</a></span>
+        <span class="event-date"><i>2024</i></span>
+    </li>
+    <li class="event-item">
+        <span class="event-description"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/" class="event-name">Artificial intelligence for neurotechnology</a></span>
+        <span class="event-date"><i>2021 to 2024</i></span>
+    </li>
+    <li class="event-item">
+        <span class="event-description"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-bki230a-deep-learning/" class="event-name">Deep learning</a></span>
+        <span class="event-date"><i>2021 to 2024</i></span>
+    </li>
+    <li class="event-item">
+        <span class="event-description"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki95-computer-graphics-computer-vision/" class="event-name">Computer graphics and computer vision</a></span>
+        <span class="event-date"><i>2020 to 2024</i></span>
+    </li>
+    <li class="event-item">
+        <span class="event-description"><b>Guest lecturer</b> &nbsp; <span class="event-name">Proefstuderen<a href="#footnote1" class="footnote">1</a></span></span>
+        <span class="event-date"><i>2022</i></span>
+    </li>
+    <li class="event-item">
+        <span class="event-description"><b>Member</b> &nbsp; <span class="event-name">Information and orientation team<a href="#footnote1" class="footnote">1</a></span></span>
+        <span class="event-date"><i>2022</i></span>
+    </li>
+    <li class="event-item">
+        <span class="event-description"><b>Teaching assistant</b> &nbsp; <span class="event-name">Human-computer interaction</span></span>
+        <span class="event-date"><i>2021</i></span>
+    </li>
+    <li class="event-item">
+        <span class="event-description"><b>Teaching assistant</b> &nbsp; <span class="event-name">Brain reading and writing</span></span>
+        <span class="event-date"><i>2020</i></span>
+    </li>
 </ul>
+
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Speaking engagements »</h2>
 <ul style="display:none;">
