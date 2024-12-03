@@ -136,7 +136,7 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
         <b>Dado, T.</b>, & Güçlü, U. (2024). <a href="/work/dicoding">Get more from less: Differential neural decoding for effective reconstruction of perceived naturalistic stimuli from noisy and scarce neural data.</a> In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 46).
     </li> 
     <li style="list-style-type: square">
-        <b>Dado, T.</b>, Papale, P., Lozano, A., Le, L., Wang, F., van Gerven, M., ... & Güçlü, U. (2024). <a href="/work/brain2gan">Brain2GAN: Feature-disentangled neural encoding and decoding of visual perception in the primate brain.</a> PLoS computational biology, 20(5), e1012058.
+        <b>Dado, T.</b>, Papale, P., Lozano, A., Le, L., Wang, F., van Gerven, M., ... & Güçlü, U. (2024). <a href="/work/brain2gan">Brain2GAN: Feature-disentangled neural encoding and decoding of visual perception in the primate brain.</a> PLoS Computational Biology, 20(5), e1012058.
     </li> 
     <li style="list-style-type: square">
         <b>Dado, T.</b>, Papale, P., Lozano, A., Le, L., van Gerven, M., Roelfsema, P., Güçlütürk, Y., & Güçlü, U. (2023). <a href="https://2023.ccneuro.org/proceedings/0000813.pdf?s=W&pn=1495">Feature-disentangled reconstruction of perception from multi-unit recording.</a> In Conference on Cognitive Computational Neuroscience.
@@ -145,7 +145,7 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
         Le, L., Papale, P., Lozano, A., <b>Dado, T.</b>, Wang, F., van Gerven, M., Roelfsema, P., Güçlütürk, Y., & Güçlü, U. (2023). <a href="https://2023.ccneuro.org/proceedings/0001032.pdf?s=W&pn=1564">End-to-end reconstruction of natural images from multi-unit recordings with Brain2Pix.</a> In Conference on Cognitive Computational Neuroscience. 
     </li>
     <li style="list-style-type: square">
-        <b>Dado, T.</b>, Güçlütürk, Y., Ambrogioni, L., Ras, G., Bosch, S., van Gerven, M., & Güçlü, U. (2022). <a href="/work/hyper">Hyperrealistic neural decoding for reconstructing faces from fMRI activations via the GAN latent space.</a> Scientific reports, 12(1), 141.
+        <b>Dado, T.</b>, Güçlütürk, Y., Ambrogioni, L., Ras, G., Bosch, S., van Gerven, M., & Güçlü, U. (2022). <a href="/work/hyper">Hyperrealistic neural decoding for reconstructing faces from fMRI activations via the GAN latent space.</a> Scientific Reports, 12(1), 141.
     </li>
     <li style="list-style-type: square">
         <b>Dado, T.</b>, Güçlütürk, Y., Ambrogioni, L., Ras, G., Bosch, S., van Gerven, M., & Güçlü, U. (2021). <a href="/assets/files/hyper21.pdf">Hyperrealistic neural decoding of faces.</a> International IEEE EMBS Conference on Neural Engineering.
