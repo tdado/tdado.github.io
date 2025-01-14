@@ -230,7 +230,7 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Department of Brain & Cognition, Psychology (lab visit), University of Amsterdam</span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Dept. Brain & Cognition, Psychology (lab visit), University of Amsterdam</span></span>
     <span class="event-date"><i>Amsterdam, Netherlands, 2023</i></span>
   </li>
 
