@@ -261,7 +261,7 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
   <hr>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Max Planck Research Group Vision and Computational Cognition | Hebart (lab visit)</span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Max Planck RG Vision and Comp. Cognition | Hebart (lab visit)</span></span>
     <span class="event-date"><i>Leipzig, Germany, 2022</i></span>
   </li>
 
@@ -317,7 +317,7 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Functional Analysis Meeting, Donders Centre for Cognitive Neuroimaging (lab visit)</span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Functional Analysis Meeting, DCCN (lab visit)</span></span>
     <span class="event-date"><i>Virtual, 2021</i></span>
   </li>
   <hr>
