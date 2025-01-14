@@ -127,10 +127,10 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research »</h2>
 <ul style="display:none;">
     <li style="list-style-type: square">
-        Le, L., Kimman, N., Dado, T., Seeliger, K., Papale, P., Lozano, A., Roelfsema, P., van Gerven, M., Güçlütürk, Y. and Güçlü, U. (2025). <a href="https://arxiv.org/pdf/2501.03741">Neural encoding with affine feature response transforms.</a> arXiv preprint arXiv:2501.03741.
+        Le, L., Kimman, N., <b>Dado, T.</b>, Seeliger, K., Papale, P., Lozano, A., Roelfsema, P., van Gerven, M., Güçlütürk, Y. and Güçlü, U. (2025). <a href="https://arxiv.org/pdf/2501.03741">Neural encoding with affine feature response transforms.</a> arXiv preprint arXiv:2501.03741.
     </li> 
     <li style="list-style-type: square">
-        Le, L., Dado, T., Seeliger, K., Papale, P., Lozano, A., Roelfsema, P., Güçlütürk, Y., van Gerven, M. and Güçlü, U. (2025). <a href="https://arxiv.org/pdf/2501.03051">Inverse receptive field attention for naturalistic image reconstruction from the brain.</a> arXiv preprint arXiv:2501.03051.
+        Le, L., <b>Dado, T.</b>, Seeliger, K., Papale, P., Lozano, A., Roelfsema, P., Güçlütürk, Y., van Gerven, M. and Güçlü, U. (2025). <a href="https://arxiv.org/pdf/2501.03051">Inverse receptive field attention for naturalistic image reconstruction from the brain.</a> arXiv preprint arXiv:2501.03051.
     </li> 
     <li style="list-style-type: square">
         Le, L., Papale, P., Seeliger, K., Lozano, A., <b>Dado, T.</b>, Wang, F., Roelfsema, P.R., van Gerven, M., Güçlütürk, Y. and Güçlü, U. (2024). <a href="https://openreview.net/pdf?id=OWwdlxwnFN">MonkeySee: Space-time-resolved reconstructions of natural images from macaque multi-unit activity.</a> In The Thirty-eighth Annual Conference on Neural Information Processing Systems.
