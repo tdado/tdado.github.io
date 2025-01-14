@@ -126,7 +126,13 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research »</h2>
 <ul style="display:none;">
-  <li style="list-style-type: square">
+    <li style="list-style-type: square">
+        Le, L., Kimman, N., Dado, T., Seeliger, K., Papale, P., Lozano, A., Roelfsema, P., van Gerven, M., Güçlütürk, Y. and Güçlü, U. (2025). <a href="https://arxiv.org/pdf/2501.03741">Neural encoding with affine feature response transforms.</a> arXiv preprint arXiv:2501.03741.
+    </li> 
+    <li style="list-style-type: square">
+        Le, L., Dado, T., Seeliger, K., Papale, P., Lozano, A., Roelfsema, P., Güçlütürk, Y., van Gerven, M. and Güçlü, U. (2025). <a href="https://arxiv.org/pdf/2501.03051">Inverse receptive field attention for naturalistic image reconstruction from the brain.</a> arXiv preprint arXiv:2501.03051.
+    </li> 
+    <li style="list-style-type: square">
         Le, L., Papale, P., Seeliger, K., Lozano, A., <b>Dado, T.</b>, Wang, F., Roelfsema, P.R., van Gerven, M., Güçlütürk, Y. and Güçlü, U. (2024). <a href="https://openreview.net/pdf?id=OWwdlxwnFN">MonkeySee: Space-time-resolved reconstructions of natural images from macaque multi-unit activity.</a> In The Thirty-eighth Annual Conference on Neural Information Processing Systems.
     </li> 
     <li style="list-style-type: square">
@@ -199,7 +205,16 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Speaking engagements »</h2>
 <ul style="display:none;">
-    <li class="event-item">
+  <li class="event-item">
+    <span class="event-description"><b>TBA</b> &nbsp; <span class="event-name">Conference on Cognitive Computational Neuroscience</span></span>
+    <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
+  </li>
+  <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Visual Inference Lab | Kriegeskorte (lab visit)</span></span>
+    <span class="event-date"><i>New York, US, 2025</i></span>
+  </li>
+  <hr>
+  <li class="event-item">
     <span class="event-description"><b>Attendee</b> &nbsp; <span class="event-name">Foraging Conference</span></span>
     <span class="event-date"><i>Lyon, France, 2024</i></span>
   </li>
@@ -246,7 +261,7 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
   <hr>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Max Planck Research Group Vision and Computational Cognition (lab visit)</span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Max Planck Research Group Vision and Computational Cognition | Hebart (lab visit)</span></span>
     <span class="event-date"><i>Leipzig, Germany, 2022</i></span>
   </li>
 
