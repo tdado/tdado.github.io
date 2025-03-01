@@ -5,7 +5,9 @@ author_profile: true
 classes: wide
 ---
 
-**Thirza Dado, Lynn Le, Marcel van Gerven, Yağmur Güçlütürk & Umut Güçlü**
+<p style="letter-spacing: -0.5px;"><b>
+Thirza Dado, Lynn Le, Marcel van Gerven, Yağmur Güçlütürk & Umut Güçlü
+</b></p>
 
 BioRxiv  
 08 Feb 2025
