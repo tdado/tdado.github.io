@@ -120,12 +120,13 @@ author_profile: true
 </style>
 
 <h1 style="color:#DD4124;">Work</h1>
-<b>Artificial Intelligence &middot; Cognitive Neuroscience &middot; Generative Modeling &middot; Neural Coding</b><br>
-
-Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as speaking engagements to share and advance knowledge. This is an overview of my endeavors:
+<!-- <b>Artificial Intelligence &middot; Cognitive Neuroscience &middot; Generative Modeling &middot; Neural Coding</b><br> -->
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research »</h2>
 <ul style="display:none;">
+    <li style="list-style-type: square">
+        <b>Dado, T.</b>, Le, L., van Gerven, M., Güçlütürk, Y., & Güçlü, U. (2025). <a href="https://www.biorxiv.org/content/10.1101/2024.06.04.596589v2">PAM: Predictive attention mechanism for neural decoding of visual perception.</a> bioRxiv, 2025-02.
+    </li> 
     <li style="list-style-type: square">
         Le, L., Kimman, N., <b>Dado, T.</b>, Seeliger, K., Papale, P., Lozano, A., Roelfsema, P., van Gerven, M., Güçlütürk, Y. and Güçlü, U. (2025). <a href="https://arxiv.org/pdf/2501.03741">Neural encoding with affine feature response transforms.</a> arXiv preprint arXiv:2501.03741.
     </li> 
@@ -134,9 +135,6 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
     </li> 
     <li style="list-style-type: square">
         Le, L., Papale, P., Seeliger, K., Lozano, A., <b>Dado, T.</b>, Wang, F., Roelfsema, P.R., van Gerven, M., Güçlütürk, Y. and Güçlü, U. (2024). <a href="https://openreview.net/pdf?id=OWwdlxwnFN">MonkeySee: Space-time-resolved reconstructions of natural images from macaque multi-unit activity.</a> In The Thirty-eighth Annual Conference on Neural Information Processing Systems.
-    </li> 
-    <li style="list-style-type: square">
-        <b>Dado, T.</b>, Le, L., van Gerven, M., Gucluturk, Y., & Guclu, U. (2024). <a href="/work/pam">PAM: Predictive attention mechanism for neural decoding of visual perception.</a> bioRxiv, 2024-06.
     </li> 
     <li style="list-style-type: square">
         <b>Dado, T.</b>, & Güçlü, U. (2024). <a href="/work/dicoding">Get more from less: Differential neural decoding for effective reconstruction of perceived naturalistic stimuli from noisy and scarce neural data.</a> In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 46).
@@ -165,16 +163,16 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Teaching »</h2>
 <ul style="display:none;">
     <li class="event-item">
+        <span class="event-description"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/" class="event-name">Artificial intelligence for neurotechnology</a></span>
+        <span class="event-date"><i>2021 to 2025</i></span>
+    </li>
+    <li class="event-item">
         <span class="event-description"><b>Tutorial creator</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html" class="event-name">ABC Summer School: Neuro-AI</a></span>
         <span class="event-date"><i>2024</i></span>
     </li>
     <li class="event-item">
         <span class="event-description"><b>Teaching assistant</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html" class="event-name">ABC Summer School: Neuro-AI</a></span>
         <span class="event-date"><i>2024</i></span>
-    </li>
-    <li class="event-item">
-        <span class="event-description"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/" class="event-name">Artificial intelligence for neurotechnology</a></span>
-        <span class="event-date"><i>2021 to 2024</i></span>
     </li>
     <li class="event-item">
         <span class="event-description"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-bki230a-deep-learning/" class="event-name">Deep learning</a></span>
@@ -185,11 +183,11 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
         <span class="event-date"><i>2020 to 2024</i></span>
     </li>
     <li class="event-item">
-        <span class="event-description"><b>Guest lecturer</b> &nbsp; <span class="event-name">Proefstuderen<a href="#footnote1" class="footnote">1</a></span></span>
+        <span class="event-description"><b>Guest lecturer</b> &nbsp; <span class="event-name">Proefstuderen</span></span>
         <span class="event-date"><i>2022</i></span>
     </li>
     <li class="event-item">
-        <span class="event-description"><b>Member</b> &nbsp; <span class="event-name">Information and orientation team<a href="#footnote1" class="footnote">1</a></span></span>
+        <span class="event-description"><b>Member</b> &nbsp; <span class="event-name">Information and orientation team</span></span>
         <span class="event-date"><i>2022</i></span>
     </li>
     <li class="event-item">
@@ -210,7 +208,7 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
     <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
   </li>
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Visual Inference Lab | Kriegeskorte (lab visit), Columbia University</span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Visual Inference Lab | Kriegeskorte, Columbia University</span></span>
     <span class="event-date"><i>New York, US, 2025</i></span>
   </li>
   <hr>
@@ -219,7 +217,7 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
     <span class="event-date"><i>Lyon, France, 2024</i></span>
   </li>
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">CogSci</span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">46th Annual Meeting of the Cognitive Science Society</span></span>
     <span class="event-date"><i>Rotterdam, Netherlands, 2024</i></span>
   </li>
   <hr>
@@ -230,7 +228,7 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Dept. Brain & Cognition, Psychology (lab visit), University of Amsterdam</span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Dept. Brain & Cognition, Psychology, University of Amsterdam</span></span>
     <span class="event-date"><i>Amsterdam, Netherlands, 2023</i></span>
   </li>
 
@@ -245,12 +243,12 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session<a href="#footnote1" class="footnote">2</a></span></span>
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session</span></span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2023</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Student ambassador</b> &nbsp; <span class="event-name">Women of NeurotechEU<a href="#footnote1" class="footnote">3</a></span></span>
+    <span class="event-description"><b>Student ambassador</b> &nbsp; <span class="event-name">Women of NeurotechEU</span></span>
     <span class="event-date"><i>Cluj-Napoca, Romania, 2023</i></span>
   </li>
 
@@ -261,12 +259,12 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
   <hr>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Max Planck RG Vision and Comp. Cognition | Hebart (lab visit)</span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Max Planck RG Vision and Comp. Cognition | Hebart Lab</span></span>
     <span class="event-date"><i>Leipzig, Germany, 2022</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Organiser</b> &nbsp; <span class="event-name">Synapses Lecture Series<a href="#footnote1" class="footnote">3</a></span></span>
+    <span class="event-description"><b>Organiser</b> &nbsp; <span class="event-name">Synapses Lecture Series</span></span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
   </li>
 
@@ -276,17 +274,12 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Pre-master Introduction Day<a href="#footnote1" class="footnote">1</a></span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Pre-master Introduction Day</span></span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Finalist</b> &nbsp; <span class="event-name">AI Song Contest</span></span>
-    <span class="event-date"><i>Liege, Belgium, 2022</i></span>
-  </li>
-
-  <li class="event-item">
-    <span class="event-description"><b>Student ambassador</b> &nbsp; <span class="event-name">3rd NeurotechEU Board of Rectors Meeting<a href="#footnote1" class="footnote">3</a></span></span>
+    <span class="event-description"><b>Student ambassador</b> &nbsp; <span class="event-name">3rd NeurotechEU Board of Rectors Meeting</span></span>
     <span class="event-date"><i>Cluj-Napoca, Romania, 2022</i></span>
   </li>
 
@@ -296,12 +289,12 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Dondrite Career Event<a href="#footnote1" class="footnote">4</a></span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Dondrite Career Event</span></span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session<a href="#footnote1" class="footnote">1</a></span></span>
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session</span></span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
   </li>
   <hr>
@@ -312,18 +305,18 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Welcoming Synapses: From Cajal to NeurotechEU<a href="#footnote1" class="footnote">3</a></span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Welcoming Synapses: From Cajal to NeurotechEU</span></span>
     <span class="event-date"><i>Virtual, 2021</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Functional Analysis Meeting, DCCN (lab visit)</span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Functional Analysis Meeting, DCCN</span></span>
     <span class="event-date"><i>Virtual, 2021</i></span>
   </li>
   <hr>
 
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session<a href="#footnote1" class="footnote">2</a></span></span>
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session</span></span>
     <span class="event-date"><i>Virtual, 2020</i></span>
   </li>
 </ul>
@@ -337,12 +330,3 @@ Throughout my PhD, I balanced research (~90%) with teaching (~10%) as well as sp
   <li style="list-style-type: square">DCC Student Assistant Fellowship <span style="display: inline-block; float: right;"><i>2020</i></span></li>
 </ul>
 <br>
-
-<footer>
-  <p id="footnotes" style="font-size: smaller;">
-    <sup style="color: #933f7a;">1</sup>The master's programme of Cognitive Neuroscience, Radboud University;
-    <sup style="color: #933f7a;">2</sup>Donders Institute for Brain, Cognition and Behaviour;
-    <sup style="color: #933f7a;">3</sup>NeurotechEU; The European University of Brain and Technology;
-    <sup style="color: #933f7a;">4</sup>Dondrite: study association of the master's Cognitive Neuroscience;
-  </p>
-</footer>
