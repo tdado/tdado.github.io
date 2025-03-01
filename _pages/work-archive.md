@@ -201,11 +201,15 @@ author_profile: true
 </ul>
 
 
-<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Speaking engagements »</h2>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Academic activities »</h2>
 <ul style="display:none;">
   <li class="event-item">
-    <span class="event-description"><b>TBA</b> &nbsp; <span class="event-name">Conference on Cognitive Computational Neuroscience</span></span>
+    <span class="event-description"><b>Organizing member</b> &nbsp; <span class="event-name">Conference on Cognitive Computational Neuroscience</span></span>
     <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
+  </li>
+  <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">NeuroTechHub: Mind-Reading Technology</span></span>
+    <span class="event-date"><i>Virtual, 2025</i></span>
   </li>
   <li class="event-item">
     <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Visual Inference Lab | Kriegeskorte, Columbia University</span></span>
@@ -264,7 +268,7 @@ author_profile: true
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Organiser</b> &nbsp; <span class="event-name">Synapses Lecture Series</span></span>
+    <span class="event-description"><b>Organizer</b> &nbsp; <span class="event-name">Synapses Lecture Series</span></span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
   </li>
 
