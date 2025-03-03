@@ -117,15 +117,18 @@ author_profile: true
 .titles {
     color: #555; /* Dark grey for subtle emphasis */
 }
+
 </style>
 
 <h1 style="color:#DD4124;">Work</h1>
-<!-- <b>Artificial Intelligence &middot; Cognitive Neuroscience &middot; Generative Modeling &middot; Neural Coding</b><br> -->
+<b>Curiosity &middot; Generative Modeling &middot; Neural Coding &middot; Predictive Coding</b><br>
+
+
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research »</h2>
 <ul style="display:none;">
     <li style="list-style-type: square">
-        <b>Dado, T.</b>, Le, L., van Gerven, M., Güçlütürk, Y., & Güçlü, U. (2025). <a href="https://www.biorxiv.org/content/10.1101/2024.06.04.596589v2">PAM: Predictive attention mechanism for neural decoding of visual perception.</a> bioRxiv, 2025-02.
+        <b>Dado, T.</b>, Le, L., van Gerven, M., Güçlütürk, Y., & Güçlü, U. (2025). <a href="/work/pam">PAM: Predictive attention mechanism for neural decoding of visual perception.</a> bioRxiv, 2025-02.
     </li> 
     <li style="list-style-type: square">
         Le, L., Kimman, N., <b>Dado, T.</b>, Seeliger, K., Papale, P., Lozano, A., Roelfsema, P., van Gerven, M., Güçlütürk, Y. and Güçlü, U. (2025). <a href="https://arxiv.org/pdf/2501.03741">Neural encoding with affine feature response transforms.</a> arXiv preprint arXiv:2501.03741.
