@@ -13,7 +13,7 @@ PLoS Computational Biology
 07 May 2024
 
 📝 [Full paper](https://doi.org/10.1371/journal.pcbi.1012058)  
-🔑 [GitHub repo](https://github.com/neuralcodinglab/brain2gan)  
+🔑 [GitHub repo](https://github.com/tdado/brain2gan)  
 👩‍🦰 [Face stimuli and responses](https://figshare.com/articles/dataset/Brain2GAN_StyleGAN3_/25638114)  
 🌄 [Image stimuli and responses](https://figshare.com/articles/dataset/Brain2GAN_StyleGAN-XL_/25637856)  
 🪧 [Poster](/assets/files/ccn23.pdf)  
