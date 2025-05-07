@@ -16,7 +16,7 @@ Scientific Reports
 07 Jan 2022 
 
 📝 [Full paper](https://www.nature.com/articles/s41598-021-03938-w)  
-🔑 [GitHub repo](https://github.com/neuralcodinglab/HYPER)  
+🔑 [GitHub repo](https://github.com/tdado/hyper)  
 🧠 [fMRI responses](https://openneuro.org/datasets/ds004280/versions/1.0.1)  
 
 
