@@ -207,6 +207,10 @@ author_profile: true
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Academic activities »</h2>
 <ul style="display:none;">
   <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Conference on Cognitive Computational Neuroscience</span></span>
+    <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
+  </li>
+  <li class="event-item">
     <span class="event-description"><b>Organizing member</b> &nbsp; <span class="event-name">Conference on Cognitive Computational Neuroscience</span></span>
     <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
   </li>
