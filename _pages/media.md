@@ -55,6 +55,15 @@ classes: wide
 <h1 style="color: #DD4124;">Media</h1>
 
 <div class="media-grid">
+  <a href="https://tweakers.net/reviews/13598/hersenchips-geven-patienten-hun-spraak-terug-en-bedrijven-toegang-tot-hun-brein.html" class="media-item">
+    <img src="/assets/images/media/decoding.jpg" alt="Tweakers">
+    <div class="media-content">
+      <div class="media-title">Hersenchips geven patiënten hun spraak terug en bedrijven toegang tot hun brein</div>
+      <div class="media-source">Tweakers</div>
+    </div>
+  </a>
+
+
   <a href="https://www.newscientist.com/article/2438107-mind-reading-ai-recreates-what-youre-looking-at-with-amazing-accuracy/" class="media-item">
     <img src="/assets/images/media/ns.webp" alt="New Scientist">
     <div class="media-content">
@@ -127,4 +136,5 @@ classes: wide
     <div class="media-source">Radboud University</div>
   </div>
 </div>
+
 </div>
