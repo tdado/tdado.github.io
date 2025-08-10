@@ -137,4 +137,19 @@ classes: wide
   </div>
 </div>
 
+<div class="media-item">
+  <div class="iframe-container" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <video controls playsinline style="position:absolute;inset:0;width:100%;height:100%;">
+      <source src="/assets/GAMMA1_THIRZA_PUC.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="media-content">
+    <div class="media-title">
+      <a href="/assets/GAMMA1_THIRZA_PUC.mp4" target="_blank" rel="noopener">Kennisclip: profielwerkstuk schrijven</a>
+    </div>
+    <div class="media-source">Radboud Pre-University College</div>
+  </div>
+</div>
+
 </div>
