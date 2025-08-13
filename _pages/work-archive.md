@@ -128,6 +128,9 @@ author_profile: true
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research »</h2>
 <ul style="display:none;">
     <li style="list-style-type: square">
+        <b>Dado, T.</b>, de Lange, F., Berlot, E. (2025). <a href="/work/seeking">From seeing to seeking: belief-based exploration in gamified environments.</a> In Conference on Cognitive Computational Neuroscience. 
+    </li> 
+    <li style="list-style-type: square">
         <b>Dado, T.</b>, Le, L., van Gerven, M., Güçlütürk, Y., & Güçlü, U. (2025). <a href="/work/pam">PAM: Predictive attention mechanism for neural decoding of visual perception.</a> bioRxiv, 2025-02.
     </li> 
     <li style="list-style-type: square">
