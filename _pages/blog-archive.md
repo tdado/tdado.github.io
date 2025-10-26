@@ -9,34 +9,30 @@ author_profile: true
   .blog-list {
     display: flex;
     flex-direction: column;
-    gap: 32px;
-    margin: 40px 0;
+    gap: 48px;
+    margin: 60px 0;
   }
 
   .blog-item {
     display: flex;
-    align-items: flex-start;
-    background: #fafafa;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    align-items: center;
     text-decoration: none;
     color: inherit;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 40px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
   }
 
   .blog-item:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-    background: #fff;
+    transform: translateX(6px);
+    opacity: 0.9;
   }
 
   .blog-item img {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
-    border-radius: 8px;
-    margin-right: 20px;
+    margin-right: 32px;
     flex-shrink: 0;
   }
 
@@ -48,38 +44,43 @@ author_profile: true
   }
 
   .blog-title {
-    font-size: 1.4em;
-    font-weight: 600;
+    font-size: 1.8em;
+    font-weight: 700;
     margin: 0 0 8px;
     color: #222;
+    line-height: 1.2;
+  }
+
+  .blog-title:hover {
+    color: #DD4124;
   }
 
   .blog-date {
-    font-size: 0.9em;
-    color: #888;
+    font-size: 0.95em;
+    color: #777;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     .blog-item {
       flex-direction: column;
       align-items: flex-start;
     }
 
     .blog-item img {
-      margin-bottom: 15px;
+      margin-bottom: 20px;
       margin-right: 0;
       width: 100%;
       height: auto;
     }
 
     .blog-title {
-      font-size: 1.2em;
+      font-size: 1.4em;
     }
   }
 </style>
 
+<h1 style="color: #DD4124; margin-top: 1em;">Blog</h1>
 
-<h1 style="color: #DD4124;">Blog</h1>
 <div class="blog-list">
   {% for post in site.posts %}
   <a href="{{ post.url }}" class="blog-item">
@@ -95,3 +96,4 @@ author_profile: true
   </a>
   {% endfor %}
 </div>
+
