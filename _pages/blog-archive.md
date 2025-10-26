@@ -60,23 +60,32 @@ author_profile: true
     color: #777;
   }
 
-  @media (max-width: 700px) {
-    .blog-item {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .blog-item img {
-      margin-bottom: 20px;
-      margin-right: 0;
-      width: 100%;
-      height: auto;
-    }
-
-    .blog-title {
-      font-size: 1.4em;
-    }
+@media (max-width: 700px) {
+  .blog-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+
+  .blog-item img {
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 100%;
+    max-width: 280px; /* keep reasonable size */
+    aspect-ratio: 1 / 1; /* keeps them square */
+    object-fit: cover;
+    height: auto;
+  }
+
+  .blog-content {
+    align-items: center;
+  }
+
+  .blog-title {
+    font-size: 1.4em;
+  }
+}
+
 </style>
 
 <h1 style="color: #DD4124; margin-top: 1em;">Blog</h1>
