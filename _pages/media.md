@@ -55,6 +55,15 @@ classes: wide
 <h1 style="color: #DD4124;">Media</h1>
 
 <div class="media-grid">
+  <a href="https://www.ru.nl/onderzoek/onderzoeksnieuws/gedachtenlezen-door-afbeeldingen-te-maken-op-basis-van-hersenactiviteit" class="media-item">
+    <img src="/assets/images/media/ai-gedachtelezen-klein.png.webp" alt="RU.nl">
+    <div class="media-content">
+      <div class="media-title">“Gedachtenlezen” door afbeeldingen te maken op basis van hersenactiviteit</div>
+      <div class="media-source">Onderzoeksnieuws (RU)</div>
+    </div>
+  </a>
+
+
   <a href="https://tweakers.net/reviews/13598/hersenchips-geven-patienten-hun-spraak-terug-en-bedrijven-toegang-tot-hun-brein.html" class="media-item">
     <img src="/assets/images/media/decoding.jpg" alt="Tweakers">
     <div class="media-content">
