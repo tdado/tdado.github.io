@@ -105,7 +105,8 @@ author:
   name             : "Thirza Dado"
   avatar           : "/assets/images/tt.png"
   url              : "/about"
-  bio              : "Postdoctoral researcher at the Predictive Brain Lab, studying curiosity in humans & AI"
+  bio              : "Postdoctoral researcher at the <a href='https://predictivebrainlab.com' target='_blank'>Predictive Brain Lab</a>, studying curiosity in humans & AI"
+
   location         : "Amsterdam"
   links:
     - label: "Email"
