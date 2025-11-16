@@ -6,27 +6,36 @@
 @import "thirzadado/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "thirzadado"; // main partials
 
+h1 {
+  font-family: 'Roboto Mono', monospace !important;
+}
+
+.author__name {
+  font-family: 'Roboto Mono', monospace !important;
+}
+
+
 html {
-    font-size: 12px;
+    font-size: 12px; // 12
     font-family: "times";
 
     @include breakpoint($small) {
-      font-size: 12px;
+      font-size: 12px; // 12
       font-family: "times";
     }
   
     @include breakpoint($medium) {
-      font-size: 14px;
+      font-size: 14px; // 14
       font-family: "times";
     }
   
     @include breakpoint($large) {
-      font-size: 16px;
+      font-size: 16px; // 16
       font-family: "times";
     }
   
     @include breakpoint($x-large) {
-      font-size: 18px;
+      font-size: 18px; // 18
       font-family: "times";
     }
   }
