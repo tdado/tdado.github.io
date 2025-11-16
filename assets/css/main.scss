@@ -14,6 +14,14 @@ h1 {
   font-family: 'Roboto Mono', monospace !important;
 }
 
+.author__bio a {
+  color: #DD4124 !important;
+}
+
+.author__bio a:hover {
+  color: #a72e1a !important;
+}
+
 
 html {
     font-size: 12px; // 12
