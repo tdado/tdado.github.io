@@ -18,17 +18,19 @@ layout: archive
 }
 
 .homepage-intro h1 {
+  font-family: 'Roboto Mono', monospace;
   color: #DD4124;
-  margin: 0 0 20px 0; /* Consistent spacing below title */
+  margin: 0 0 20px 0;
 }
 
 .homepage-intro p {
-  font-size: 16px;
+  
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #1a1a1a;
   line-height: 1.6;
   max-width: 600px;
-  margin: 0 0 20px 0; /* Consistent spacing below paragraph */
-  color: #333;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0 0 20px 0;
 }
 
 .image-row {
@@ -37,7 +39,7 @@ layout: archive
   align-items: center;
   width: 100%;
   max-width: 600px;
-  gap: 10px; /* Adjusted gap for balance */
+  gap: 10px;
 }
 
 .image-row img {
@@ -67,30 +69,86 @@ layout: archive
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+/* Curiosity button styles */
+#curiosity-box {
+  margin: 30px 0;
+  text-align: left;
+  max-width: 600px;
+}
 
+#curiosity-btn {
+  padding: 8px 14px;
+  font-size: 14px;
+  font-family: "Courier New", monospace;
+  border: 1px dashed #DD4124;
+  background: #fff;
+  color: #DD4124;
+  cursor: pointer;
+}
+
+#curiosity-btn:hover {
+background: #DD4124;
+color: white;
+}
+
+#curiosity-text {
+  font-size: 10px;
+  line-height: 1.6;
+  margin-top: 15px;
+  color: #333;
+  font-family: "Press Start 2P", monospace;
+  display: none;
+}
 </style>
   
 <div class="homepage-intro">
   <h1>Home</h1>
   <p>
-    Currently studying belief-based exploration in gamified environments, <br> and (un)predictability in the brain
+    Currently studying belief-based exploration in gamified environments, and (un)predictability in the brain.
   </p>
-  <!-- <img src="assets/images/brainy.gif" alt="Curiosity animation" class="curiosity-gif" /> -->
+
+  <!-- Curiosity button -->
+  <div id="curiosity-box">
+    <button id="curiosity-btn">Don't click me</button>
+    <p id="curiosity-text">
+      Tiny rebellion = tiny dopamine hit ⚡🧃. Enjoy it.
+    </p>
+  </div>
 </div>
 
-  
+<script>
+const btn = document.getElementById('curiosity-btn');
+const text = document.getElementById('curiosity-text');
 
-<!-- <style>
-  .image-container {
-    max-width: 80px;
-    display: inline-block;
-  }
 
-  .image-container img {
-    max-width: 100%;
-    height: auto;
-  }
-</style> -->
+let firstClick = true;
+const messages = [
+"It felt forbidden ⚠️; forbidden things are information-rich.",
+"Your brain dislikes not knowing.",
+"Restrictions trigger autonomy; clicking restores control.",
+"Tiny rebellion = tiny dopamine hit ⚡🧃. Enjoy it."
+];
+
+btn.addEventListener('click', () => {
+// hide text quickly to simulate a "refresh" hit
+text.style.display = 'none';
+setTimeout(() => {
+text.style.display = 'block';
+
+if (firstClick) {
+firstClick = false;
+return;
+}
+
+
+const randomIndex = Math.floor(Math.random() * messages.length);
+text.innerHTML = messages[randomIndex];
+}, 60); // quick flash delay
+});
+
+</script>
+
+
 
 <!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 {% if paginator %}
