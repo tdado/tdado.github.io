@@ -54,7 +54,15 @@ classes: wide
 
 <h1 style="color: #DD4124;">Media</h1>
 
-<div class="media-grid">
+  <div class="media-grid">
+  <a href="https://www.gld.nl/nieuws/8385003/gedachtenlezen-kan-niet-deze-onderzoekers-kunnen-het-wel-met-ai" class="media-item">
+  <img src="/assets/images/media/5dccffb4-d51f-350d-89b0-7a5f58383ac0.jpg" alt="RU.nl">
+    <div class="media-content">
+      <div class="media-title">Gedachtenlezen kan niet? Deze onderzoekers kunnen het wél met AI</div>
+      <div class="media-source">Omroep Gelderland</div>
+    </div>
+  </a>
+
   <a href="https://www.ru.nl/onderzoek/onderzoeksnieuws/gedachtenlezen-door-afbeeldingen-te-maken-op-basis-van-hersenactiviteit" class="media-item">
     <img src="/assets/images/media/ai-gedachtelezen-klein.png.webp" alt="RU.nl">
     <div class="media-content">
