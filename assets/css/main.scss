@@ -10,6 +10,15 @@ h1 {
   font-family: 'Roboto Mono', monospace !important;
 }
 
+.page__title,
+.archive__title {
+  white-space: normal !important;
+  line-height: 1.5 !important;  /* <-- this is the one that works */
+  font-family: 'Roboto Mono', monospace !important;
+}
+
+
+
 .author__name {
   font-family: 'Roboto Mono', monospace !important;
 }
