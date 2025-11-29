@@ -56,7 +56,7 @@ classes: wide
 
   <div class="media-grid">
   <a href="https://www.gld.nl/nieuws/8385003/gedachtenlezen-kan-niet-deze-onderzoekers-kunnen-het-wel-met-ai" class="media-item">
-  <img src="/assets/images/media/5dccffb4-d51f-350d-89b0-7a5f58383ac0.jpg" alt="RU.nl">
+  <img src="/assets/images/media/e8b06a79-6a44-31d9-8e37-8ffda36e8230.jpg" alt="RU.nl">
     <div class="media-content">
       <div class="media-title">Gedachtenlezen kan niet? Deze onderzoekers kunnen het wél met AI</div>
       <div class="media-source">Omroep Gelderland</div>
