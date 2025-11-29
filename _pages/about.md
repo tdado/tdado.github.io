@@ -25,42 +25,58 @@ classes: wide
     font-size: 1.1em;
   }
 
-  /* Ensure image does not drop below text */
   .about-img {
+    margin-top: 0px;
+    height: 320px;
     width: 210px;
-    height: auto;
-    flex-shrink: 0; /* Ensures the image doesn't shrink too much */
-    margin-top: 25px;
-    /* filter: grayscale(70%); */
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 8px;
   }
 
-  /* Responsive Fix for Small Screens */
+    .about-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 210px;
+  }
+
+  .about-caption {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 0.85em;
+    color: #666;
+    text-align: center;
+  }
+
   @media (max-width: 768px) {
     .about-container {
-      flex-direction: column; /* Stack text and image */
-      align-items: center; /* Center everything */
+      flex-direction: column;
+      align-items: center;
       text-align: center;
     }
-
     .about-text {
-      width: 90%; /* Make the text take up more space on mobile */
+      width: 90%;
     }
-
     .about-img {
-      margin-top: 4px;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      margin-top: 10px;
+      width: 70%;
+      height: auto;
+      object-fit: contain;
     }
-
   }
 </style>
 
 
 <div class="about-container">
-  <div style="about-text">
+  <div class="about-text">
     <p id="about">
-        Thirza Dado (1993) is a postdoctoral researcher at the <a href="https://www.predictivebrainlab.com/">Predictive Brain Lab</a> of prof. Floris de Lange at the <a href="https://www.ru.nl/en/donders-institute">Donders Institute for Brain, Cognition and Behaviour</a> of the <a href="https://www.ru.nl/en">Radboud University</a>, where she works on curiosity in biological and artificial systems. Curiosity is the intrinsic drive to seek information and engage with the unknown. Its reward lies in the intellectual satisfaction of knowing, a fulfillment that comes from within rather than from external incentives like money or praise. Previously, she completed her PhD on neural coding with synthesized reality, which was funded by a personal top-talent fellowship. Before that, she obtained double master’s degrees in artificial intelligence and cognitive neuroscience with cum laude.
+        Thirza Dado (1993) is a postdoctoral researcher at the <a href="https://www.predictivebrainlab.com/">Predictive Brain Lab</a> of prof. Floris de Lange at the <a href="https://www.ru.nl/en/donders-institute">Donders Institute for Brain, Cognition and Behaviour</a> of the <a href="https://www.ru.nl/en">Radboud University</a>, where she works on curiosity in biological and artificial systems. Curiosity is the intrinsic drive to seek information and engage with the unknown. Its reward lies in the intellectual satisfaction of knowing, a fulfillment that comes from within rather than from external incentives like money or praise. Previously, she completed her PhD on neural coding with synthesized reality, which was funded by a personal top-talent fellowship. Before that, she obtained double master’s degrees in artificial intelligence and cognitive neuroscience with cum laude. Outside the lab, she loves snowboarding in winter and roadtripping the Atlantic coast in summer.
     </p> 
   </div>
-  <img class="about-img" src="/assets/images/profile2.png" alt="Thirza Dado's profile picture">
+  <figure class="about-figure">
+  <img class="about-img" src="/assets/images/SB.jpeg" alt="How snowboarding's going.">
+  <figcaption class="about-caption">Winter.</figcaption>
+</figure>
+
 </div>
