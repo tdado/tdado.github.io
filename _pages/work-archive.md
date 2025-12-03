@@ -361,6 +361,7 @@ author_profile: true
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research grants and prizes »</h2>
 <ul style="display:none;">
+  <li style="list-style-type: square"><a href="https://www.ru.nl/en/donders-institute/news/donders-research-stimulation-funds-call-for-new-collaborations-and-focus-groups">Donders Research Stimulation Funds</a><span style="display: inline-block; float: right;"><i>2025</i></span></li>
   <li style="list-style-type: square">NeurotechEU Best Presentation Award <span style="display: inline-block; float: right;"><i>2021</i></span></li>
   <li style="list-style-type: square">DCC Student Assistant Grant <span style="display: inline-block; float: right;"><i>2021</i></span></li>
   <li style="list-style-type: square">Donders Best Poster Award <span style="display: inline-block; float: right;"><i>2020</i></span></li>
