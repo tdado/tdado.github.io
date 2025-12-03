@@ -209,6 +209,19 @@ author_profile: true
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Academic activities »</h2>
 <ul style="display:none;">
+  
+  <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">  20th NVP Winter Conference</span></span>
+    <span class="event-date"><i>Egmond aan Zee, Netherlands, 2025</i></span>
+  </li>
+  <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">  20th NVP Winter Conference</span></span>
+    <span class="event-date"><i>Egmond aan Zee, Netherlands, 2025</i></span>
+  </li>
+  <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Qua Art – Qua Science (De Museumfabriek)</span></span>
+    <span class="event-date"><i>Enschede, Netherlands, 2025</i></span>
+  </li>
   <li class="event-item">
     <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Donders-NIN Day</span></span>
     <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
@@ -221,11 +234,11 @@ author_profile: true
     <span class="event-date"><i>Nijmegen, Netherlands, 2025</i></span>
   </li>
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Conference on Cognitive Computational Neuroscience</span></span>
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">8th conference on CCN</span></span>
     <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
   </li>
   <li class="event-item">
-    <span class="event-description"><b>Organizing member</b> &nbsp; <span class="event-name">Conference on Cognitive Computational Neuroscience</span></span>
+    <span class="event-description"><b>Organizing member</b> &nbsp; <span class="event-name">8th conference on CCN</span></span>
     <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
   </li>
   <li class="event-item">
@@ -233,7 +246,7 @@ author_profile: true
     <span class="event-date"><i>Virtual, 2025</i></span>
   </li>
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Visual Inference Lab | Kriegeskorte, Columbia University</span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Visual Inference Lab, Columbia University (Kriegeskorte Lab)</span></span>
     <span class="event-date"><i>New York, US, 2025</i></span>
   </li>
   <hr>
@@ -263,7 +276,7 @@ author_profile: true
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Conference on Cognitive Computational Neuroscience</span></span>
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">6th conference on CCN</span></span>
     <span class="event-date"><i>Oxford, United Kingdom, 2023</i></span>
   </li>
 
@@ -284,7 +297,7 @@ author_profile: true
   <hr>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Max Planck RG Vision and Comp. Cognition | Hebart Lab</span></span>
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Max Planck RG Vision and Comp. Cognition (Hebart Lab)</span></span>
     <span class="event-date"><i>Leipzig, Germany, 2022</i></span>
   </li>
 
