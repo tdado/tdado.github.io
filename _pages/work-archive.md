@@ -271,7 +271,7 @@ author_profile: true
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Innovation Center for Artificial Intelligence Day</span></span>
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name"><a href="https://icai.ai/">Innovation Center for Artificial Intelligence</a> Day</span></span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2023</i></span>
   </li>
 
