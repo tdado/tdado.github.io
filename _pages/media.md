@@ -56,7 +56,7 @@ classes: wide
 
   <div class="media-grid">
 
-  <a href="/assets/images/media/article.jpg" class="media-item">
+  <a href="/assets/article.jpg" class="media-item">
   <img src="/assets/images/media/fam.JPG" alt="RU.nl">
     <div class="media-content">
       <div class="media-title">Een uitzonderlijke operatie</div>
