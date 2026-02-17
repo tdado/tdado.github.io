@@ -55,6 +55,15 @@ classes: wide
 <h1 style="color: #DD4124;">Media</h1>
 
   <div class="media-grid">
+
+  <a href="/assets/images/media/article.jpg" class="media-item">
+  <img src="/assets/images/media/fam.JPG" alt="RU.nl">
+    <div class="media-content">
+      <div class="media-title">Een uitzonderlijke operatie</div>
+      <div class="media-source">Moesson Magazine</div>
+    </div>
+  </a>
+
   <a href="https://www.gld.nl/nieuws/8385003/gedachtenlezen-kan-niet-deze-onderzoekers-kunnen-het-wel-met-ai" class="media-item">
   <img src="/assets/images/media/e8b06a79-6a44-31d9-8e37-8ffda36e8230.jpg" alt="RU.nl">
     <div class="media-content">
