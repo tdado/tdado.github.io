@@ -31,10 +31,10 @@ classes: wide
     width: 210px;
     object-fit: cover;
     flex-shrink: 0;
-    border-radius: 8px;
+    border-radius: 0 !important;
   }
 
-    .about-figure {
+  .about-figure {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +76,7 @@ classes: wide
   </div>
   <figure class="about-figure">
   <img class="about-img" src="/assets/images/SB.jpeg" alt="How snowboarding's going.">
-  <figcaption class="about-caption">Winter.</figcaption>
+  <figcaption class="about-caption">Winter</figcaption>
 </figure>
 
 </div>
