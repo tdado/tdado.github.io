@@ -14,40 +14,39 @@ classes: wide
   }
 
   .media-item {
-    background-color: #ffffff; /* White background for the tiles */
-    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for a floating effect */
-    text-decoration: none; /* Remove underline from link */
-    color: inherit; /* Inherit text color */
-    display: block; /* Ensure the entire tile is clickable */
+    transition: transform 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+    display: block;
   }
 
   .media-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+    transform: translateY(-2px);
   }
 
-  .media-item img {
+  .media-item img,
+  .media-item iframe,
+  .media-item video {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    display: block;
   }
 
   .media-content {
-    padding: 10px;
+    padding: 12px;
   }
 
   .media-title {
-    font-weight: bold;
-    color: #333; /* Darker text color for contrast */
-    margin-bottom: 5px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 4px;
+    line-height: 1.4;
   }
 
   .media-source {
-    color: #555; /* Slightly lighter text color for the source */
+    color: #777;
     font-size: 0.9em;
   }
 </style>
