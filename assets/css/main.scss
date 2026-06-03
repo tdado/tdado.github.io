@@ -56,3 +56,122 @@ html {
       font-family: "times";
     }
   }
+
+
+/* =========================
+   Dark mode
+   ========================= */
+
+body.dark {
+  background: #20242b !important;
+  color: #e8e8e8 !important;
+}
+
+/* Main content areas */
+body.dark .page,
+body.dark .archive,
+body.dark .sidebar,
+body.dark .author__content,
+body.dark .page__content {
+  background: #20242b !important;
+  color: #e8e8e8 !important;
+}
+
+/* Navbar */
+body.dark .masthead,
+body.dark .greedy-nav,
+body.dark .masthead__menu,
+body.dark .visible-links {
+  background: #20242b !important;
+  border-bottom: none !important;
+}
+body.dark .masthead {
+  box-shadow: 0 1px 0 rgba(255,255,255,0.05);
+}
+
+/* General text */
+body.dark {
+  color: #e8e8e8 !important;
+}
+
+body.dark p,
+body.dark li,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6 {
+  color: inherit !important;
+}
+
+/* Links */
+body.dark a {
+  color: #ff7a59 !important;
+}
+
+body.dark a:hover {
+  color: #ff9b82 !important;
+}
+
+/* Buttons */
+body.dark .btn,
+body.dark button {
+  background: #303844 !important;
+  color: #e8e8e8 !important;
+  border: 1px solid #4b5563 !important;
+}
+
+body.dark .btn:hover,
+body.dark button:hover {
+  background: #3b4652 !important;
+}
+
+/* Code */
+body.dark code {
+  background: #2a313a !important;
+  color: #f5f5f5 !important;
+}
+
+body.dark pre {
+  background: #1b1f24 !important;
+}
+
+/* Sidebar details */
+body.dark .author__name,
+body.dark .author__bio,
+body.dark .author__urls {
+  color: #e8e8e8 !important;
+}
+
+body.dark .collapsible {
+  background: #303844 !important;
+  color: #e8e8e8 !important;
+  border: 1px solid #4b5563 !important;
+}
+
+body.dark .collapsible::after {
+  color: #e8e8e8 !important;
+}
+
+body.dark h2.collapsible {
+  color: #e8e8e8 !important;
+  background: #303844 !important;
+}
+
+body.dark .media-item {
+  background: #303844 !important;
+  color: #e8e8e8 !important;
+}
+
+body.dark .media-item * {
+  color: #e8e8e8 !important;
+}
+
+body.dark b,
+body.dark strong {
+  color: #e8e8e8 !important;
+}
+body.dark .event-name {
+  color: #e8e8e8 !important;
+}
