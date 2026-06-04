@@ -107,7 +107,7 @@ author:
   url              : "/about"
   bio              : "Postdoctoral researcher at the <a href='https://www.predictivebrainlab.com/' target='_blank'>Predictive Brain Lab</a>, studying curiosity in humans & AI"
 
-  location         : "Amsterdam"
+  location         : "Amsterdam ⇄ Nijmegen"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -131,9 +131,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/thirza-dado/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/ThirzaDado
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: https://twitter.com/ThirzaDado
 
 
 # Reading Files
