@@ -71,12 +71,14 @@ classes: wide
 <div class="about-container">
   <div class="about-text">
     <p id="about">
-        Thirza Dado (1993) is a postdoctoral researcher at the <a href="https://www.predictivebrainlab.com/">Predictive Brain Lab</a> of prof. Floris de Lange at the <a href="https://www.ru.nl/en/donders-institute">Donders Institute for Brain, Cognition and Behaviour</a> of the <a href="https://www.ru.nl/en">Radboud University</a>, where she works on curiosity in biological and artificial systems. Curiosity is the intrinsic drive to seek information and engage with the unknown. Its reward lies in the intellectual satisfaction of knowing, a fulfillment that comes from within rather than from external incentives like money or praise. Previously, she completed her PhD on neural coding with synthesized reality, which was funded by a personal top-talent fellowship. Before that, she obtained double master’s degrees in artificial intelligence and cognitive neuroscience with cum laude. Outside the lab, she loves snowboarding in winter and roadtripping the Atlantic coast in summer.
+        Thirza Dado is a postdoctoral researcher at the <a href="https://www.predictivebrainlab.com/">Predictive Brain Lab</a> of prof. Floris de Lange at the <a href="https://www.ru.nl/en/donders-institute">Donders Institute for Brain, Cognition and Behaviour</a> of the <a href="https://www.ru.nl/en">Radboud University</a>, where she works on curiosity in biological and artificial systems. Curiosity is the intrinsic drive to seek information and engage with the unknown. Its reward lies in the intellectual satisfaction of knowing, a fulfillment that comes from within rather than from external incentives like money or praise. <br><br>
+        
+        Previously, she completed her PhD on neural coding with synthesized reality, which was funded by a personal top-talent fellowship. Before that, she obtained double master’s degrees in artificial intelligence and cognitive neuroscience with cum laude. Outside the lab, she loves snowboarding in winter and roadtripping the Atlantic coast in summer.
     </p> 
   </div>
   <figure class="about-figure">
   <img class="about-img" src="/assets/images/SB.jpeg" alt="How snowboarding's going.">
-  <figcaption class="about-caption">Winter</figcaption>
+  <figcaption class="about-caption">Winter <3</figcaption>
 </figure>
 
 </div>
