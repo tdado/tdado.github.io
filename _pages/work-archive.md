@@ -121,8 +121,7 @@ author_profile: true
 </style>
 
 <h1 style="color:#DD4124;">Work</h1>
-<b>Curiosity &middot; Generative Modeling &middot; Neural Coding &middot; Predictive Coding</b><br>
-
+<b>Exploration &middot; Unpredictability &middot; Neural Coding &middot; NeuroAI</b>
 
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research »</h2>
