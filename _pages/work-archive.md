@@ -209,7 +209,26 @@ author_profile: true
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Academic activities »</h2>
 <ul style="display:none;">
+
+  <li class="event-item">
+    <span class="event-description"><b>Organizer</b> &nbsp; <span class="event-name"><a href="https://donders-neuro-ai-focus-group.github.io/" target="_blank" class="event-name-link">Donders Neuro-AI Focus Group</a></span></span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2025-present</i></span>
+  </li>
+  <li class="event-item">
+    <span class="event-description"><b>Chair</b> &nbsp; <span class="event-name">Weekly lab meeting</span></span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2025-present</i></span>
+  </li>
+  <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session</span></span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2026</i></span>
+  </li>
   
+  <hr>
+  <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">  20th NVP Winter Conference</span></span>
+    <span class="event-date"><i>Egmond aan Zee, Netherlands, 2025</i></span>
+  </li>
+
   <li class="event-item">
     <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">  20th NVP Winter Conference</span></span>
     <span class="event-date"><i>Egmond aan Zee, Netherlands, 2025</i></span>
@@ -228,8 +247,7 @@ author_profile: true
   </li>
   <li class="event-item">
     <span class="event-description">
-      <b>Speaker</b> &nbsp;
-      <a href="https://donders-neuro-ai-focus-group.github.io/" target="_blank" class="event-name-link">Donders Neuro-AI Focus Group</a>
+      <b>Speaker</b> &nbsp; <span class="event-name">Donders Neuro-AI Focus Group</span>
     </span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2025</i></span>
   </li>
@@ -239,6 +257,10 @@ author_profile: true
   </li>
   <li class="event-item">
     <span class="event-description"><b>Organizing member</b> &nbsp; <span class="event-name">8th conference on CCN</span></span>
+    <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
+  </li>
+  <li class="event-item">
+    <span class="event-description"><b>Organizing member</b> &nbsp; <span class="event-name">Annual Lab Retreat, 2025</span></span>
     <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
   </li>
   <li class="event-item">
