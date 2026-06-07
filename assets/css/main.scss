@@ -175,3 +175,14 @@ body.dark strong {
 body.dark .event-name {
   color: #e8e8e8 !important;
 }
+
+body.dark .blog-title {
+  color: #e8e8e8 !important;
+}
+
+body.dark .blog-date {
+  color: #b0b8c5 !important;
+}
+body.dark .blog-item:hover .blog-title {
+  color: #ff7a59 !important;
+}
