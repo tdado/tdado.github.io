@@ -52,8 +52,17 @@ classes: wide
 </style>
 
 <h1 style="color: #DD4124;">Media</h1>
+<div class="media-grid">
 
-  <div class="media-grid">
+  <a href="https://npo.nl/start/afspelen/nooit-meer-dood" class="media-item">
+    <div style="width:100%; height:230px; overflow:hidden; position:relative;">
+      <img src="/assets/images/media/diederik-jekel.avif" alt="Nooit meer dood" style="position:absolute; width:220%; max-width:none; left:0; top:0; margin:0;">
+    </div>
+    <div class="media-content">
+      <div class="media-title">Nooit meer dood</div>
+      <div class="media-source">NPO</div>
+    </div>
+  </a>
 
   <a href="/assets/article.jpg" class="media-item">
   <img src="/assets/images/media/fam.JPG" alt="RU.nl">
