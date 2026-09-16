@@ -130,13 +130,13 @@ author_profile: true
         <b>Dado, T.</b>, de Lange, F., Berlot, E. (2025). <a href="/work/seeking">From seeing to seeking: belief-based exploration in gamified environments.</a> In Conference on Cognitive Computational Neuroscience. 
     </li> 
     <li style="list-style-type: square">
-        <b>Dado, T.</b>, Le, L., van Gerven, M., Güçlütürk, Y., & Güçlü, U. (2025). <a href="/work/pam">PAM: Predictive attention mechanism for neural decoding of visual perception.</a> bioRxiv, 2025-02.
-    </li> 
-    <li style="list-style-type: square">
         Le, L., Kimman, N., <b>Dado, T.</b>, Seeliger, K., Papale, P., Lozano, A., Roelfsema, P., van Gerven, M., Güçlütürk, Y. and Güçlü, U. (2025). <a href="https://arxiv.org/pdf/2501.03741">Neural encoding with affine feature response transforms.</a> arXiv preprint arXiv:2501.03741.
     </li> 
     <li style="list-style-type: square">
         Le, L., <b>Dado, T.</b>, Seeliger, K., Papale, P., Lozano, A., Roelfsema, P., Güçlütürk, Y., van Gerven, M. and Güçlü, U. (2025). <a href="https://arxiv.org/pdf/2501.03051">Inverse receptive field attention for naturalistic image reconstruction from the brain.</a> arXiv preprint arXiv:2501.03051.
+    </li> 
+    <li style="list-style-type: square">
+        <b>Dado, T.</b>, Le, L., van Gerven, M., Güçlütürk, Y., & Güçlü, U. (2024). <a href="/work/pam">PAM: Predictive attention mechanism for neural decoding of visual perception.</a> bioRxiv, 2025-02.
     </li> 
     <li style="list-style-type: square">
         Le, L., Papale, P., Seeliger, K., Lozano, A., <b>Dado, T.</b>, Wang, F., Roelfsema, P.R., van Gerven, M., Güçlütürk, Y. and Güçlü, U. (2024). <a href="https://openreview.net/pdf?id=OWwdlxwnFN">MonkeySee: Space-time-resolved reconstructions of natural images from macaque multi-unit activity.</a> In The Thirty-eighth Annual Conference on Neural Information Processing Systems.
@@ -213,9 +213,13 @@ author_profile: true
     <span class="event-description"><b>Organizer</b> &nbsp; <span class="event-name"><a href="https://donders-neuro-ai-focus-group.github.io/" target="_blank" class="event-name-link">Donders Neuro-AI Focus Group</a></span></span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2025-present</i></span>
   </li>
-  <li class="event-item">
-    <span class="event-description"><b>Chair</b> &nbsp; <span class="event-name">Weekly lab meeting</span></span>
-    <span class="event-date"><i>Nijmegen, Netherlands, 2025-present</i></span>
+    <li class="event-item">
+    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">NEAT</span></span>
+    <span class="event-date"><i>Osnabrück, Germany, 2026</i></span>
+  </li>
+    <li class="event-item">
+    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">NEAT</span></span>
+    <span class="event-date"><i>Osnabrück, Germany, 2026</i></span>
   </li>
   <li class="event-item">
     <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session</span></span>
