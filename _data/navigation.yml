@@ -4,7 +4,7 @@ main:
     url: /
   - title: "work"
     url: /work-archive
-  - title: "blog"
+  - title: "misc"
     url: /blog-archive
   - title: "media"
     url: /media
