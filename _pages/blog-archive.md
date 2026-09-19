@@ -9,104 +9,100 @@ author_profile: true
   .blog-list {
     display: flex;
     flex-direction: column;
-    gap: 48px;
-    margin: 60px 0;
+    margin: 36px 0;
   }
 
   .blog-item {
     display: flex;
     align-items: center;
+    gap: 24px;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
     text-decoration: none;
     color: inherit;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 40px;
-    transition: transform 0.2s ease, opacity 0.2s ease;
+    transition: transform 0.2s ease;
+  }
+
+  .blog-item:first-child {
+    border-top: 1px solid #eee;
   }
 
   .blog-item:hover {
-    transform: translateX(6px);
-    opacity: 0.9;
+    transform: translateX(4px);
   }
 
   .blog-item img {
-    width: 160px;
-    height: 160px;
+    width: 110px;
+    height: 110px;
     object-fit: cover;
-    margin-right: 32px;
     flex-shrink: 0;
   }
 
   .blog-content {
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .blog-title {
-    font-size: 1.8em;
-    font-weight: 700;
-    margin: 0 0 8px;
+    margin: 0 0 5px;
     color: #222;
-    line-height: 1.2;
+    font-size: 1.35em;
+    font-weight: 600;
+    line-height: 1.25;
+    transition: color 0.2s ease;
   }
 
-  .blog-title:hover {
+  .blog-item:hover .blog-title {
     color: #DD4124;
   }
 
   .blog-date {
-    font-size: 0.95em;
+    color: #777;
+    font-size: 0.85em;
+  }
+
+  .misc-intro {
+    margin-top: -10px;
     color: #777;
   }
 
-@media (max-width: 700px) {
-  .blog-item {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+  @media (max-width: 700px) {
+    .blog-item {
+      gap: 16px;
+      padding: 16px 0;
+    }
 
-  .blog-item img {
-    margin-bottom: 20px;
-    margin-right: 0;
-    width: 100%;
-    max-width: 280px; /* keep reasonable size */
-    aspect-ratio: 1 / 1; /* keeps them square */
-    object-fit: cover;
-    height: auto;
-  }
+    .blog-item img {
+      width: 80px;
+      height: 80px;
+    }
 
-  .blog-content {
-    align-items: center;
+    .blog-title {
+      font-size: 1.15em;
+    }
   }
-
-  .blog-title {
-    font-size: 1.4em;
-  }
-}
-
 </style>
 
-<h1 style="color: #DD4124; margin-top: 1em;">Misc</h1>
+<h1 style="color:#DD4124; margin-top:1em;">Misc</h1>
 
-<div style="color:#777; margin-top:-10px;">
+<div class="misc-intro">
   Notes, side quests and other things.
 </div>
 
 <div class="blog-list">
   {% for post in site.posts %}
-  <a href="{{ post.url }}" class="blog-item">
-    {% if post.header.teaser %}
-      <img src="{{ post.header.teaser }}" alt="{{ post.title }}">
-    {% else %}
-      <img src="/assets/images/default-blog-image.jpg" alt="{{ post.title }}">
-    {% endif %}
-    <div class="blog-content">
-      <div class="blog-title">{{ post.title }}</div>
-      <div class="blog-date">{{ post.date | date: "%B %d, %Y" }}</div>
-    </div>
-  </a>
+    <a href="{{ post.url }}" class="blog-item">
+
+      {% if post.header.teaser %}
+        <img src="{{ post.header.teaser }}" alt="{{ post.title }}">
+      {% else %}
+        <img src="/assets/images/default-blog-image.jpg" alt="{{ post.title }}">
+      {% endif %}
+
+      <div class="blog-content">
+        <div class="blog-title">{{ post.title }}</div>
+        <div class="blog-date">{{ post.date | date: "%B %d, %Y" }}</div>
+      </div>
+
+    </a>
   {% endfor %}
 </div>
-
