@@ -36,7 +36,7 @@ header:
 <div class="black-story">
 
   <p class="question">
-    When he <i>finally</i> got the answer he had been looking for, <br>it was too late to take the question back.
+    When he finally got the answer he had been looking for, <br>it was too late to take the question back.
   </p>
 
   <details>
