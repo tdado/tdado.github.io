@@ -24,69 +24,46 @@ author_profile: true
 </script>
 
 <style>
+  /* Collapsible sections */
   .collapsible {
-  background-color: #ecf1f8;
-  color: #345995 !important;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: background-color 0.3s; 
+    background-color: #ecf1f8;
+    color: #345995 !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin: 0 0 18px 0;
+    transition: background-color 0.2s ease, padding-left 0.2s ease;
+  }
+
+  .collapsible:hover {
+    background-color: #e4eaf3;
+    padding-left: 22px;
   }
 
   .collapsible:after {
-    content: '\002B';
+    content: "\002B";
     font-weight: bold;
     float: right;
     margin-left: 5px;
   }
 
-  .active:after {
+  .collapsible.active:after {
     content: "\2212";
   }
 
-  a.footnote {
-      text-decoration: none;
-      color: #933f7a; /* Change color as needed */
-      vertical-align: super;
-      font-size: smaller;
-  }
-  
-  /* Basic styling for the flex container */
-  .event-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 0px 0;
+  .collapsible + ul {
+    margin-top: -8px;
+    margin-bottom: 18px;
   }
 
-  /* Styling for the text content in the left */
-  .event-description {
-    flex: 1;
-    font-weight: bold;
-    color: #333;
-  }
 
-  /* Styling for the event name (not bold) */
-  .event-name {
-    font-weight: normal;
-    color: #333;
-  }
-
-  /* Styling for the date on the right */
-  .event-date {
-    flex-shrink: 0;
-    font-style: italic;
-    color: #777;
-    margin-left: 10px;
-  }
-
+  /* Current work / affiliations */
   .work-meta {
-    margin: 22px 0 30px 0;
+    margin: 22px 0 34px 0;
   }
 
   .lab-affiliations {
@@ -103,16 +80,63 @@ author_profile: true
     font-weight: 600;
   }
 
-  /* .work-themes {
-  color: #777;
-  font-size: 0.95em;
-  margin-bottom: 18px;
-} */
+  .research-arrow {
+    display: inline-block;
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
 
+  .lab-affiliations:hover .research-arrow {
+    color: #DD4124;
+    transform: translateX(3px);
+  }
+
+
+  /* Academic activity / teaching entries */
+  .event-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .event-description {
+    flex: 1;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .event-name {
+    font-weight: normal;
+    color: #333;
+  }
+
+  .event-date {
+    flex-shrink: 0;
+    margin-left: 10px;
+    color: #777;
+    font-style: italic;
+  }
+
+
+  /* Miscellaneous */
+  a.footnote {
+    text-decoration: none;
+    color: #933f7a;
+    vertical-align: super;
+    font-size: smaller;
+  }
+
+  .titles {
+    color: #555;
+  }
+
+
+  /* Mobile */
   @media (max-width: 768px) {
     body {
       font-size: 13px;
     }
+
     ul {
       list-style-type: none;
       padding: 0;
@@ -124,32 +148,22 @@ author_profile: true
       margin-bottom: 25px;
     }
 
-    ul.events li{
+    ul.events li {
       margin-bottom: 20px;
       overflow-wrap: break-word;
       word-wrap: break-word;
     }
+
     .event-item {
       flex-direction: column;
       align-items: flex-start;
     }
+
     .event-date {
       margin-left: 0;
       margin-top: 5px;
     }
-}
-.titles {
-    color: #555; /* Dark grey for subtle emphasis */
-}
-.research-arrow {
-  display: inline-block;
-  transition: color 0.2s ease, transform 0.2s ease;
-}
-.lab-affiliations:hover .research-arrow {
-  color: #DD4124;
-  transform: translateX(3px);
-}
-
+  }
 </style>
 
 <h1 style="color:#DD4124;">Work</h1>
@@ -477,7 +491,7 @@ author_profile: true
 </ul>
 
 
-<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Awards & Funding</h2>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Awards & funding</h2>
 <ul style="display:none;">
   <li style="list-style-type: square"><a href="https://www.ru.nl/en/donders-institute/news/donders-research-stimulation-funds-call-for-new-collaborations-and-focus-groups">Donders Research Stimulation Funds</a><span style="display: inline-block; float: right;"><i>2025, 2026</i></span></li>
   <li style="list-style-type: square">NeurotechEU Best Presentation Award <span style="display: inline-block; float: right;"><i>2021</i></span></li>
