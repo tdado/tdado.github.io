@@ -1,6 +1,5 @@
 ---
 title: "Landscape generation"
-layout: posts
 classes: wide
 header:
     teaser: /assets/images/tiles/landscape.png
