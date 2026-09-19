@@ -177,7 +177,7 @@ author_profile: true
 
 </div>
 
-<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research »</h2>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research</h2>
 <ul style="display:none;">
     <li style="list-style-type: square">
         <b>Dado, T.</b>, de Lange, F., Berlot, E. (2025). <a href="/work/seeking">From seeing to seeking: belief-based exploration in gamified environments.</a> In Conference on Cognitive Computational Neuroscience. 
@@ -218,7 +218,7 @@ author_profile: true
 </ul>
 
 
-<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Teaching »</h2>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Teaching</h2>
 <ul style="display:none;">
     <li class="event-item">
         <span class="event-description">
@@ -279,7 +279,7 @@ author_profile: true
 
 </ul>
 
-<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Academic activities »</h2>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Academic activities</h2>
 <ul style="display:none;">
 
   <li class="event-item">
@@ -477,7 +477,7 @@ author_profile: true
 </ul>
 
 
-<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Awards & Funding »</h2>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Awards & Funding</h2>
 <ul style="display:none;">
   <li style="list-style-type: square"><a href="https://www.ru.nl/en/donders-institute/news/donders-research-stimulation-funds-call-for-new-collaborations-and-focus-groups">Donders Research Stimulation Funds</a><span style="display: inline-block; float: right;"><i>2025, 2026</i></span></li>
   <li style="list-style-type: square">NeurotechEU Best Presentation Award <span style="display: inline-block; float: right;"><i>2021</i></span></li>
