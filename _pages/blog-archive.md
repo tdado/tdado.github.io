@@ -88,7 +88,7 @@ author_profile: true
 
 </style>
 
-<h1 style="color: #DD4124; margin-top: 1em;">Blog</h1>
+<h1 style="color: #DD4124; margin-top: 1em;">Misc</h1>
 
 <div class="blog-list">
   {% for post in site.posts %}
