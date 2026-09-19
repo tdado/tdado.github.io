@@ -85,6 +85,22 @@ author_profile: true
     margin-left: 10px;
   }
 
+  .lab-affiliations {
+    margin: 22px 0 30px 0;
+    color: #777;
+    font-size: 0.95em;
+  }
+
+  .lab-affiliations a {
+    font-weight: 600;
+  }
+
+  .work-themes {
+  color: #777;
+  font-size: 0.95em;
+  margin-bottom: 18px;
+}
+
   @media (max-width: 768px) {
     body {
       font-size: 13px;
@@ -121,8 +137,16 @@ author_profile: true
 </style>
 
 <h1 style="color:#DD4124;">Work</h1>
-<b>Exploration &middot; Unpredictability &middot; Neural Coding &middot; NeuroAI</b>
+<div class="work-themes">
+  Exploration &middot; Visual Prediction &middot; Neural coding &middot; NeuroAI
+</div>
 
+<div class="lab-affiliations">
+  <b>Labs:</b>
+  <a href="https://www.predictivebrainlab.com/" target="_blank">Predictive Brain Lab</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://nin.nl/research-groups/levelt/" target="_blank">Levelt Group</a>
+</div>
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research »</h2>
 <ul style="display:none;">
@@ -283,7 +307,7 @@ author_profile: true
 
   <li class="event-item">
     <span class="event-description">
-      <b>8th Conference on CCN</b> <span class="event-name">&middot; Organizer &amp; poster</span>
+      <b>8th Conference on CCN</b> <span class="event-name">&middot; Co-organizer &amp; poster</span>
     </span>
     <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
   </li>
@@ -424,7 +448,7 @@ author_profile: true
 </ul>
 
 
-<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research grants and prizes »</h2>
+<h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Awards & Funding »</h2>
 <ul style="display:none;">
   <li style="list-style-type: square"><a href="https://www.ru.nl/en/donders-institute/news/donders-research-stimulation-funds-call-for-new-collaborations-and-focus-groups">Donders Research Stimulation Funds</a><span style="display: inline-block; float: right;"><i>2025, 2026</i></span></li>
   <li style="list-style-type: square">NeurotechEU Best Presentation Award <span style="display: inline-block; float: right;"><i>2021</i></span></li>
