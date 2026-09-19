@@ -85,21 +85,29 @@ author_profile: true
     margin-left: 10px;
   }
 
-  .lab-affiliations {
+  .work-meta {
     margin: 22px 0 30px 0;
+  }
+
+  .lab-affiliations {
     color: #777;
     font-size: 0.95em;
+    margin: 8px 0;
+  }
+
+  .lab-affiliations > span:first-child {
+    color: #aaa;
   }
 
   .lab-affiliations a {
     font-weight: 600;
   }
 
-  .work-themes {
+  /* .work-themes {
   color: #777;
   font-size: 0.95em;
   margin-bottom: 18px;
-}
+} */
 
   @media (max-width: 768px) {
     body {
@@ -133,19 +141,40 @@ author_profile: true
 .titles {
     color: #555; /* Dark grey for subtle emphasis */
 }
+.research-arrow {
+  display: inline-block;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.lab-affiliations:hover .research-arrow {
+  color: #DD4124;
+  transform: translateX(3px);
+}
 
 </style>
 
 <h1 style="color:#DD4124;">Work</h1>
-<div class="work-themes">
+<!-- <div class="work-themes">
   Exploration &middot; Visual Prediction &middot; Neural coding &middot; NeuroAI
-</div>
+</div> -->
 
-<div class="lab-affiliations">
-  <b>Labs:</b>
-  <a href="https://www.predictivebrainlab.com/" target="_blank">Predictive Brain Lab</a>
-  &nbsp;&middot;&nbsp;
-  <a href="https://nin.nl/research-groups/levelt/" target="_blank">Levelt Group</a>
+<div class="work-meta">
+
+  <div class="lab-affiliations">
+    <span>Currently:</span>
+    beliefs <span class="research-arrow">→</span> exploration
+    &nbsp;&middot;&nbsp;
+    context <span class="research-arrow">→</span> visual prediction
+    &nbsp;&middot;&nbsp;
+    <a href="https://donders-neuro-ai-focus-group.github.io/" target="_blank">Neuro-AI</a>
+  </div>
+
+  <div class="lab-affiliations">
+    <span>Labs:</span>
+    <a href="https://www.predictivebrainlab.com/" target="_blank">Predictive Brain Lab</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://nin.nl/research-groups/levelt/" target="_blank">Levelt Group</a>
+  </div>
+
 </div>
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research »</h2>
