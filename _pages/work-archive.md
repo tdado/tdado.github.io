@@ -168,221 +168,261 @@ author_profile: true
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Teaching »</h2>
 <ul style="display:none;">
     <li class="event-item">
-        <span class="event-description"><b>Guest lecturer</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/" class="event-name">Artificial intelligence for neurotechnology</a></span>
-        <span class="event-date"><i>2021 to 2025</i></span>
+        <span class="event-description">
+            <b><a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki73-ai-neurotechnology/">Artificial intelligence for neurotechnology</a></b>
+            <span class="event-name">&middot; Guest lecturer</span>
+        </span>
+        <span class="event-date"><i>2021–2025</i></span>
     </li>
     <li class="event-item">
-        <span class="event-description"><b>Tutorial creator</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html" class="event-name">ABC Summer School: Neuro-AI</a></span>
+        <span class="event-description">
+            <b><a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html">ABC Summer School: Neuro-AI</a></b>
+            <span class="event-name">&middot; Tutorial creator &amp; teaching assistant</span>
+        </span>
         <span class="event-date"><i>2024</i></span>
     </li>
     <li class="event-item">
-        <span class="event-description"><b>Teaching assistant</b> &nbsp; <a href="https://summerschool.uva.nl/content/summer-courses/abc-summerschool/neuro-ai.html" class="event-name">ABC Summer School: Neuro-AI</a></span>
-        <span class="event-date"><i>2024</i></span>
+        <span class="event-description">
+            <b><a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-bki230a-deep-learning/">Deep learning</a></b>
+            <span class="event-name">&middot; Teaching assistant</span>
+        </span>
+        <span class="event-date"><i>2021–2024</i></span>
     </li>
     <li class="event-item">
-        <span class="event-description"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-bki230a-deep-learning/" class="event-name">Deep learning</a></span>
-        <span class="event-date"><i>2021 to 2024</i></span>
+        <span class="event-description">
+            <b><a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki95-computer-graphics-computer-vision/">Computer graphics and computer vision</a></b>
+            <span class="event-name">&middot; Teaching assistant</span>
+        </span>
+        <span class="event-date"><i>2020–2024</i></span>
     </li>
     <li class="event-item">
-        <span class="event-description"><b>Teaching assistant</b> &nbsp; <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki95-computer-graphics-computer-vision/" class="event-name">Computer graphics and computer vision</a></span>
-        <span class="event-date"><i>2020 to 2024</i></span>
-    </li>
-    <li class="event-item">
-        <span class="event-description"><b>Guest lecturer</b> &nbsp; <span class="event-name">Proefstuderen</span></span>
+        <span class="event-description">
+            <b>Proefstuderen</b>
+            <span class="event-name">&middot; Guest lecturer</span>
+        </span>
         <span class="event-date"><i>2022</i></span>
     </li>
     <li class="event-item">
-        <span class="event-description"><b>Member</b> &nbsp; <span class="event-name">Information and orientation team</span></span>
+        <span class="event-description">
+            <b>Information and orientation team</b>
+            <span class="event-name">&middot; Student advisor</span>
+        </span>
         <span class="event-date"><i>2022</i></span>
     </li>
     <li class="event-item">
-        <span class="event-description"><b>Teaching assistant</b> &nbsp; <span class="event-name">Human-computer interaction</span></span>
+        <span class="event-description">
+            <b>Human-computer interaction</b>
+            <span class="event-name">&middot; Teaching assistant</span>
+        </span>
         <span class="event-date"><i>2021</i></span>
     </li>
     <li class="event-item">
-        <span class="event-description"><b>Teaching assistant</b> &nbsp; <span class="event-name">Brain reading and writing</span></span>
+        <span class="event-description">
+            <b>Brain reading and writing</b>
+            <span class="event-name">&middot; Teaching assistant</span>
+        </span>
         <span class="event-date"><i>2020</i></span>
     </li>
-</ul>
 
+</ul>
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Academic activities »</h2>
 <ul style="display:none;">
 
   <li class="event-item">
-    <span class="event-description"><b>Organizer</b> &nbsp; <span class="event-name"><a href="https://donders-neuro-ai-focus-group.github.io/" target="_blank" class="event-name-link">Donders Neuro-AI Focus Group</a></span></span>
-    <span class="event-date"><i>Nijmegen, Netherlands, 2025-present</i></span>
+    <span class="event-description">
+      <b><a href="https://donders-neuro-ai-focus-group.github.io/" target="_blank" class="event-name-link">Donders Neuro-AI Focus Group</a></b>
+      <span class="event-name">&middot; Co-organizer</span>
+    </span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2025–present</i></span>
   </li>
-    <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">NEAT</span></span>
-    <span class="event-date"><i>Osnabrück, Germany, 2026</i></span>
-  </li>
-    <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">NEAT</span></span>
-    <span class="event-date"><i>Osnabrück, Germany, 2026</i></span>
-  </li>
+
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session</span></span>
+    <span class="event-description">
+      <b>NEAT</b> <span class="event-name">&middot; Talk &amp; poster</span>
+    </span>
+    <span class="event-date"><i>Osnabrück, Germany, 2026</i></span>
+  </li>
+
+  <li class="event-item">
+    <span class="event-description">
+      <b>Donders Poster Session</b> <span class="event-name">&middot; Poster</span>
+    </span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2026</i></span>
   </li>
-  
+
   <hr>
+
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">  20th NVP Winter Conference</span></span>
+    <span class="event-description">
+      <b>20th NVP Winter Conference</b> <span class="event-name">&middot; Talk &amp; poster</span>
+    </span>
     <span class="event-date"><i>Egmond aan Zee, Netherlands, 2025</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">  20th NVP Winter Conference</span></span>
-    <span class="event-date"><i>Egmond aan Zee, Netherlands, 2025</i></span>
-  </li>
-  <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">  20th NVP Winter Conference</span></span>
-    <span class="event-date"><i>Egmond aan Zee, Netherlands, 2025</i></span>
-  </li>
-  <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Qua Art – Qua Science (De Museumfabriek)</span></span>
+    <span class="event-description">
+      <b>Qua Art – Qua Science (De Museumfabriek)</b> <span class="event-name">&middot; Talk</span>
+    </span>
     <span class="event-date"><i>Enschede, Netherlands, 2025</i></span>
   </li>
-  <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Donders-NIN Day</span></span>
-    <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
-  </li>
+
   <li class="event-item">
     <span class="event-description">
-      <b>Speaker</b> &nbsp; <span class="event-name">Donders Neuro-AI Focus Group</span>
+      <b>Donders-NIN Day</b> <span class="event-name">&middot; Talk</span>
+    </span>
+    <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
+  </li>
+
+  <li class="event-item">
+    <span class="event-description">
+      <b>Donders Neuro-AI Focus Group</b> <span class="event-name">&middot; Talk</span>
     </span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2025</i></span>
   </li>
+
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">8th conference on CCN</span></span>
+    <span class="event-description">
+      <b>8th Conference on CCN</b> <span class="event-name">&middot; Organizer &amp; poster</span>
+    </span>
     <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
   </li>
+
   <li class="event-item">
-    <span class="event-description"><b>Organizing member</b> &nbsp; <span class="event-name">8th conference on CCN</span></span>
-    <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
-  </li>
-  <li class="event-item">
-    <span class="event-description"><b>Organizing member</b> &nbsp; <span class="event-name">Annual Lab Retreat, 2025</span></span>
-    <span class="event-date"><i>Amsterdam, Netherlands, 2025</i></span>
-  </li>
-  <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">NeuroTechHub: Mind-Reading Technology</span></span>
+    <span class="event-description">
+      <b>NeuroTechHub: Mind-Reading Technology</b> <span class="event-name">&middot; Talk</span>
+    </span>
     <span class="event-date"><i>Virtual, 2025</i></span>
   </li>
+
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Visual Inference Lab, Columbia University (Kriegeskorte Lab)</span></span>
+    <span class="event-description">
+      <b>Visual Inference Lab, Columbia University (Kriegeskorte Lab)</b> <span class="event-name">&middot; Talk</span>
+    </span>
     <span class="event-date"><i>New York, US, 2025</i></span>
   </li>
-  <hr>
+
   <li class="event-item">
-    <span class="event-description"><b>Attendee</b> &nbsp; <span class="event-name">Foraging Conference</span></span>
-    <span class="event-date"><i>Lyon, France, 2024</i></span>
-  </li>
-  <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">46th Annual Meeting of the Cognitive Science Society</span></span>
+    <span class="event-description">
+      <b>46th Annual Meeting of the Cognitive Science Society</b> <span class="event-name">&middot; Talk</span>
+    </span>
     <span class="event-date"><i>Rotterdam, Netherlands, 2024</i></span>
   </li>
+
   <hr>
 
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">19th NVP Winter Conference</span></span>
+    <span class="event-description">
+      <b>19th NVP Winter Conference</b> <span class="event-name">&middot; Poster</span>
+    </span>
     <span class="event-date"><i>Egmond aan Zee, Netherlands, 2023</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Dept. Brain & Cognition, Psychology, University of Amsterdam</span></span>
+    <span class="event-description">
+      <b>Dept. Brain &amp; Cognition, Psychology, University of Amsterdam</b> <span class="event-name">&middot; Talk</span>
+    </span>
     <span class="event-date"><i>Amsterdam, Netherlands, 2023</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name"><a href="https://icai.ai/">Innovation Center for Artificial Intelligence</a> Day</span></span>
+    <span class="event-description">
+      <b><a href="https://icai.ai/">Innovation Center for Artificial Intelligence Day</a></b>
+      <span class="event-name">&middot; Poster</span>
+    </span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2023</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">6th conference on CCN</span></span>
+    <span class="event-description">
+      <b>6th Conference on CCN</b> <span class="event-name">&middot; Poster</span>
+    </span>
     <span class="event-date"><i>Oxford, United Kingdom, 2023</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session</span></span>
+    <span class="event-description">
+      <b>Donders Poster Session</b> <span class="event-name">&middot; Poster</span>
+    </span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2023</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Student ambassador</b> &nbsp; <span class="event-name">Women of NeurotechEU</span></span>
+    <span class="event-description">
+      <b>Women of NeurotechEU</b> <span class="event-name">&middot; Student ambassador</span>
+    </span>
     <span class="event-date"><i>Cluj-Napoca, Romania, 2023</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">9th Dutch Bio-Medical Engineering Conference</span></span>
+    <span class="event-description">
+      <b>9th Dutch Bio-Medical Engineering Conference</b> <span class="event-name">&middot; Poster</span>
+    </span>
     <span class="event-date"><i>Egmond aan Zee, Netherlands, 2023</i></span>
   </li>
+
   <hr>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Max Planck RG Vision and Comp. Cognition (Hebart Lab)</span></span>
+    <span class="event-description">
+      <b>Max Planck RG Vision and Comp. Cognition (Hebart Lab)</b> <span class="event-name">&middot; Talk</span>
+    </span>
     <span class="event-date"><i>Leipzig, Germany, 2022</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Organizer</b> &nbsp; <span class="event-name">Synapses Lecture Series</span></span>
+    <span class="event-description">
+      <b>Synapses Lecture Series (NeurotechEU)</b> <span class="event-name">&middot; Organizer</span>
+    </span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Attendee</b> &nbsp; <span class="event-name">European Conference on Visual Perception</span></span>
-    <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
-  </li>
-
-  <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Pre-master Introduction Day</span></span>
-    <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
-  </li>
-
-  <li class="event-item">
-    <span class="event-description"><b>Student ambassador</b> &nbsp; <span class="event-name">3rd NeurotechEU Board of Rectors Meeting</span></span>
+    <span class="event-description">
+      <b>3rd NeurotechEU Board of Rectors Meeting</b> <span class="event-name">&middot; Student ambassador</span>
+    </span>
     <span class="event-date"><i>Cluj-Napoca, Romania, 2022</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">18th NVP Winter Conference</span></span>
+    <span class="event-description">
+      <b>18th NVP Winter Conference</b> <span class="event-name">&middot; Poster</span>
+    </span>
     <span class="event-date"><i>Egmond aan Zee, Netherlands, 2022</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Dondrite Career Event</span></span>
+    <span class="event-description">
+      <b>Donders Poster Session</b> <span class="event-name">&middot; Poster</span>
+    </span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
   </li>
 
-  <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session</span></span>
-    <span class="event-date"><i>Nijmegen, Netherlands, 2022</i></span>
-  </li>
   <hr>
 
   <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">10th International IEEE/EMBS Conference on Neural Engineering</span></span>
+    <span class="event-description">
+      <b>10th International IEEE/EMBS Conference on Neural Engineering</b> <span class="event-name">&middot; Poster</span>
+    </span>
     <span class="event-date"><i>Virtual, 2021</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Welcoming Synapses: From Cajal to NeurotechEU</span></span>
+    <span class="event-description">
+      <b>Welcoming Synapses: From Cajal to NeurotechEU</b> <span class="event-name">&middot; Talk</span>
+    </span>
     <span class="event-date"><i>Virtual, 2021</i></span>
   </li>
 
   <li class="event-item">
-    <span class="event-description"><b>Speaker</b> &nbsp; <span class="event-name">Functional Analysis Meeting, DCCN</span></span>
-    <span class="event-date"><i>Virtual, 2021</i></span>
-  </li>
-  <hr>
-
-  <li class="event-item">
-    <span class="event-description"><b>Poster presenter</b> &nbsp; <span class="event-name">Donders Poster Session</span></span>
+    <span class="event-description">
+      <b>Donders Poster Session</b> <span class="event-name">&middot; Poster</span>
+    </span>
     <span class="event-date"><i>Virtual, 2020</i></span>
   </li>
+
 </ul>
+
 
 <h2 class="collapsible" style="color: #5B5EA6; cursor: pointer;">Research grants and prizes »</h2>
 <ul style="display:none;">
@@ -394,3 +434,9 @@ author_profile: true
   <li style="list-style-type: square">DCC Student Assistant Fellowship <span style="display: inline-block; float: right;"><i>2020</i></span></li>
 </ul>
 <br>
+
+<!-- Foraging Conference
+European Conference on Visual Perception
+Pre-master Introduction Day
+Dondrite Career Event
+Functional Analysis Meeting, DCCN -->
