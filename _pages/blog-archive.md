@@ -90,6 +90,10 @@ author_profile: true
 
 <h1 style="color: #DD4124; margin-top: 1em;">Misc</h1>
 
+<div style="color:#777; margin-top:-10px;">
+  Notes, side quests and other things.
+</div>
+
 <div class="blog-list">
   {% for post in site.posts %}
   <a href="{{ post.url }}" class="blog-item">
