@@ -36,7 +36,7 @@ header:
 <div class="black-story">
 
   <p class="question">
-    They finally found what they had been seeking.<br>
+    They finally found what they had been looking for.<br>
     Almost immediately, they wished they hadn't. Why?
   </p>
 
@@ -49,5 +49,4 @@ header:
       </p>
     </div>
   </details>
-
 </div>
