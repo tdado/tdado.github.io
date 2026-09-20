@@ -45,7 +45,7 @@ header:
 
     <div class="solution">
       <p>
-        They googled the ending.
+        They skipped to the answer.
       </p>
     </div>
   </details>
