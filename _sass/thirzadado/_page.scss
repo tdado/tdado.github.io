@@ -305,6 +305,14 @@ body p {
   }
 }
 
+.page__date time {
+  color: #666;  // light mode
+}
+
+.dark-mode .page__date time {
+  color: #e5e7eb;  // dark mode
+}
+
 .page__meta-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
