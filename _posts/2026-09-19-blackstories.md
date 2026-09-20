@@ -36,8 +36,8 @@ header:
 <div class="black-story">
 
   <p class="question">
-    They finally found what they had been looking for.<br>
-    Almost immediately, they wished they hadn't. Why?
+    They finally found exactly what they had been looking for.<br>
+    Almost immediately, they wished they had taken longer. Why?
   </p>
 
   <details>
