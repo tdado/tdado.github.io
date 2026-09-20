@@ -36,8 +36,7 @@ header:
 <div class="black-story">
 
   <p class="question">
-    <!-- When he finally got the answer he had been looking for, <br>it was too late to take the question back. -->
-    They finally found what they had been looking for.<br>
+    They finally found what they had been seeking.<br>
     Almost immediately, they wished they hadn't. Why?
   </p>
 
