@@ -37,7 +37,7 @@ header:
 
   <p class="question">
     They finally found exactly what they had been looking for.<br>
-    Almost immediately, they wished they had taken longer. Why?
+    Almost immediately, they wished they had taken more effort. Why?
   </p>
 
   <details>
