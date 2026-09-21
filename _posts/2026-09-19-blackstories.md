@@ -45,7 +45,7 @@ header:
 
     <div class="solution">
         <p>
-            You skipped to the answer. It was smaller than the wondering.
+            You skipped to the answer. Now there is nothing left to wonder about.
         </p>
     </div>
   </details>
