@@ -37,16 +37,16 @@ header:
 
   <p class="question">
     You finally found exactly what you had been looking for.<br>
-    Almost immediately, you wished you had put in more effort. Why?
+    Almost immediately, you felt disappointed. Why?
   </p>
 
   <details>
     <summary>Reveal the story</summary>
 
     <div class="solution">
-      <p>
-        You skipped to the answer.
-      </p>
+        <p>
+            You skipped to the answer.
+        </p>
     </div>
   </details>
 </div>
