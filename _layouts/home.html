@@ -72,7 +72,7 @@ layout: archive
 /* Curiosity button styles */
 @property --curiosity-color {
   syntax: '<color>';
-  initial-value: #b98ac8;
+  initial-value: #999;
   inherits: false;
 }
 
@@ -86,18 +86,6 @@ layout: archive
   background: transparent !important;
   color: inherit !important;
   cursor: pointer;
-}
-
-#curiosity-btn:hover {
-  animation: curiosity-rainbow .5s steps(1) infinite;
-}
-
-@keyframes curiosity-rainbow {
-  0%   { --curiosity-color: #ff5c5c; }
-  20%  { --curiosity-color: #ffc857; }
-  40%  { --curiosity-color: #62d98b; }
-  60%  { --curiosity-color: #62b6ff; }
-  80%  { --curiosity-color: #c77dff; }
 }
 
 #curiosity-text {
