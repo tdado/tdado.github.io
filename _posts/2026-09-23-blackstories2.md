@@ -103,12 +103,12 @@ header:
 }
 
 .final-message {
-  margin-top: 18px;
-  max-width: 400px;
+  max-width: 360px;
+  margin: 14px auto 0;
   text-align: center;
-  font-size: 1.3em;
-  font-weight: 500;
-  line-height: 1.5;
+  font-size: 1.08em;
+  font-weight: 400;
+  line-height: 1.55;
   color: #6f4b7c;
   opacity: 0;
   animation: finalReveal 3.4s ease forwards;
@@ -232,6 +232,19 @@ header:
   }
 }
 
+.procgen-note {
+  max-width: 400px;
+  margin-top: 18px;
+  font-size: 0.78em;
+  opacity: 0.4;
+  font-style: italic;
+}
+
+.world.final-reveal {
+  opacity: 0.55;
+  transition: opacity 1.2s ease;
+}
+
 </style>
 
 <div class="black-story">
@@ -259,6 +272,10 @@ header:
 
   <p class="controls mobile-controls">
     Swipe to explore &nbsp;·&nbsp; <button id="home-button">Go home</button>
+  </p>
+
+  <p class="procgen-note">
+    This world is generated on the fly as you explore.
   </p>
 
 </div>
@@ -985,6 +1002,8 @@ header:
 
     controls.forEach(control => control.remove());
     document.querySelector(".world-wrap").insertAdjacentElement("afterend", final);
+
+    canvas.classList.add("final-reveal");
   }
 
   function drawSandTile(x, y) {
@@ -1022,7 +1041,7 @@ header:
 
     if (progress >= 0.75) {
       level = 6;
-      showFinalMessage("Oh.<br>You thought <i>you</i> were the one being warned, didn't you?");
+      showFinalMessage("Oh.<br>You thought <i>you</i> were the one being warned?");
     } else if (progress >= 0.70) {
       level = 5;
       message = "GO HOME.";
