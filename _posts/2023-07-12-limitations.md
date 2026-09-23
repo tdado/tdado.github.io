@@ -4,6 +4,10 @@ header:
     teaser: /assets/images/tiles/pipe.jpeg
 ---
 
+*An early attempt to think through the limits of neural decoding and representation. 
+Some of these thoughts later found their way into the discussion of my [PhD thesis](/phd-thesis/).*
+
+
 {{ page.date | date: '%Y, %d %B' }}
 
 ![The treachery of images](/assets/images/blog/the-treachery-of-images.jpeg)
