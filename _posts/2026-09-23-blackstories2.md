@@ -107,11 +107,9 @@ header:
   max-width: 400px;
   text-align: center;
   font-size: 1.3em;
-  font-weight: 700;
-  font-style: italic;
+  font-weight: 500;
   line-height: 1.5;
-  color: #d93636;
-  text-shadow: 0 0 8px rgba(217, 54, 54, 0.45);
+  color: #6f4b7c;
   opacity: 0;
   animation: finalReveal 3.4s ease forwards;
 }
@@ -1008,6 +1006,8 @@ header:
 
     let level = 0;
     let message = "";
+
+    showFinalMessage("Oh.<br>You thought <i>you</i> were the one being warned, didn't you?");
 
     if (progress >= 0.75) {
       level = 6;
