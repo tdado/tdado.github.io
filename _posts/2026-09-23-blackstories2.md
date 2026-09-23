@@ -1007,8 +1007,6 @@ header:
     let level = 0;
     let message = "";
 
-    showFinalMessage("Oh.<br>You thought <i>you</i> were the one being warned, didn't you?");
-
     if (progress >= 0.75) {
       level = 6;
       showFinalMessage("Oh.<br>You thought you were the one being warned, didn't you?");
