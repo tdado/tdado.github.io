@@ -5,7 +5,7 @@ header:
 ---
 
 *An early attempt to think through the limits of neural decoding and representation. 
-Some of these thoughts later found their way into the discussion of my [PhD thesis](/phd-thesis/).*
+Some of these thoughts later found their way into the discussion of my [PhD thesis](/thesis/).*
 
 
 {{ page.date | date: '%Y, %d %B' }}
