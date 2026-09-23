@@ -70,32 +70,40 @@ layout: archive
 }
 
 /* Curiosity button styles */
-#curiosity-box {
-  margin: 30px 0;
-  text-align: left;
-  max-width: 600px;
+@property --curiosity-color {
+  syntax: '<color>';
+  initial-value: #b98ac8;
+  inherits: false;
 }
 
 #curiosity-btn {
-  padding: 8px 14px;
-  font-size: 14px;
+  padding: 9px 8px;
+  font-size: 13px;
+  line-height: 1;
   font-family: "Courier New", monospace;
-  border: 1px dashed #DD4124;
-  background: #fff;
-  color: #DD4124;
+  border: 2px dotted var(--curiosity-color) !important;
+  border-color: var(--curiosity-color) !important;
+  background: transparent !important;
+  color: inherit !important;
   cursor: pointer;
 }
 
 #curiosity-btn:hover {
-background: #DD4124;
-color: white;
+  animation: curiosity-rainbow .5s steps(1) infinite;
+}
+
+@keyframes curiosity-rainbow {
+  0%   { --curiosity-color: #ff5c5c; }
+  20%  { --curiosity-color: #ffc857; }
+  40%  { --curiosity-color: #62d98b; }
+  60%  { --curiosity-color: #62b6ff; }
+  80%  { --curiosity-color: #c77dff; }
 }
 
 #curiosity-text {
   font-size: 10px;
   line-height: 1.6;
   margin-top: 15px;
-  color: #333;
   font-family: "Press Start 2P", monospace;
   display: none;
 }
@@ -109,7 +117,7 @@ color: white;
 
   <!-- Curiosity button -->
   <div id="curiosity-box">
-    <button id="curiosity-btn">Don't click me</button>
+    <button id="curiosity-btn">don't click me</button>
     <p id="curiosity-text">
       Tiny rebellion = tiny dopamine hit ⚡🧃. Enjoy it.
     </p>
