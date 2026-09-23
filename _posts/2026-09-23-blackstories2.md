@@ -217,9 +217,31 @@ header:
   }
 }
 
+.mobile-note {
+  display: none;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .mobile-note {
+    display: block;
+    max-width: 400px;
+    margin-bottom: 18px;
+    padding: 10px 12px;
+    font-size: 0.9em;
+    line-height: 1.5;
+    border-left: 3px solid #c7a6ff;
+    background: rgba(199, 166, 255, 0.08);
+  }
+}
+
 </style>
 
 <div class="black-story">
+
+  <div class="mobile-note">
+    <strong>On your phone?</strong><br>
+    This works <em>way</em> better on desktop. But since you're here: here's the slightly slow, slightly suboptimal mobile version.
+  </div>
 
   <p class="question">
     Something is waiting to be found.
