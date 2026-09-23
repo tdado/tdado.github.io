@@ -373,6 +373,11 @@ header:
     frameIndex: 0
   };
 
+  const SAND = {
+    x: 368,
+    y: 112
+  };
+
 
   // ==================================================
   // IMAGE HELPERS
@@ -982,10 +987,18 @@ header:
     document.querySelector(".world-wrap").insertAdjacentElement("afterend", final);
   }
 
-  function getSandTileID() {
-    return terrainTileIDs.reduce((best, id) => {
-      return tiles[id].weight > tiles[best].weight ? id : best;
-    }, terrainTileIDs[0]);
+  function drawSandTile(x, y) {
+    ctx.drawImage(
+      sprites,
+      SAND.x,
+      SAND.y,
+      TILE_SIZE,
+      TILE_SIZE,
+      x * TILE_SIZE,
+      y * TILE_SIZE,
+      TILE_SIZE,
+      TILE_SIZE
+    );
   }
 
   function removeHouse() {
@@ -1009,7 +1022,7 @@ header:
 
     if (progress >= 0.75) {
       level = 6;
-      showFinalMessage("Oh.<br>You thought you were the one being warned, didn't you?");
+      showFinalMessage("Oh.<br>You thought <i>you</i> were the one being warned, didn't you?");
     } else if (progress >= 0.70) {
       level = 5;
       message = "GO HOME.";
@@ -1140,8 +1153,9 @@ header:
       for (let x = 0; x < GRID_SIZE; x++) {
         const key = `${x},${y}`;
         const isHouseCell = x < HOUSE.cols && y < HOUSE.rows;
+
         if (houseGone && isHouseCell) {
-          drawTile(getSandTileID(), x, y);
+          drawSandTile(x, y);
         } else if (visited.has(key)) {
           drawTile(world[y][x][0], x, y);
         } else {
@@ -1242,7 +1256,7 @@ header:
   ]);
 
 
-  function getCompatibleFallback(x, y) {
+  function applyCompatibleFallback(x, y) {
     let candidates = [...terrainTileIDs];
 
     for (const dir of DIRECTIONS) {
@@ -1259,9 +1273,23 @@ header:
       });
     }
 
-    if (candidates.length === 0) return null;
+    candidates = weightedRandomOrder(candidates);
 
-    return weightedRandomOrder(candidates)[0];
+    for (const candidate of candidates) {
+      const backup = copyWorld();
+
+      world[y][x] = [candidate];
+
+      if (propagate(x, y)) {
+        visited.add(`${x},${y}`);
+        console.warn(`Recovered WFC at (${x}, ${y})`);
+        return true;
+      }
+
+      restoreWorld(backup);
+    }
+
+    return false;
   }
 
 
@@ -1282,16 +1310,9 @@ header:
     }
 
     if (!collapse(newX, newY)) {
-      const fallback = getCompatibleFallback(newX, newY);
-
-      if (fallback !== null) {
-        world[newY][newX] = [fallback];
-        visited.add(`${newX},${newY}`);
-
-        console.warn(`Compatible WFC fallback at (${newX}, ${newY})`);
-      } else {
-        console.warn(`No compatible tile at (${newX}, ${newY})`);
-        draw();
+      if (!applyCompatibleFallback(newX, newY)) {
+        console.error(`Unrecoverable WFC contradiction at (${newX}, ${newY})`);
+        window.location.reload();
         return;
       }
     }
