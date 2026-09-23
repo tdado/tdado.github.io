@@ -173,6 +173,50 @@ header:
   }
 }
 
+.world-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.loading-world {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #111;
+  color: white;
+  font-size: 1em;
+  font-style: italic;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.mobile-controls {
+  display: none;
+}
+
+#home-button {
+  border: 0;
+  padding: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .desktop-controls {
+    display: none;
+  }
+
+  .mobile-controls {
+    display: block;
+  }
+}
+
 </style>
 
 <div class="black-story">
@@ -183,10 +227,18 @@ header:
     You can always go home by pressing ESC.
   </p>
 
+  <!-- <canvas id="world" class="world" width="192" height="192" tabindex="0"></canvas> -->
+  <div class="world-wrap">
   <canvas id="world" class="world" width="192" height="192" tabindex="0"></canvas>
+  <div id="loading-world" class="loading-world">Loading world...</div>
+  </div>
 
-  <p class="controls">
+  <p class="controls desktop-controls">
     Arrow keys / WASD to explore &nbsp;·&nbsp; ESC to go home
+  </p>
+
+  <p class="controls mobile-controls">
+    Swipe to explore &nbsp;·&nbsp; <button id="home-button">Go home</button>
   </p>
 
 </div>
@@ -900,13 +952,14 @@ header:
   function showFinalMessage(message) {
     if (document.querySelector(".final-message")) return;
 
-    const controls = document.querySelector(".controls");
+    const controls = document.querySelectorAll(".controls");
     const final = document.createElement("p");
 
     final.className = "final-message";
     final.innerHTML = message;
 
-    controls.replaceWith(final);
+    controls.forEach(control => control.remove());
+    document.querySelector(".world-wrap").insertAdjacentElement("afterend", final);
   }
 
   function getSandTileID() {
@@ -963,13 +1016,14 @@ header:
   function showHomeMessage() {
     if (document.querySelector(".home-message")) return;
 
-    const controls = document.querySelector(".controls");
+    const controls = document.querySelectorAll(".controls");
     const message = document.createElement("p");
 
     message.className = "home-message";
     message.textContent = "Going home...";
 
-    controls.replaceWith(message);
+    controls.forEach(control => control.remove());
+    document.querySelector(".world-wrap").insertAdjacentElement("afterend", message);
   }
 
 
@@ -1167,43 +1221,31 @@ header:
     "0,2"
   ]);
 
-  window.addEventListener("keydown", event => {
-    const key = event.key.toLowerCase();
 
-    if (key === "escape") {
-      event.preventDefault();
-      goHome();
-      return;
+  function getCompatibleFallback(x, y) {
+    let candidates = [...terrainTileIDs];
+
+    for (const dir of DIRECTIONS) {
+      const nx = x + dir.dx;
+      const ny = y + dir.dy;
+
+      if (nx < 0 || nx >= GRID_SIZE || ny < 0 || ny >= GRID_SIZE) continue;
+      if (!visited.has(`${nx},${ny}`)) continue;
+
+      const neighbourID = world[ny][nx][0];
+
+      candidates = candidates.filter(id => {
+        return rules[id][dir.rule].has(neighbourID);
+      });
     }
 
-    let dx = 0;
-    let dy = 0;
-    let direction = null;
+    if (candidates.length === 0) return null;
 
-    if (key === "arrowup" || key === "w") {
-      dy = -1;
-      direction = "up";
-    }
+    return weightedRandomOrder(candidates)[0];
+  }
 
-    if (key === "arrowdown" || key === "s") {
-      dy = 1;
-      direction = "down";
-    }
 
-    if (key === "arrowleft" || key === "a") {
-      dx = -1;
-      direction = "left";
-    }
-
-    if (key === "arrowright" || key === "d") {
-      dx = 1;
-      direction = "right";
-    }
-
-    if (!direction) return;
-
-    event.preventDefault();
-
+  function movePlayer(dx, dy, direction) {
     setPlayerDirection(direction);
 
     const newX = Math.max(0, Math.min(GRID_SIZE - 1, player.x + dx));
@@ -1217,28 +1259,6 @@ header:
     if (newX === player.x && newY === player.y) {
       draw();
       return;
-    }
-
-    function getCompatibleFallback(x, y) {
-      let candidates = [...terrainTileIDs];
-
-      for (const dir of DIRECTIONS) {
-        const nx = x + dir.dx;
-        const ny = y + dir.dy;
-
-        if (nx < 0 || nx >= GRID_SIZE || ny < 0 || ny >= GRID_SIZE) continue;
-        if (!visited.has(`${nx},${ny}`)) continue;
-
-        const neighbourID = world[ny][nx][0];
-
-        candidates = candidates.filter(id => {
-          return rules[id][dir.rule].has(neighbourID);
-        });
-      }
-
-      if (candidates.length === 0) return null;
-
-      return weightedRandomOrder(candidates)[0];
     }
 
     if (!collapse(newX, newY)) {
@@ -1260,10 +1280,79 @@ header:
     player.y = newY;
 
     advancePlayerFrame();
-
     draw();
+  }
+
+
+  // ==================================================
+  // KEYBOARD
+  // ==================================================
+
+  window.addEventListener("keydown", event => {
+    const key = event.key.toLowerCase();
+
+    if (key === "escape") {
+      event.preventDefault();
+      goHome();
+      return;
+    }
+
+    if (key === "arrowup" || key === "w") {
+      event.preventDefault();
+      movePlayer(0, -1, "up");
+    } else if (key === "arrowdown" || key === "s") {
+      event.preventDefault();
+      movePlayer(0, 1, "down");
+    } else if (key === "arrowleft" || key === "a") {
+      event.preventDefault();
+      movePlayer(-1, 0, "left");
+    } else if (key === "arrowright" || key === "d") {
+      event.preventDefault();
+      movePlayer(1, 0, "right");
+    }
   });
 
+
+  // ==================================================
+  // TOUCH / MOBILE
+  // ==================================================
+
+  let touchStartX = 0;
+  let touchStartY = 0;
+
+  canvas.addEventListener("touchstart", event => {
+    const touch = event.touches[0];
+
+    touchStartX = touch.clientX;
+    touchStartY = touch.clientY;
+  }, { passive: true });
+
+
+  canvas.addEventListener("touchend", event => {
+    const touch = event.changedTouches[0];
+
+    const dx = touch.clientX - touchStartX;
+    const dy = touch.clientY - touchStartY;
+
+    if (Math.max(Math.abs(dx), Math.abs(dy)) < 20) return;
+
+    if (Math.abs(dx) > Math.abs(dy)) {
+      if (dx > 0) {
+        movePlayer(1, 0, "right");
+      } else {
+        movePlayer(-1, 0, "left");
+      }
+    } else {
+      if (dy > 0) {
+        movePlayer(0, 1, "down");
+      } else {
+        movePlayer(0, -1, "up");
+      }
+    }
+  });
+
+
+  document.getElementById("home-button").addEventListener("click", goHome);
 
   canvas.addEventListener("click", () => canvas.focus());
 
@@ -1278,6 +1367,7 @@ header:
     collapseHouse();
 
     draw();
+    document.getElementById("loading-world").remove();
     canvas.focus();
 
     console.log("World initialized.");
