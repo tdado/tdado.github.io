@@ -240,10 +240,7 @@ header:
   font-style: italic;
 }
 
-.world.final-reveal {
-  opacity: 0.55;
-  transition: opacity 1.2s ease;
-}
+
 
 </style>
 
@@ -380,6 +377,7 @@ header:
 
   let lastWarningLevel = 0;
   let houseGone = false;
+  let finalReveal = false;
 
   const visited = new Set();
 
@@ -994,6 +992,8 @@ header:
   function showFinalMessage(message) {
     if (document.querySelector(".final-message")) return;
 
+    finalReveal = true;
+
     const controls = document.querySelectorAll(".controls");
     const final = document.createElement("p");
 
@@ -1003,7 +1003,7 @@ header:
     controls.forEach(control => control.remove());
     document.querySelector(".world-wrap").insertAdjacentElement("afterend", final);
 
-    canvas.classList.add("final-reveal");
+    draw();
   }
 
   function drawSandTile(x, y) {
@@ -1036,7 +1036,7 @@ header:
       removeHouse();
     }
 
-    let level = 0;
+    let level = 0; 
     let message = "";
 
     if (progress >= 0.75) {
@@ -1184,7 +1184,9 @@ header:
     }
 
     const explored = getExploredCount();
-    const darkness = Math.min(0.68, explored * 0.009);
+    const darkness = finalReveal
+    ? 0.88
+    : Math.min(0.68, explored * 0.009);
 
     ctx.fillStyle = `rgba(10, 8, 20, ${darkness})`;
     ctx.fillRect(0, 0, canvas.width, canvas.height);
