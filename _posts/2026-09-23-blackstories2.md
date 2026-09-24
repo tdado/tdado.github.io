@@ -103,13 +103,32 @@ header:
 }
 
 .final-message {
-  max-width: 360px;
-  margin: 14px auto 0;
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  width: 82%;
+  margin: 0;
+  padding: 10px 12px;
+
   text-align: center;
-  font-size: 1.08em;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.95em;
   font-weight: 400;
-  line-height: 1.55;
-  color: #6f4b7c;
+  line-height: 1.45;
+  letter-spacing: 0.03em;
+
+  color: #f4efff;
+  background: rgba(15, 11, 20, 0.88);
+
+  border: 2px solid #c7a6ff;
+  box-shadow:
+    0 0 0 2px rgba(15, 11, 20, 0.8),
+    0 0 12px rgba(199, 166, 255, 0.22);
+
+  z-index: 20;
+  pointer-events: none;
+
   opacity: 0;
   animation: finalReveal 3.4s ease forwards;
 }
@@ -117,17 +136,17 @@ header:
 @keyframes finalReveal {
   0% {
     opacity: 0;
-    transform: translateY(-4px);
+    transform: translate(-50%, -4px);
   }
 
   30% {
     opacity: 0;
-    transform: translateY(-4px);
+    transform: translate(-50%, -4px);
   }
 
   50% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(-50%, 0);
   }
 
   58% {
@@ -148,7 +167,7 @@ header:
 
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(-50%, 0);
   }
 }
 
@@ -1001,7 +1020,7 @@ header:
     final.innerHTML = message;
 
     controls.forEach(control => control.remove());
-    document.querySelector(".world-wrap").insertAdjacentElement("afterend", final);
+    document.querySelector(".world-wrap").appendChild(final);
 
     draw();
   }
