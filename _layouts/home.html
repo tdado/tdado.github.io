@@ -203,6 +203,16 @@ layout: archive
   pointer-events: none;
   z-index: 20;
 }
+
+@media (min-width: 768px) {
+  .initial-content {
+    min-height: 0 !important;
+  }
+
+  .page__footer {
+    margin-top: 0 !important;
+  }
+}
 </style>
   
 <div class="homepage-intro">
@@ -300,6 +310,8 @@ const greetings = [
   "just exploring",
   "what if...?",
   "let's find out",
+  "niet altijd 6",
+  "i'm a stranger",
 ];
 
 function sayHello(agent) {
