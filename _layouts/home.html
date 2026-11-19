@@ -95,6 +95,113 @@ layout: archive
   font-family: "Press Start 2P", monospace;
   display: none;
 }
+
+/* Little wandering agents */
+#sprite-world {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 16px;
+  overflow: visible;
+  pointer-events: none;
+  margin: 0;
+}
+
+.sprite-agent {
+  position: absolute;
+  bottom: 0;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: 96px 16px;
+  image-rendering: pixelated;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.sprite-agent:has(.sprite-speech) .sprite-speech {
+  scale: var(--speech-direction, 1) 1;
+}
+
+.page__footer {
+  position: relative;
+  overflow: visible;
+}
+
+#spawn-btn {
+  position: absolute;
+  top: 12px;
+  right: 24px;
+  margin: 0;
+  padding: 8px 12px;
+
+  background: transparent;
+  border: 1px dotted #aaa;
+  color: #ddd;
+
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#spawn-btn:hover {
+  color: white;
+  border-color: white;
+}
+
+#spawn-btn {
+  animation: spawn-flash 0.8s ease-in-out 4;
+  animation-delay: 1s;
+}
+
+@keyframes spawn-flash {
+  0%, 100% {
+    color: #ddd;
+    border-color: #aaa;
+    background: transparent;
+  }
+  25% {
+    color: #9BBC0F;
+    border-color: #9BBC0F;
+  }
+  50% {
+    color: #8BAC0F;
+    border-color: #8BAC0F;
+    background: rgba(155, 188, 15, 0.2);
+  }
+  75% {
+    color: #306230;
+    border-color: #306230;
+  }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  #spawn-btn {
+    animation: none;
+  }
+}
+
+.sprite-speech {
+  position: absolute;
+  bottom: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 5px 7px;
+
+  background: white;
+  color: #222;
+  border: 1px solid #222;
+  font-family: "Courier New", monospace;
+  font-size: 10px;
+  line-height: 1;
+
+  pointer-events: none;
+  z-index: 20;
+}
 </style>
   
 <div class="homepage-intro">
@@ -111,6 +218,7 @@ layout: archive
     </p>
   </div>
 </div>
+
 
 <script>
 const btn = document.getElementById('curiosity-btn');
@@ -143,7 +251,141 @@ text.innerHTML = messages[randomIndex];
 });
 
 </script>
+<script>
+const world = document.createElement("div");
+world.id = "sprite-world";
+world.setAttribute("aria-hidden", "true");
 
+const spawnBtn = document.createElement("button");
+spawnBtn.id = "spawn-btn";
+spawnBtn.textContent = "+ spawn a stranger";
+
+document.addEventListener("DOMContentLoaded", () => {
+  const footer = document.querySelector(".page__footer");
+  if (!footer) return;
+
+  footer.prepend(world);
+  footer.appendChild(spawnBtn);
+
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    spawnAgent(); // One agent appears automatically
+    requestAnimationFrame(animate);
+  }
+});
+
+spawnBtn.addEventListener("click", () => {
+  spawnAgent();
+});
+
+const spritePath = "{{ '/assets/images/sprites-alpha/' | relative_url }}";
+
+const species = [
+  "mossbell", "kilnkin", "bristleback", "cinderbat",
+  "coilroot", "cowlwisp", "hollowhelm", "miretoad",
+  "reedmaw", "shaleclaw", "sporecap", "wickwing"
+];
+
+const agents = [];
+const maxAgents = 12;
+const spriteSize = 16;
+const random = (min, max) => min + Math.random() * (max - min);
+
+const greetings = [
+  "hello?",
+  "oh, hi!",
+  "where am I?",
+  "...",
+  "new here",
+  "just exploring",
+  "what if...?",
+  "let's find out",
+];
+
+function sayHello(agent) {
+  const bubble = document.createElement("div");
+  bubble.className = "sprite-speech";
+  bubble.textContent = greetings[Math.floor(Math.random() * greetings.length)];
+
+  agent.el.appendChild(bubble);
+
+  setTimeout(() => bubble.remove(), 2000);
+}
+
+function spawnAgent() {
+  if (agents.length >= maxAgents || world.clientWidth < spriteSize) return;
+
+  const available = species.filter(s => !agents.some(a => a.species === s));
+  if (!available.length) return;
+
+  const speciesName = available[Math.floor(Math.random() * available.length)];
+
+  const el = document.createElement("div");
+  el.className = "sprite-agent";
+  el.style.backgroundImage = `url("${spritePath}${speciesName}.png")`;
+
+  const agent = {
+    el,
+    species: speciesName,
+    x: random(0, world.clientWidth - spriteSize),
+    direction: Math.random() < 0.5 ? -1 : 1,
+    speed: random(10, 24),
+    moving: true,
+    frame: 0,
+    nextDecision: 0,
+    born: performance.now(),
+    lifetime: random(25000, 55000)
+  };
+
+  world.appendChild(el);
+  agents.push(agent);
+  sayHello(agent);
+}
+
+function updateAgent(agent, dt, now) {
+  if (now > agent.nextDecision) {
+    agent.moving = Math.random() < 0.7;
+    if (Math.random() < 0.35) agent.direction *= -1;
+    agent.nextDecision = now + random(1200, 4500);
+  }
+
+  if (agent.moving) {
+    agent.x += agent.direction * agent.speed * dt;
+  }
+
+  const maxX = Math.max(0, world.clientWidth - spriteSize);
+
+  if (agent.x <= 0) {
+    agent.x = 0;
+    agent.direction = 1;
+  } else if (agent.x >= maxX) {
+    agent.x = maxX;
+    agent.direction = -1;
+  }
+
+  // The spritesheets contain six 16x16 frames:
+  // front (0,1), back (2,3), right (4,5).
+  agent.frame = Math.floor(now / 180) % 2;
+
+  const frameIndex = 4 + agent.frame;
+  agent.el.style.backgroundPosition = `${-frameIndex * spriteSize}px 0`;
+  agent.el.style.transform = `translateX(${agent.x}px) scaleX(${agent.direction})`;
+  agent.el.style.setProperty("--speech-direction", agent.direction);
+}
+
+let lastTime = performance.now();
+
+function animate(now) {
+  const dt = Math.min((now - lastTime) / 1000, 0.05);
+  lastTime = now;
+
+  for (const agent of [...agents]) {
+    updateAgent(agent, dt, now);
+  }
+
+  requestAnimationFrame(animate);
+}
+
+</script>
 
 
 <!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
