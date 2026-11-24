@@ -298,15 +298,28 @@ author_profile: true
 
   <li class="event-item">
     <span class="event-description">
-      <b><a href="https://donders-neuro-ai-focus-group.github.io/" target="_blank" class="event-name-link">Donders Neuro-AI Focus Group</a></b>
+      <b><a href="https://donders-neuro-ai-focus-group.github.io/" target="_blank">Donders Neuro-AI Focus Group</a></b>
       <span class="event-name">&middot; Co-organizer</span>
     </span>
-    <span class="event-date"><i>Nijmegen, Netherlands, 2025–present</i></span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2026</i></span>
   </li>
 
   <li class="event-item">
     <span class="event-description">
-      <b>NEAT</b> <span class="event-name">&middot; Talk &amp; poster</span>
+      <b><a href="https://uusalesservices.uu.nl/perception-day-13-november-2026" target="_blank">Perception Day</a></b>
+      <span class="event-name">&middot; <a href="/assets/files/perception_day.pdf" target="_blank">Poster</a></span>
+    </span>
+    <span class="event-date"><i>Utrecht, Netherlands, 2026</i></span>
+  </li>
+
+  <li class="event-item">
+    <span class="event-description">
+      <b>NEAT</b>
+      <span class="event-name">&middot;
+        <a href="https://slides.com/thidad/neat-26/fullscreen?token=08IRKIu6" target="_blank">Talk</a>
+        &amp;
+        <a href="/assets/files/NEAT.pdf" target="_blank">poster</a>
+      </span>
     </span>
     <span class="event-date"><i>Osnabrück, Germany, 2026</i></span>
   </li>
@@ -319,6 +332,14 @@ author_profile: true
   </li>
 
   <hr>
+
+  <li class="event-item">
+    <span class="event-description">
+      <b>Donders Neuro-AI Focus Group</b>
+      <span class="event-name">&middot; Co-organizer</span>
+    </span>
+    <span class="event-date"><i>Nijmegen, Netherlands, 2025</i></span>
+  </li>
 
   <li class="event-item">
     <span class="event-description">
@@ -394,7 +415,7 @@ author_profile: true
 
   <li class="event-item">
     <span class="event-description">
-      <b><a href="https://icai.ai/">Innovation Center for Artificial Intelligence Day</a></b>
+      <b>Innovation Center for Artificial Intelligence Day</b>
       <span class="event-name">&middot; Poster</span>
     </span>
     <span class="event-date"><i>Nijmegen, Netherlands, 2023</i></span>
